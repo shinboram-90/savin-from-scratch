@@ -1,0 +1,123 @@
+body {
+    // font-family: "Roboto", sans-serif;
+    color: #101010;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+// --e-global-typography-uicore_primary-font-family: "Inter";
+// --e-global-typography-uicore_primary-font-weight: 600;
+// --e-global-typography-uicore_secondary-font-family: "Inter";
+// --e-global-typography-uicore_secondary-font-weight: 700;
+// --e-global-typography-uicore_text-font-family: "Inter";
+// --e-global-typography-uicore_text-font-weight: normal;
+// --e-global-typography-uicore_accent-font-family: "Inter";
+// --e-global-typography-uicore_accent-font-weight: 500;
+
+// h1 h2 h3 h4 h5 h6 p {
+//     font-family: "Assistant", "sans-serif";
+// }
+@font-face {
+  font-family: "Perfetto";
+  src:url(../../public/webfont/Perfetto-Regular.woff)
+}
+
+h1 {
+    font-family: "Assistant", Sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: $colour-primary;
+}
+
+h2 {
+    font-size: 1.175em;
+    font-weight: 700;
+    color: $colour-headline;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.7rem;
+    color: $colour-headline;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 1.42em;
+    color: $colour-headline;
+}
+
+h5 {
+    font-size: 1.187em;
+    font-weight: 300;
+    color: $colour-accent;
+}
+
+h6 {
+    font-weight: 600;
+    font-size: 1.2em;
+    color: $colour-headline;
+}
+
+p {
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+// @media (max-width: 767px) {
+//     h1 {
+//         font-size: 40px;
+//     }
+//     h2 {
+//         font-size: 26px;
+//     }
+//     h3 {
+//         font-size: 20px;
+//     }
+
+//     h4 {
+//         font-size: 16px;
+//     }
+//     h5 {
+//         font-size: 14px;
+//     }
+//     h6 {
+//         font-size: 12px;
+//     }
+//     p {
+//         font-size: 14px;
+//     }
+// }
+
+// @media screen and (min-width:767.7) and (max-width: 1024px) {
+//     h1 {
+//         font-size: 60px;
+//     }
+//     h2 {
+//         font-size: 34px;
+//     }
+//     h3 {
+//         font-size: 21px;
+//     }
+//     h4 {
+//         font-size: 18px;
+//     }
+//     h5 {
+//         font-size: 15px;
+//     }
+//     h6 {
+//         font-size: 13px;
+//     }
+//     p {
+//         font-size: 15px;
+//     }
+// }

@@ -1,0 +1,61 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background-color: grey;
+    color: $colour-body;
+    font-family: "Assistant", "Inter";
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    &:visited,
+    &:link,
+    &:active {
+        color: black;
+    }
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-between {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Main {
+    padding-top: 7rem;
+}
+
+.font-italic {
+    font-family: "Perfetto";
+}
+
+.clr-primary {
+    color: $colour-primary;
+}
+
+.clr-accent {
+    color: $colour-accent;
+}
+
+.text-strong{
+    font-weight: bold;
+}

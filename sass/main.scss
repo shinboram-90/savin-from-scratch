@@ -1,0 +1,14 @@
+@import 'utils/variables';
+// @import "utils/mixins";
+
+@import 'base/typography';
+@import 'base/base';
+
+@import 'layout/navbar';
+@import 'layout/header';
+@import 'layout/timeline';
+// @import 'components/buttons';
+@import 'layout/footer';
+@import 'layout/about';
+
+@import 'pages/home';

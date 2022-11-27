@@ -1,0 +1,70 @@
+.header__background {
+    background-image: url(../../public/img/common/home-background.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 695px;
+    width: 100vw;
+}
+
+.banner__container {
+    h1 {
+        font-size: 36px;
+        line-height: 1.2;
+        font-weight: 500;
+        font-family: "Assistant", Sans-serif;
+    }
+    display: flex;
+    height: calc(695px - 8rem);
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 8rem 3rem 3rem 3rem;
+
+    &--content {
+
+     align-items: center;
+
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.2em;
+    }
+
+    .btn-homepage {
+        width: 70%;
+        padding: 5px 0;
+        max-width: 260px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .header__background {
+        height: 100vh;
+    }
+
+    .banner__container {
+        padding-left: 6rem;
+        padding-right: 6rem;
+        h1 {
+            text-align: left;
+            font-size: 54px;
+        }
+
+        &--content {
+            align-items: flex-start;
+            font-size: 28px;
+            font-weight: 500;
+        }
+    }
+
+    .btn-homepage__container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+        > .elementor-widget-container {
+            margin-right: -50px;
+        }
+    }
+}

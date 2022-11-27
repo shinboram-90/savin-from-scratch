@@ -1,0 +1,56 @@
+   <svg xmlns="http://www.w3.org/2000/svg" height="50" id="Calque_1" data-name="Calque 1" viewBox="0 0 448 384">
+                                        <defs>
+                                            <style>
+                                                .cls-1 {
+                                                    fill: #fab400;
+                                                }
+                                                .cls-2 {
+                                                    fill: #dc9600;
+                                                }
+                                                .cls-3 {
+                                                    fill: #f0f0f0;
+                                                }
+                                                .cls-4 {
+                                                    fill: #e8e8e8;
+                                                }
+                                                .cls-5 {
+                                                    fill: #fff;
+                                                }
+                                            </style>
+                                        </defs>
+                                        <g id="Icons">
+                                            <path
+                                                class="cls-1"
+                                                d="M392.2,339.6a160.51,160.51,0,1,0-52.6,52.6C364.2,376.7,380.8,361.4,392.2,339.6Z"
+                                                transform="translate(-32 -32)"
+                                            ></path>
+                                            <path
+                                                class="cls-2"
+                                                d="M128,256A160,160,0,0,1,272,96.8c-5.3-.5-10.6-.8-16-.8a160,160,0,0,0,0,320c5.4,0,10.7-.3,16-.8A160,160,0,0,1,128,256Z"
+                                                transform="translate(-32 -32)"
+                                            ></path>
+                                            <path class="cls-3" d="M208,224a32,32,0,1,1,32-32A32,32,0,0,1,208,224Z" transform="translate(-32 -32)"></path>
+                                            <path class="cls-3" d="M304,352a32,32,0,1,1,32-32A32,32,0,0,1,304,352Z" transform="translate(-32 -32)"></path>
+                                            <path class="cls-3" d="M336,160H320L176,336v16h16L336,176Z" transform="translate(-32 -32)"></path>
+                                            <path
+                                                class="cls-4"
+                                                d="M168,32H32A32,32,0,0,0,64,64,32,32,0,0,0,96,96a32,32,0,0,0,32,32h7.4a178.19,178.19,0,0,1,47.4-32c3-1.4,6.1-2.7,9.2-3.9V56A23.94,23.94,0,0,0,168,32Z"
+                                                transform="translate(-32 -32)"
+                                            ></path>
+                                            <path
+                                                class="cls-5"
+                                                d="M344,32a23.94,23.94,0,0,0-24,24V92.1A177,177,0,0,1,376.6,128H384a32,32,0,0,0,32-32,32,32,0,0,0,32-32,32,32,0,0,0,32-32Z"
+                                                transform="translate(-32 -32)"
+                                            ></path>
+                                            <path
+                                                class="cls-4"
+                                                d="M352,56a23.94,23.94,0,0,1,24-24H344a23.94,23.94,0,0,0-24,24V92.1a175.94,175.94,0,0,1,32,16.5Z"
+                                                transform="translate(-32 -32)"
+                                            ></path>
+                                            <path
+                                                class="cls-5"
+                                                d="M128,96A32,32,0,0,1,96,64,32,32,0,0,1,64,32H32A32,32,0,0,0,64,64,32,32,0,0,0,96,96a32,32,0,0,0,32,32h7.4c2.1-2,4.2-3.9,6.4-5.7A32.07,32.07,0,0,1,128,96Z"
+                                                transform="translate(-32 -32)"
+                                            ></path>
+                                        </g>
+                                    </svg>
