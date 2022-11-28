@@ -133,6 +133,8 @@
     "contentQuestion-15": "Non, les articles doivent rester inutilisés et conservés dans leur emballage d’origine.",
 
     "titleInFrance": "Détaxer en France",
+    "titleInFrance-2": "Détaxer",
+    "titleInFrance-3": "en France",
     "subTitleInFrance-1": "Détaxer ses achats en ligne avec Sav’in Tax Free, c’est possible !",
     "subTitleInFrance-2": "La détaxe Sav’in Tax Free en toute transparence",
     "subTitleInFrance-3": "Où faire son shopping pour profiter de la détaxe touristique ?",
@@ -190,10 +192,10 @@
     "subtitleWhereToShop-4": "Dans quelles enseignes faire ses achats pour bénéficier de la détaxe ?",
     "contentWhereToShop-4": "Il convient de rappeler que les achats réalisés dans n’importe quelle boutique située sur le sol français peuvent faire l’objet d’une demande de détaxe, à condition que les produits achetés soient éligibles.",
     "contentWhereToShop-4bis": "Voici quelques exemples d’enseignes dans lesquelles vous pouvez réaliser vos achats pour tirer le meilleur parti de la détaxe :",
-    "contentWhereToShop-4li-1": "Grande distribution / Alimentaire",
-    "contentWhereToShop-4li-2": "Equipement personnel",
-    "contentWhereToShop-4li-3": "Multimédia / Electroménager / Jouets",
-    "contentWhereToShop-4li-4": "Maison / Jardin",
+    "contentWhereToShop-4li-1": "<strong>Grande distribution / Alimentaire<\/strong> :",
+    "contentWhereToShop-4li-2": "<strong>Equipement personnel<\/strong> :",
+    "contentWhereToShop-4li-3": "<strong>Multimédia / Electroménager / Jouets<\/strong> :",
+    "contentWhereToShop-4li-4": "<strong>Maison / Jardin<\/strong> :",
 
     "contentTaxRefundPossible": "En utilisant l’app Sav’in Tax Free vous pouvez récupérer 14,5% de TVA sur tous vos achats réalisés en France. Désormais cet incroyable avantage s’applique aux achats en ligne ! Mode d’emploi.",
     "contentTaxRefundPossibleBis": "L’essor du commerce en ligne s’est accéléré avec la pandémie mondiale. Moins chère, diversifiée, disposant de conditions d’achats plus souples… L’offre en ligne représente bien des avantages. C’est la raison pour laquelle Sav’in Tax Free complète son offre de services avec la détaxe des achats en ligne. Découvrez comment ça fonctionne dans cet article.",
@@ -231,7 +233,7 @@
     "questionTaxRefund-1": "Qu'est ce que la détaxe ?",
     "questionTaxRefund-2": "Qui est éligible à la détaxe ?",
     "questionTaxRefund-3": "Comment détaxer vos achats en France ?",
-    "questionTaxRefund-4": "Où acheter pour bénéficier de la détaxe ?",
+    "questionTaxRefund-4": "Où acheter pour bénéficier de la détaxe ? Magasin et e-commerce",
     "questionTaxRefund-4bis": "Magasin et e-commerce",
 
     "contentQuestionTaxRefund-1child-1": "La TVA, (abréviation de Taxe sur la Valeur Ajoutée) est une taxe payée par le consommateur final lorsqu’il achète des biens pour les utiliser sur le territoire de l’Union Européenne. De ce fait, les personnes qui ne résident pas dans l’UE ne sont pas soumises à cet impôt et peuvent donc se faire rembourser leur TVA. Il est important de noter que la TVA n’est que très rarement remboursée en intégralité. Même lorsque vous passez directement par le commerçant, une partie de la TVA ne vous sera probablement pas restituée car la détaxe est très souvent réalisée par le biais d’un intermédiaire afin d’en simplifier les démarches.",
@@ -269,11 +271,9 @@
     "contentJourney-2": "Vous devez faire valider votre bordereau et sortir de l’Union Européenne avant la fin du troisième mois qui suit celui de la génération de votre bordereau",
     "contentJourney-2bis": "Il s’agit du délai légal imposé par la douane. Ainsi, si vous souhaitez par exemple bénéficier de la détaxe sur des achats associés à un bordereau généré en janvier, vous devez faire valider votre bordereau à la douane en quittant l’Union Européenne avant la fin du mois d’avril suivant.",
     "contentJourney-3": "Vous devez réaliser la démarche de détaxe à votre point de sortie de l’Union Européenne.",
-    "contentJourney-3bis": "La procédure de détaxe est réalisée à votre point de sortie de l’Union Européenne. Par exemple, si vous prenez un avion depuis la France qui fait une escale de plus de 3 heures en Italie avant de sortir de l’Union Européenne, vous devrez réaliser la démarche de détaxe de TVA ",
-    "contentJourney-3ter": "en Italie",
-    "contentJourney-3quater": ". Vous ne pourrez ainsi pas détaxer vos achats à la douane française et vous devrez obligatoirement imprimer votre bordereau et nous l’envoyer à l’adresse suivante :",
-    "contentJourney-3quinquies": "Si vous souhaitez en apprendre plus sur la validation du bordereau et la démarche à suivre, vous pouvez lire notre article: ",
-    "contentJourney-3sexies": "« Tout savoir sur la validation de son bordereau de détaxe en douane ».",
+    "contentJourney-3bis": "La procédure de détaxe est réalisée à votre point de sortie de l’Union Européenne. Par exemple, si vous prenez un avion depuis la France qui fait une escale de plus de 3 heures en Italie avant de sortir de l’Union Européenne, vous devrez réaliser la démarche de détaxe de TVA <strong>en Italie<\/strong>. Vous ne pourrez ainsi pas détaxer vos achats à la douane française et vous devrez obligatoirement imprimer votre bordereau et nous l’envoyer à l’adresse suivante :",
+    "contentJourney-3ter": "Si vous souhaitez en apprendre plus sur la validation du bordereau et la démarche à suivre, vous pouvez lire notre article :",
+    "contentJourney-3quater": "« Tout savoir sur la validation de son bordereau de détaxe en douane ».",
 
     "contentQuestionTaxRefund-3": "En France, vous pouvez obtenir votre détaxe en demandant un bordereau directement au commerçant ou utiliser Sav’in Tax Free. La méthode classique consiste à demander son bordereau au commerçant. Cette méthode implique plusieurs problèmes, c’est pourquoi Sav’in Tax free vous propose une application mobile afin de faciliter vos démarches de détaxe. Pour en savoir plus sur la méthode Sav’in, vous pouvez passer les explications concernant la méthode classique ci-dessous.",
     "titleClassic": "La méthode de détaxe classique :",
@@ -306,8 +306,7 @@
     "contentMethod-step-3bis": "Une fois que vous avez téléchargé tous les tickets de caisse des biens que vous souhaitez détaxer, vous pouvez demander à éditer un bordereau de détaxe si le seuil minimal de 100,01€TTC a bien été dépassé. Le petit plus Sav’in tax free ? Des bordereaux édités en 20 minutes en moyenne pendant les horaires d’ouverture de l’entreprise. Sav’in Tax Free couvre la totalité des horaires d’ouverture des magasins et plus encore (Lundi/Vendredi : 9h-20h, Samedi/dimanche : 9h-21h). Une fois que vous avez reçu votre bordereau, vous pouvez l’imprimer ou utiliser la version dématérialisée.",
     "contentMethod-step-3strong": "<strong>Attention ! Vous avez jusqu’au 20ème  jour du mois suivant celui de l’ajout de vos tickets pour demander votre bordereau de détaxe<\/strong>.",
     "contentMethod-step-4": "Valider le bordereau de détaxe",
-    "contentMethod-step-4bis": "Une fois à la douane, vous n’avez plus qu’à présenter votre bordereau de détaxe en format papier ou digitalisé. Vous pouvez utiliser les bornes automatiques PABLO pour le faire valider rapidement. Dans le cas où vous souhaiteriez faire valider un bordereau en dehors de la France (Exemple : Pays d’escale sur le territoire de l’Union Européenne), ",
-    "contentMethod-step-4strong": "<strong>vous devez obligatoirement vous rendre à un guichet douanier<\/strong>.",
+    "contentMethod-step-4bis": "Une fois à la douane, vous n’avez plus qu’à présenter votre bordereau de détaxe en format papier ou digitalisé. Vous pouvez utiliser les bornes automatiques PABLO pour le faire valider rapidement. Dans le cas où vous souhaiteriez faire valider un bordereau en dehors de la France (Exemple : Pays d’escale sur le territoire de l’Union Européenne), <strong>vous devez obligatoirement vous rendre à un guichet douanier<\/strong>.",
     "contentMethod-step-4ter": "Lors de la validation de votre bordereau, il est possible que les douaniers vous demandent de justifier du bon respect des conditions d’éligibilité à la détaxe.",
     "contentMethod-step-4quater": "Ainsi, vous devez absolument être en mesure de présenter les éléments suivants :",
     "contentMethod-step-4li-1": "Une pièce d’identité.",
@@ -396,7 +395,7 @@
     "contentWhere-li-2strong": "<strong>Vol avec escale de plus de 3 heures<\/strong>.",
     "contentWhere-li-2": "Si vous faîtes une escale de trois heures ou plus sur le territoire de l’Union Européenne et que vous avez accès à un guichet de détaxe, vous devez détaxer vos achats et valider votre bordereau à votre <strong>aéroport d’escale<\/strong>.",
     "contentWhere-li-2bis": "<strong>Attention !<\/strong> Si vous enregistrez vos <strong>bagages en soutes<\/strong>, vous devez réaliser votre détaxe à votre aéroport de départ car vous avez l’obligation de présenter les marchandises à détaxer lors de votre passage en douane.",
-    "contentWhere-3li-2ter": "<strong>Conseil<\/strong> : Vérifiez au préalable que le bureau de douane de votre aéroport d’escale est accessible. Dans le cas contraire, vous pouvez réaliser votre détaxe à votre <strong>aéroport de départ<\/strong>.",
+    "contentWhere-li-2ter": "<strong>Conseil<\/strong> : Vérifiez au préalable que le bureau de douane de votre aéroport d’escale est accessible. Dans le cas contraire, vous pouvez réaliser votre détaxe à votre <strong>aéroport de départ<\/strong>.",
 
     "titleSpecial": "Autres cas particuliers : voyage en train ou en bateau",
     "contentSpecial-li-1strong": "<strong>Si vous voyagez à bord d’un navire ou d’un véhicule routier international<\/strong>",
@@ -446,7 +445,7 @@
     "contentRegularisation-3bis": "DIRECTION REGIONALE DES DOUANES DE PARIS",
     "contentRegularisation-li-1": "Indiquez les informations suivantes :",
     "contentRegularisation-li-1bis": "La raison pour laquelle vous n’avez pas pu faire valider votre bordereau ;",
-    "contentRegularisation-li-1ter": "The place and date of your exit from the European Union.",
+    "contentRegularisation-li-1ter": "Le lieu et la date de votre sortie de l’Union européenne.",
     "contentRegularisation-li-2": "Joindre les documents suivants :",
     "contentRegularisation-li-2bis": "Tout document officiel justifiant de votre résidence habituelle en dehors de l’Union européenne et de votre passage en France pour une durée inférieure à six mois (copie du passeport, pièce d’identité, carte consulaire, carte de résident…) ;",
     "contentRegularisation-li-2ter": "La preuve de l’exportation des marchandises.",
@@ -522,5 +521,6 @@
     "contentGoodToKnow-2": "Heures d’ouverture, adresses et contacts des bureaux de douanes suisses",
     "contentGoodToKnow-3": "Les montants en francs suisses mentionnés dans cet article peuvent varier en fonction du taux de change en vigueur au moment de vos achats",
 
+    "backToWebsite": "Retour vers le site",
     "footer": "Sav’in Tax Free Détaxer en France ©"
 }

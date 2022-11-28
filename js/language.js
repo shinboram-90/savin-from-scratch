@@ -28,7 +28,6 @@ function switchToFrench() {
     });
 }
 
-
 document.addEventListener("DOMContentLoaded", () => {
     // Get the id of HTML element (English or French) with attr lng-tag, save in localStorage
     const currentLng = localStorage.getItem("language");
@@ -36,26 +35,33 @@ document.addEventListener("DOMContentLoaded", () => {
     const frLng = document.getElementById("frTranslator");
     console.log(`initial language: ${currentLng}`);
 
-    if (currentLng === "en") {
-        
-        enLng.style.display = "none";
-        switchToEnglish()
+    if (enLng && frLng) {
+        if (currentLng === "en") {
+            enLng.style.display = "none";
+            switchToEnglish();
+        } else {
+            frLng.style.display = "none";
+            switchToFrench();
+        }
+
+        enLng.addEventListener("click", () => {
+            enLng.style.display = "none";
+            frLng.style.display = "flex";
+            localStorage.setItem("language", "en");
+            switchToEnglish();
+        });
+
+        frLng.addEventListener("click", () => {
+            frLng.style.display = "none";
+            enLng.style.display = "flex";
+            localStorage.setItem("language", "fr");
+            switchToFrench();
+        });
     } else {
-        frLng.style.display = "none";
-        switchToFrench()
+        if (currentLng === "en") {
+            switchToEnglish();
+        } else {
+            switchToFrench();
+        }
     }
-
-    enLng.addEventListener("click", () => {
-        enLng.style.display = "none";
-        frLng.style.display = "flex";
-        localStorage.setItem("language", "en");
-        switchToEnglish()
-    });
-
-    frLng.addEventListener("click", () => {
-        frLng.style.display = "none";
-        enLng.style.display = "flex";
-        localStorage.setItem("language", "fr");
-        switchToFrench()
-    });
 });

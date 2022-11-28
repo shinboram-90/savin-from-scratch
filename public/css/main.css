@@ -397,6 +397,44 @@ a:visited, a:link, a:active {
     margin-right: -50px;
   }
 }
+.common__background {
+  background-image: url(../../public/img/common/blog-background.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  text-align: center;
+  color: #ffffff;
+}
+.common__background .common__container {
+  min-height: 200px;
+  justify-content: space-between;
+  padding: 20px 0 30px 0;
+}
+.common__background .common__container p {
+  margin-top: -5px;
+}
+.common__background .common__container p a {
+  font-size: 14px;
+  color: #ffffff;
+}
+.common__background .common__container h2 {
+  line-height: 1.2;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+.common__background .common__container h2 :first-child {
+  font-size: 56px;
+  font-weight: normal;
+}
+.common__background .common__container h2 :last-child {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Assistant", Sans-serif;
+}
+
 .section-timeline__container {
   padding: 20px 10px 20px 40px;
   position: relative;
@@ -559,6 +597,58 @@ a:visited, a:link, a:active {
 }
 .footer-home__container .copyright {
   font-size: 14px;
+}
+
+.footer-common__container {
+  background-color: #171e35;
+  color: #ffffff;
+}
+.footer-common__container--box {
+  padding: 30px 0;
+}
+.footer-common__container--box .title--box {
+  text-align: center;
+  padding: 10px;
+}
+.footer-common__container--box .title--box :first-child {
+  color: #ffffff;
+  font-size: 52px;
+  font-weight: normal;
+  line-height: 0.8em;
+  letter-spacing: 0.2px;
+}
+.footer-common__container--box .title--box :last-child {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 0.8em;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.footer-common__container--box .btn--box {
+  padding: 10px;
+  display: flex;
+}
+.footer-common__container--box .btn--box a {
+  padding: 0 5px;
+}
+.footer-common__container--box .btn--box a img {
+  width: 100px;
+}
+.footer-common__container--box .copyright--box {
+  display: flex;
+  flex-direction: column;
+}
+.footer-common__container--box .copyright--box span {
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1.2em;
+}
+.footer-common__container--box .copyright--box span a {
+  color: #ffffff;
 }
 
 hr {
