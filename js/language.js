@@ -1,8 +1,33 @@
+const enImgs = document.querySelectorAll(".english");
+const frImgs = document.querySelectorAll(".french");
+
 const translate = (lng, attribute) => {
     const translate = new Translate();
     translate.init(attribute, lng);
     translate.process();
 };
+
+function switchToEnglish() {
+    translate("en", "lng-tag");
+    frImgs.forEach((img) => {
+        img.style.display = "none";
+    });
+    enImgs.forEach((img) => {
+        img.style.display = "block";
+    });
+}
+
+function switchToFrench() {
+    translate("fr", "lng-tag");
+    frImgs.forEach((img) => {
+        img.style.display = "block";
+    });
+
+    enImgs.forEach((img) => {
+        img.style.display = "none";
+    });
+}
+
 
 document.addEventListener("DOMContentLoaded", () => {
     // Get the id of HTML element (English or French) with attr lng-tag, save in localStorage
@@ -12,24 +37,25 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log(`initial language: ${currentLng}`);
 
     if (currentLng === "en") {
-        translate("en", "lng-tag");
+        
         enLng.style.display = "none";
+        switchToEnglish()
     } else {
-        translate("fr", "lng-tag");
         frLng.style.display = "none";
+        switchToFrench()
     }
 
     enLng.addEventListener("click", () => {
         enLng.style.display = "none";
         frLng.style.display = "flex";
         localStorage.setItem("language", "en");
-        translate("en", "lng-tag");
+        switchToEnglish()
     });
 
     frLng.addEventListener("click", () => {
         frLng.style.display = "none";
         enLng.style.display = "flex";
         localStorage.setItem("language", "fr");
-        translate("fr", "lng-tag");
+        switchToFrench()
     });
 });

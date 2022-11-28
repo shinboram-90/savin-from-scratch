@@ -15,8 +15,9 @@
     "contentGetRefund": "Expatriés, touristes, voyageurs transfrontaliers venant de Suisse ou du Royaume-Uni : vous récupérez sans effort des centaines d’euros de détaxe à chacun de vos passages en France. Avec Sav’In Tax Free, vous accédez au meilleur taux de remboursement du marché.",
 
     "titleHow": "Comment ça marche ?",
-    "contentHow-1": "Concrètement, Sav’In Tax Free génère un bordereau digital de détaxe que les Douanes françaises valident à la sortie du territoire. Le remboursement est ensuite perçu immédiatement en espèces dans un bureau de change partenaire, ou par carte bancaire sous 21 jours après le passage en douane. ",
-    "contentHow-1bis": "Vous êtes éligible à la détaxe ?",
+    "contentHow-1": "Concrètement, Sav’In Tax Free génère un bordereau digital de détaxe que les Douanes françaises valident à la sortie du territoire.",
+    "contentHow-2": "Le remboursement est ensuite perçu immédiatement en espèces dans un bureau de change partenaire, ou par carte bancaire sous 21 jours après le passage en douane. ",
+    "contentHow-2bis": "Vous êtes éligible à la détaxe ?",
     "subtitleHow": "Obtenez votre remboursement de TVA",
     "subtitleHowbis": " en quelques étapes :",
 
@@ -162,7 +163,7 @@
     "titleFirstApp": "Première application de détaxe agréée par les douanes françaises,",
     "titleFirstAppBis": " destinée aux résidents hors UE.",
 
-    "copyright": "Copyright © All right reserved – ",
+    "copyright": "Copyright © Tous droits réservés – ",
     "copyrightBis": "Mentions légales",
 
     "taxRefund": "La détaxe",
