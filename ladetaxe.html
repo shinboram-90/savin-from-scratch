@@ -5,447 +5,429 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <meta name="msapplication-TileImage" content="https://savintaxfree.com/wp-content/uploads/2021/08/Favicon-SavIn-Tax-Free.png" />
-
-        <script src="https://kit.fontawesome.com/7d17636476.js" crossorigin="anonymous"></script>
+        <link href="./public/fontawesome/css/all.min.css" rel="stylesheet" />
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /> -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200&display=swap" rel="stylesheet" />
+        <!-- <link rel='stylesheet' id='google-fonts-1-css'  href='../fonts.googleapis.com/css%EF%B9%96family=Inter%EF%B9%95100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic%EF%BD%9CAssistant%EF%B9%95100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600ital_680df4fc53805cc0.css' media='all' /> -->
 
         <link rel="stylesheet" href="public/css/main.css" type="text/css" />
         <title>La détaxe - Sav'in Tax Free - L'app mobile pour une détaxe facile</title>
     </head>
 
     <body>
-        <div class="body-container">
-            <!----------------------------------- NAVBAR CONTAINER START ----------------------------------->
-            <div id="wrapper-navbar">
-                <div class="uicore-header-wrapper">
-                    <nav class="uicore elementor-container nav__container" role="navigation">
-                        <div class="test">
-                            <div class="uicore-branding">
-                                <a href="index.html" rel="home">
-                                    <img
-                                        height="40px"
-                                        class="uicore uicore-logo uicore-mobile-second"
-                                        src="./public/img/common/logo-savin.png"
-                                        alt="Sav'In Tax Free"
-                                    />
-                                </a>
-                            </div>
+        <!----------------------------------- NAVBAR CONTAINER START ----------------------------------->
+        <div id="wrapper-navbar">
+            <nav class="nav__container" role="navigation">
+                <div class="test">
+                    <div class="uicore-branding">
+                        <a href="index.html" rel="home">
+                            <img height="24px" class="uicore-logo uicore-mobile-second" src="./public/img/common/logo-savin.png" alt="Sav'In Tax Free" />
+                        </a>
+                    </div>
 
-                            <button class="burger">
-                                <span class="bar"></span>
-                            </button>
-                        </div>
+                    <button class="burger">
+                        <span class="bar"></span>
+                    </button>
+                </div>
 
-                        <!----------------------------------- NAVBAR START ----------------------------------->
-                        <div class="uicore-nav-menu">
-                            <div class="uicore-menu-container uicore-nav">
-                                <ul class="uicore-menu navbar__links">
-                                    <li
-                                        class="navbar__link first menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-10"
-                                    >
-                                        <a href="#app" aria-current="page"><span lng-tag="theApp" class="ui-menu-item-wrapper"></span></a>
-                                    </li>
-                                    <li class="navbar__link second menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11">
-                                        <a href="ladetaxe.html"><span lng-tag="taxRefund" class="ui-menu-item-wrapper"></span></a>
-                                        <!-- <div class="chevron-box">
+                <!----------------------------------- NAVBAR START ----------------------------------->
+                <div class="uicore-nav-menu">
+                    <div class="uicore-menu-container uicore-nav">
+                        <ul class="uicore-menu navbar__links">
+                            <li
+                                class="navbar__link first menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-10"
+                            >
+                                <a href="#app" aria-current="page"><span lng-tag="theApp" class="ui-menu-item-wrapper"></span></a>
+                            </li>
+                            <li class="navbar__link second menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11">
+                                <a href="ladetaxe.html"><span lng-tag="taxRefund" class="ui-menu-item-wrapper"></span></a>
+                                <!-- <div class="chevron-box">
                                         <span class="chevron">></span>
                                     </div> -->
-                                        <ul class="sub-menu">
-                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3171">
-                                                <a href="ladetaxe.html"><span lng-tag="questionTaxRefund-1" class="ui-menu-item-wrapper"></span></a>
-                                            </li>
-                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3172">
-                                                <a href="ladetaxe.html"><span lng-tag="questionTaxRefund-2" class="ui-menu-item-wrapper"></span></a>
-                                            </li>
-                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3173">
-                                                <a href="ladetaxe.html"><span lng-tag="questionTaxRefund-3" class="ui-menu-item-wrapper"></span></a>
-                                            </li>
-                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3174">
-                                                <a href="ladetaxe.html"><span lng-tag="questionTaxRefund-4" class="ui-menu-item-wrapper"></span></a>
-                                            </li>
-                                        </ul>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3171">
+                                        <a href="ladetaxe.html"><span lng-tag="questionTaxRefund-1" class="ui-menu-item-wrapper"></span></a>
                                     </li>
-                                    <li class="navbar__link third menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11">
-                                        <a href="customs-validation.html"><span lng-tag="customs" class="ui-menu-item-wrapper"></span></a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3171">
-                                                <a href="customs-validation.html"><span lng-tag="questionCustoms-1" class="ui-menu-item-wrapper"></span></a>
-                                            </li>
-                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3172">
-                                                <a href="customs-validation.html"><span lng-tag="questionCustoms-2" class="ui-menu-item-wrapper"></span></a>
-                                            </li>
-                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3173">
-                                                <a href="customs-validation.html"><span lng-tag="questionCustoms-3" class="ui-menu-item-wrapper"></span></a>
-                                            </li>
-                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3174">
-                                                <a href="customs-validation.html"><span lng-tag="questionCustoms-4" class="ui-menu-item-wrapper"></span></a>
-                                            </li>
-                                        </ul>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3172">
+                                        <a href="ladetaxe.html"><span lng-tag="questionTaxRefund-2" class="ui-menu-item-wrapper"></span></a>
                                     </li>
-
-                                    <li class="navbar__link four menu-item menu-item-type-custom menu-item-object-custom menu-item-13">
-                                        <a href="tax-free-news.html"><span class="ui-menu-item-wrapper">Blog</span></a>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3173">
+                                        <a href="ladetaxe.html"><span lng-tag="questionTaxRefund-3" class="ui-menu-item-wrapper"></span></a>
                                     </li>
-                                    <li
-                                        class="navbar__link fifth menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-12"
-                                    >
-                                        <a href="#faqs" aria-current="page" lng-tag="faq"><span class="ui-menu-item-wrapper"></span></a>
-                                    </li>
-                                    <li
-                                        class="navbar__link seventh menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-14"
-                                    >
-                                        <a href="#contact-us" aria-current="page" lng-tag="contact"><span class="ui-menu-item-wrapper"></span></a>
-                                    </li>
-
-                                    <!----------------------------------- LANGUAGE CHOICE ----------------------------------->
-                                    <li class="navbar__link eigth">
-                                        <a id="enTranslator" href="javascript:void(0);">
-                                            <span class="ui-menu-item-wrapper">
-                                                <img class="wpml-ls-flag" src="./public//img/FR/english-flag.png" alt="Anglais" />
-                                            </span>
-                                        </a>
-                                        <a id="frTranslator" href="javascript:void(0);">
-                                            <span class="ui-menu-item-wrapper">
-                                                <img class="wpml-ls-flag" src="./public//img/EN/french-flag.png" alt="Français" />
-                                            </span>
-                                        </a>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3174">
+                                        <a href="ladetaxe.html"><span lng-tag="questionTaxRefund-4" class="ui-menu-item-wrapper"></span></a>
                                     </li>
                                 </ul>
-                            </div>
-                            <div class="uicore uicore-extra"></div>
-                        </div>
+                            </li>
+                            <li class="navbar__link third menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11">
+                                <a href="customs-validation.html"><span lng-tag="customs" class="ui-menu-item-wrapper"></span></a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3171">
+                                        <a href="customs-validation.html"><span lng-tag="questionCustoms-1" class="ui-menu-item-wrapper"></span></a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3172">
+                                        <a href="customs-validation.html"><span lng-tag="questionCustoms-2" class="ui-menu-item-wrapper"></span></a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3173">
+                                        <a href="customs-validation.html"><span lng-tag="questionCustoms-3" class="ui-menu-item-wrapper"></span></a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3174">
+                                        <a href="customs-validation.html"><span lng-tag="questionCustoms-4" class="ui-menu-item-wrapper"></span></a>
+                                    </li>
+                                </ul>
+                            </li>
 
-                        <!----------------------------------- NAVBAR CONTENT END ----------------------------------->
-                    </nav>
-                </div>
+                            <li class="navbar__link four menu-item menu-item-type-custom menu-item-object-custom menu-item-13">
+                                <a href="tax-free-news.html"><span class="ui-menu-item-wrapper">Blog</span></a>
+                            </li>
+                            <li
+                                class="navbar__link fifth menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-12"
+                            >
+                                <a href="#faqs" aria-current="page" lng-tag="faq"><span class="ui-menu-item-wrapper"></span></a>
+                            </li>
+                            <li
+                                class="navbar__link seventh menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-14"
+                            >
+                                <a href="#contact-us" aria-current="page" lng-tag="contact"><span class="ui-menu-item-wrapper"></span></a>
+                            </li>
 
-                <!----------------------------------- NAVBAR CONTAINER END ----------------------------------->
-
-                <!----------------------------------- HEADER START ----------------------------------->
-                <div>
-                    <header role="banner" class="header__background">
-                        <section>
-                            <p class="uicore-animate ui-breadcrumb">
-                                <span>
-                                    <a itemprop="item" href="index.html"> <span itemprop="name">Home</span> </a><meta itemprop="position" content=" 1" />
-                                </span>
-                                <i class="uicore-separator uicore-i-arrow"></i>
-                                <span>
-                                    <span>
-                                        <span lng-tag="taxRefund"></span>
-                                        <meta itemprop="position" content=" 2" />
+                            <!----------------------------------- LANGUAGE CHOICE ----------------------------------->
+                            <li class="navbar__link eigth">
+                                <a id="enTranslator" href="javascript:void(0);">
+                                    <span class="ui-menu-item-wrapper">
+                                        <img class="wpml-ls-flag" src="./public//img/FR/english-flag.png" alt="Anglais" />
                                     </span>
-                                </span>
-                            </p>
-                        </section>
-                        <div class="banner__container">
-                            <h1 class="elementor-heading-title elementor-size-default" lng-tag="taxRefund"></h1>
-                            <p lng-tag="contentTaxRefund"></p>
-                        </div>
-                    </header>
-
-                    <!----------------------------------- HEADER END ----------------------------------->
-
-                    <!----------------------------------- ICONS START ----------------------------------->
-                    <main class="main__container">
-                        <section class="section-all-you-need__container flex-column">
-                            <h2 lng-tag="titleTaxRefund"></h2>
-                            <hr />
-                            <div class="all-questions">
-                                <div class="section-faq__container--question-box">
-                                    <div class="flex-between question">
-                                        <h3 lng-tag="questionTaxRefund-1"></h3>
-                                        <span class="show-content">
-                                            <img src="./public/img/common/plus.svg" />
-                                        </span>
-                                        <span class="hide-content">
-                                            <img src="./public/img/common/minus.svg" />
-                                        </span>
-                                    </div>
-                                    <div class="content">
-                                        <p lng-tag="contentQuestionTaxRefund-1child-1"></p>
-                                        <p lng-tag="contentQuestionTaxRefund-1child-1bis"></p>
-                                        <p lng-tag="contentQuestionTaxRefund-1child-2"></p>
-                                        <p lng-tag="contentQuestionTaxRefund-1child-3"></p>
-                                        <p lng-tag="contentQuestionTaxRefund-1child-3bis"></p>
-                                        <p lng-tag="contentQuestionTaxRefund-1child-4"></p>
-                                        <p lng-tag="contentQuestionTaxRefund-1child-4bis"></p>
-                                    </div>
-                                </div>
-                                <div class="section-faq__container--question-box">
-                                    <div class="flex-between question">
-                                        <h3 lng-tag="questionTaxRefund-2"></h3>
-                                        <div class="symbol-box">
-                                            <span class="show-content">
-                                                <img src="./public/img/common/plus.svg" />
-                                            </span>
-                                            <span class="hide-content">
-                                                <img src="./public/img/common/minus.svg" />
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class="content">
-                                        <p lng-tag="contentQuestionTaxRefund-2"></p>
-                                        <img src="./public/img/FR/taxrefund-1.jpeg" />
-                                        <p lng-tag="titleEligibility"></p>
-                                        <ol>
-                                            <li lng-tag="contentEligibility-1"></li>
-                                        </ol>
-                                        <p lng-tag="contentEligibility-1bis"></p>
-                                        <p lng-tag="contentEligibility-1ter"></p>
-                                        <p lng-tag="contentEligibility-1quater"></p>
-                                        <p lng-tag="contentEligibility-1quinquies"></p>
-                                        <ol start="2">
-                                            <li lng-tag="contentEligibility-2"></li>
-                                        </ol>
-                                        <p lng-tag="contentEligibility-2bis"></p>
-
-                                        <h2 lng-tag="titleConditions"></h2>
-                                        <ol>
-                                            <li lng-tag="contentConditions-1"></li>
-                                        </ol>
-                                        <p lng-tag="contentConditions-1bis"></p>
-                                        <p lng-tag="contentConditions-1ter"></p>
-                                        <img src="./public/img/FR/taxrefund-method.jpeg" />
-
-                                        <ol>
-                                            <li lng-tag="contentConditions-2"></li>
-                                        </ol>
-                                        <p lng-tag="contentConditions-2bis"></p>
-                                        <p lng-tag="contentConditions-2ter"></p>
-
-                                        <ol>
-                                            <li lng-tag="contentConditions-3"></li>
-                                        </ol>
-                                        <p lng-tag="contentConditions-3bis"></p>
-
-                                        <h2 lng-tag="titleJourney"></h2>
-                                        <img src="./public/img/FR/taxrefund-conditions.jpeg" />
-
-                                        <ol>
-                                            <li lng-tag="contentJourney-1"></li>
-                                        </ol>
-                                        <p lng-tag="contentJourney-1bis"></p>
-                                        <ol>
-                                            <li lng-tag="contentJourney-2"></li>
-                                        </ol>
-                                        <p lng-tag="contentJourney-2bis"></p>
-                                        <ol>
-                                            <li lng-tag="contentJourney-3"></li>
-                                        </ol>
-                                        <p lng-tag="contentJourney-3bis"></p>
-                                        <address>SAV’IN TAX FREE<br />11 chemin de l’industrie<br />06110 Le Cannet, France</address>
-                                        <p>
-                                            <span lng-tag="contentJourney-3ter"></span>
-                                            <span lng-tag="contentJourney-3quater"></span>.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="section-faq__container--question-box">
-                                    <div class="flex-between question">
-                                        <h3 lng-tag="questionTaxRefund-3"></h3>
-                                        <div class="symbol-box">
-                                            <span class="show-content">
-                                                <img src="./public/img/common/plus.svg" />
-                                            </span>
-                                            <span class="hide-content">
-                                                <img src="./public/img/common/minus.svg" />
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class="content">
-                                        <p lng-tag="contentQuestionTaxRefund-3"></p>
-                                        <h2 lng-tag="titleClassic"></h2>
-                                        <p lng-tag="contentClassic"></p>
-                                        <p>
-                                            <span lng-tag="step-1"></span>
-                                            <span lng-tag="contentClassic-step-1"></span>
-                                        </p>
-                                        <p lng-tag="contentClassic-step-1bis"></p>
-
-                                        <p>
-                                            <span lng-tag="step-3"></span>
-                                            <span lng-tag="contentClassic-step-2"></span>
-                                        </p>
-
-                                        <p>
-                                            <span lng-tag="step-3"></span>
-                                            <span lng-tag="contentClassic-step-3"></span>
-                                        </p>
-                                        <p lng-tag="contentClassic-step-3bis"></p>
-
-                                        <h4 lng-tag="contentClassic-limits"></h4>
-                                        <ul>
-                                            <li lng-tag="contentClassic-li-1"></li>
-                                            <li lng-tag="contentClassic-li-2"></li>
-                                            <li lng-tag="contentClassic-li-3"></li>
-                                        </ul>
-
-                                        <h2 lng-tag="titleMethod"></h2>
-                                        <img src="./public/img/FR/taxrefund-method.jpeg" />
-                                        <p>
-                                            <span lng-tag="step-1"></span>
-                                            <span>Shopping</span>
-                                        </p>
-                                        <p lng-tag="contentMethod-step-1strong"></p>
-                                        <p lng-tag="contentMethod-step-1"></p>
-
-                                        <p lng-tag="contentMethod-step-1bisStrong"></p>
-                                        <p lng-tag="contentMethod-step-1bis"></p>
-                                        <p lng-tag="contentMethod-step-1ter"></p>
-                                        <p lng-tag="contentMethod-step-1quater"></p>
-                                        <address>SAV’IN TAX FREE<br />11 chemin de l’industrie<br />06110 Le Cannet, France</address>
-                                        <p lng-tag="contentMethod-step-1quinquies"></p>
-
-                                        <p>
-                                            <span lng-tag="step-2"></span>
-                                            <span lng-tag="contentMethod-step-2"></span>
-                                        </p>
-                                        <p lng-tag="contentMethod-step-2bisStrong"></p>
-                                        <p lng-tag="contentMethod-step-2bis"></p>
-
-                                        <p>
-                                            <span lng-tag="step-3"></span>
-                                            <span lng-tag="contentMethod-step-3"></span>
-                                        </p>
-                                        <p lng-tag="contentMethod-step-3bis"></p>
-                                        <p lng-tag="contentMethod-step-3strong"></p>
-
-                                        <!----------------------------------- STEP 4 ----------------------------------->
-                                        <p>
-                                            <span lng-tag="step-4"></span>
-                                            <span lng-tag="contentMethod-step-4"></span>
-                                        </p>
-                                        <p lng-tag="contentMethod-step-4bis"></p>
-                                        <p lng-tag="contentMethod-step-4ter"></p>
-                                        <p lng-tag="contentMethod-step-4quater"></p>
-                                        <ul>
-                                            <li lng-tag="contentMethod-step-4li-1"></li>
-                                            <li lng-tag="contentMethod-step-4li-2"></li>
-                                            <li lng-tag="contentMethod-step-4li-3"></li>
-                                        </ul>
-                                        <p lng-tag="contentMethod-step-4quaterStrong"></p>
-                                        <img src="./public/img/FR/taxrefund-20days.jpeg" />
-
-                                        <!----------------------------------- STEP 5 ----------------------------------->
-                                        <p>
-                                            <span lng-tag="step-5"></span>
-                                            <span lng-tag="contentMethod-step-5"></span>
-                                        </p>
-                                        <p lng-tag="contentMethod-step-5bis"></p>
-
-                                        <h2 lng-tag="titleAdvantages-2"></h2>
-                                        <ul>
-                                            <li lng-tag="contentAdvantages-li-1"></li>
-                                            <li lng-tag="contentAdvantages-li-2"></li>
-                                            <li lng-tag="contentAdvantages-li-3"></li>
-                                            <li lng-tag="contentAdvantages-li-4"></li>
-                                            <li lng-tag="contentAdvantages-li-5"></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <!----------------------------------- DANS QUELS MAGASINS ----------------------------------->
-                                <div class="section-faq__container--question-box">
-                                    <div class="flex-between question">
-                                        <h3 lng-tag="questionTaxRefund-4"></h3>
-                                        <span class="show-content">
-                                            <img src="./public/img/common/plus.svg" />
-                                        </span>
-                                        <span class="hide-content">
-                                            <img src="./public/img/common/minus.svg" />
-                                        </span>
-                                    </div>
-                                    <div class="content">
-                                        <h3 lng-tag="titleShops"></h3>
-                                        <p lng-tag="contentShops-1"></p>
-                                        <p lng-tag="contentShops-2"></p>
-                                        <p lng-tag="contentShops-3"></p>
-                                        <p lng-tag="contentShops-4"></p>
-
-                                        <ul>
-                                            <li lng-tag="contentShops-li-1"></li>
-                                            <li lng-tag="contentShops-li-2"></li>
-                                            <li lng-tag="contentShops-li-3"></li>
-                                            <li lng-tag="contentShops-li-4"></li>
-                                        </ul>
-                                        <p lng-tag="contentShops-5"></p>
-                                        <p lng-tag="contentShops-6"></p>
-                                        <p lng-tag="contentShops-7"></p>
-                                        <p>
-                                            <span lng-tag="contentWhereToShop-4li-1"></span>
-                                            <span>Carrefour, Grand Frais, Auchan, Leclerc, Casino, Intermarché, Aldi, Lidl, Coop.</span>
-                                        </p>
-                                        <p>
-                                            <span lng-tag="contentWhereToShop-4li-2"></span>
-                                            <span
-                                                >Décathlon, Courir, Go Sport, Sport 2000, Intersport, H&M, Zara, Sephora, Nocibe, Mango, Cos, Celio, Grand
-                                                Optical, Etam, Quicksilver, G-star, L’atelier du diamant, Swarovski, Pandora.</span
-                                            >
-                                        </p>
-                                        <p>
-                                            <span lng-tag="contentWhereToShop-4li-3"></span>
-                                            <span
-                                                >Fnac, Boulanger, Darty, M-electronics, Brico+ Loisirs, Cultura, Nature et Découverte, Jouet Club, La Grande
-                                                Récré, Micromania.</span
-                                            >
-                                        </p>
-                                        <p>
-                                            <span lng-tag="contentWhereToShop-4li-4"></span>
-                                            <span
-                                                >Leroy Merlin, Castorama, Mr Bricolage, Bricorama, Habitat, Ikea, Alice Délice, Maison du Monde, Gamme
-                                                Vert.</span
-                                            >
-                                        </p>
-
-                                        <h3 lng-tag="titleOnline"></h3>
-                                        <p lng-tag="contentOnline-1"></p>
-                                        <p lng-tag="contentOnline-2"></p>
-                                        <p>
-                                            <span lng-tag="contentOnlineStrong"></span>
-                                            <span>Amazon France, Decathlon, Zalando, Vente privée, Fly, Leroy Merlin, Grand optical, Carrefour.</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </main>
-
-                    <footer class="footer-common__container flex-column">
-                        <div class="footer-common__container--box">
-                            <div class="title--box">
-                                <h2 class="font-italic title-1" lng-tag="download"></h2>
-                                <h2 class="title-2">Sav'In Tax Free</h2>
-                            </div>
-
-                            <section class="btn--box">
-                                <a href="https://apps.apple.com/fr/app/savin-tax-free/id1492240821" target="_blank" rel="noopener"
-                                    ><img src="./public/img/common/btn-apple3.png" alt="button link to apple store" />
                                 </a>
-                                <a href="https://play.google.com/store/apps/details?id=com.solpay.savintaxfree" target="_blank" rel="noopener"
-                                    ><img src="./public/img/common/btn-google3.png" alt="button link to google store" />
+                                <a id="frTranslator" href="javascript:void(0);">
+                                    <span class="ui-menu-item-wrapper">
+                                        <img class="wpml-ls-flag" src="./public//img/EN/french-flag.png" alt="Français" />
+                                    </span>
                                 </a>
-                            </section>
-                        </div>
-
-                        <div class="footer-common__container--box">
-                            <div class="copyright--box">
-                                <span lng-tag="footer"></span>
-                                <span
-                                    ><a href="https://www.facebook.com/Savin-Tax-Free-103862594687027/" target="_blank" rel="noopener">Facebook</a> –
-                                    <a href="https://instagram.com/savintaxfree" target="_blank" rel="noopener">Instagram</a></span
-                                >
-                            </div>
-                        </div>
-                    </footer>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
+
+                <!----------------------------------- NAVBAR CONTENT END ----------------------------------->
+            </nav>
+
+            <!----------------------------------- HEADER START ----------------------------------->
+
+            <header role="banner" class="no__background">
+                <div class="no__background--container flex-column">
+                    <p class="ui-breadcrumb">
+                        <span>
+                            <a itemprop="item" href="index.html">Home</a>
+                            <i class="fa-solid fa-chevron-right"></i>
+                            <span lng-tag="taxRefund"></span>
+                        </span>
+                    </p>
+                    <div class="title">
+                        <h1 class="elementor-heading-title elementor-size-default" lng-tag="taxRefund"></h1>
+                        <p lng-tag="contentTaxRefund"></p>
+                    </div>
+                </div>
+            </header>
+
+            <!----------------------------------- HEADER END ----------------------------------->
+
+            <!----------------------------------- ICONS START ----------------------------------->
+            <main class="main-taxrefund__container flex-column">
+                <section class="section-taxrefund__container">
+                    <h2 lng-tag="titleTaxRefund"></h2>
+
+                    <div class="all-questions">
+                        <section class="questions-toggle">
+                            <div class="flex-between common-question">
+                                <h3 lng-tag="questionTaxRefund-1"></h3>
+                                <span class="show-content">
+                                    <i class="fa-fw fas fa-plus"></i>
+                                </span>
+                                <span class="hide-content">
+                                    <i class="fa-fw fas fa-minus"></i>
+                                </span>
+                            </div>
+                            <div class="content">
+                                <p lng-tag="contentQuestionTaxRefund-1child-1"></p>
+                                <p lng-tag="contentQuestionTaxRefund-1child-1bis"></p>
+                                <p lng-tag="contentQuestionTaxRefund-1child-2"></p>
+                                <p lng-tag="contentQuestionTaxRefund-1child-3"></p>
+                                <p lng-tag="contentQuestionTaxRefund-1child-3bis"></p>
+                                <p lng-tag="contentQuestionTaxRefund-1child-4"></p>
+                                <p lng-tag="contentQuestionTaxRefund-1child-4bis"></p>
+                            </div>
+                        </section>
+                        <section class="questions-toggle">
+                            <div class="flex-between common-question">
+                                <h3 lng-tag="questionTaxRefund-2"></h3>
+                                <div class="symbol-box">
+                                    <span class="show-content">
+                                        <i class="fa-fw fas fa-plus"></i>
+                                    </span>
+                                    <span class="hide-content">
+                                        <i class="fa-fw fas fa-minus"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p lng-tag="contentQuestionTaxRefund-2"></p>
+                                <img src="./public/img/FR/taxrefund-1.jpeg" />
+                                <p lng-tag="titleEligibility"></p>
+                                <ol>
+                                    <li lng-tag="contentEligibility-1"></li>
+                                </ol>
+                                <p lng-tag="contentEligibility-1bis"></p>
+                                <p lng-tag="contentEligibility-1ter"></p>
+                                <p lng-tag="contentEligibility-1quater"></p>
+                                <p lng-tag="contentEligibility-1quinquies"></p>
+                                <ol start="2">
+                                    <li lng-tag="contentEligibility-2"></li>
+                                </ol>
+                                <p lng-tag="contentEligibility-2bis"></p>
+
+                                <h2 lng-tag="titleConditions"></h2>
+                                <ol>
+                                    <li lng-tag="contentConditions-1"></li>
+                                </ol>
+                                <p lng-tag="contentConditions-1bis"></p>
+                                <p lng-tag="contentConditions-1ter"></p>
+                                <img src="./public/img/FR/taxrefund-method.jpeg" />
+
+                                <ol>
+                                    <li lng-tag="contentConditions-2"></li>
+                                </ol>
+                                <p lng-tag="contentConditions-2bis"></p>
+                                <p lng-tag="contentConditions-2ter"></p>
+
+                                <ol>
+                                    <li lng-tag="contentConditions-3"></li>
+                                </ol>
+                                <p lng-tag="contentConditions-3bis"></p>
+
+                                <h2 lng-tag="titleJourney"></h2>
+                                <img src="./public/img/FR/taxrefund-conditions.jpeg" />
+
+                                <ol>
+                                    <li lng-tag="contentJourney-1"></li>
+                                </ol>
+                                <p lng-tag="contentJourney-1bis"></p>
+                                <ol>
+                                    <li lng-tag="contentJourney-2"></li>
+                                </ol>
+                                <p lng-tag="contentJourney-2bis"></p>
+                                <ol>
+                                    <li lng-tag="contentJourney-3"></li>
+                                </ol>
+                                <p lng-tag="contentJourney-3bis"></p>
+                                <address>SAV’IN TAX FREE<br />11 chemin de l’industrie<br />06110 Le Cannet, France</address>
+                                <p>
+                                    <span lng-tag="contentJourney-3ter"></span>
+                                    <span lng-tag="contentJourney-3quater"></span>.
+                                </p>
+                            </div>
+                        </section>
+                        <section class="questions-toggle">
+                            <div class="flex-between common-question">
+                                <h3 lng-tag="questionTaxRefund-3"></h3>
+                                <div class="symbol-box">
+                                    <span class="show-content">
+                                        <i class="fa-fw fas fa-plus"></i>
+                                    </span>
+                                    <span class="hide-content">
+                                        <i class="fa-fw fas fa-minus"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p lng-tag="contentQuestionTaxRefund-3"></p>
+                                <h2 lng-tag="titleClassic"></h2>
+                                <p lng-tag="contentClassic"></p>
+                                <p>
+                                    <span lng-tag="step-1"></span>
+                                    <span lng-tag="contentClassic-step-1"></span>
+                                </p>
+                                <p lng-tag="contentClassic-step-1bis"></p>
+
+                                <p>
+                                    <span lng-tag="step-3"></span>
+                                    <span lng-tag="contentClassic-step-2"></span>
+                                </p>
+
+                                <p>
+                                    <span lng-tag="step-3"></span>
+                                    <span lng-tag="contentClassic-step-3"></span>
+                                </p>
+                                <p lng-tag="contentClassic-step-3bis"></p>
+
+                                <h4 lng-tag="contentClassic-limits"></h4>
+                                <ul>
+                                    <li lng-tag="contentClassic-li-1"></li>
+                                    <li lng-tag="contentClassic-li-2"></li>
+                                    <li lng-tag="contentClassic-li-3"></li>
+                                </ul>
+
+                                <h2 lng-tag="titleMethod"></h2>
+                                <img src="./public/img/FR/taxrefund-method.jpeg" />
+                                <p>
+                                    <span lng-tag="step-1"></span>
+                                    <span>Shopping</span>
+                                </p>
+                                <p lng-tag="contentMethod-step-1strong"></p>
+                                <p lng-tag="contentMethod-step-1"></p>
+
+                                <p lng-tag="contentMethod-step-1bisStrong"></p>
+                                <p lng-tag="contentMethod-step-1bis"></p>
+                                <p lng-tag="contentMethod-step-1ter"></p>
+                                <p lng-tag="contentMethod-step-1quater"></p>
+                                <address>SAV’IN TAX FREE<br />11 chemin de l’industrie<br />06110 Le Cannet, France</address>
+                                <p lng-tag="contentMethod-step-1quinquies"></p>
+
+                                <p>
+                                    <span lng-tag="step-2"></span>
+                                    <span lng-tag="contentMethod-step-2"></span>
+                                </p>
+                                <p lng-tag="contentMethod-step-2bisStrong"></p>
+                                <p lng-tag="contentMethod-step-2bis"></p>
+
+                                <p>
+                                    <span lng-tag="step-3"></span>
+                                    <span lng-tag="contentMethod-step-3"></span>
+                                </p>
+                                <p lng-tag="contentMethod-step-3bis"></p>
+                                <p lng-tag="contentMethod-step-3strong"></p>
+
+                                <!----------------------------------- STEP 4 ----------------------------------->
+                                <p>
+                                    <span lng-tag="step-4"></span>
+                                    <span lng-tag="contentMethod-step-4"></span>
+                                </p>
+                                <p lng-tag="contentMethod-step-4bis"></p>
+                                <p lng-tag="contentMethod-step-4ter"></p>
+                                <p lng-tag="contentMethod-step-4quater"></p>
+                                <ul>
+                                    <li lng-tag="contentMethod-step-4li-1"></li>
+                                    <li lng-tag="contentMethod-step-4li-2"></li>
+                                    <li lng-tag="contentMethod-step-4li-3"></li>
+                                </ul>
+                                <p lng-tag="contentMethod-step-4quaterStrong"></p>
+                                <img src="./public/img/FR/taxrefund-20days.jpeg" />
+
+                                <!----------------------------------- STEP 5 ----------------------------------->
+                                <p>
+                                    <span lng-tag="step-5"></span>
+                                    <span lng-tag="contentMethod-step-5"></span>
+                                </p>
+                                <p lng-tag="contentMethod-step-5bis"></p>
+
+                                <h2 lng-tag="titleAdvantages-2"></h2>
+                                <ul>
+                                    <li lng-tag="contentAdvantages-li-1"></li>
+                                    <li lng-tag="contentAdvantages-li-2"></li>
+                                    <li lng-tag="contentAdvantages-li-3"></li>
+                                    <li lng-tag="contentAdvantages-li-4"></li>
+                                    <li lng-tag="contentAdvantages-li-5"></li>
+                                </ul>
+                            </div>
+                        </section>
+
+                        <!----------------------------------- DANS QUELS MAGASINS ----------------------------------->
+                        <section class="questions-toggle">
+                            <div class="flex-between common-question">
+                                <h3 lng-tag="questionTaxRefund-4"></h3>
+                                <span class="show-content">
+                                    <i class="fa-fw fas fa-plus"></i>
+                                </span>
+                                <span class="hide-content">
+                                    <i class="fa-fw fas fa-minus"></i>
+                                </span>
+                            </div>
+                            <div class="content">
+                                <h3 lng-tag="titleShops"></h3>
+                                <p lng-tag="contentShops-1"></p>
+                                <p lng-tag="contentShops-2"></p>
+                                <p lng-tag="contentShops-3"></p>
+                                <p lng-tag="contentShops-4"></p>
+
+                                <ul>
+                                    <li lng-tag="contentShops-li-1"></li>
+                                    <li lng-tag="contentShops-li-2"></li>
+                                    <li lng-tag="contentShops-li-3"></li>
+                                    <li lng-tag="contentShops-li-4"></li>
+                                </ul>
+                                <p lng-tag="contentShops-5"></p>
+                                <p lng-tag="contentShops-6"></p>
+                                <p lng-tag="contentShops-7"></p>
+                                <p>
+                                    <span lng-tag="contentWhereToShop-4li-1"></span>
+                                    <span>Carrefour, Grand Frais, Auchan, Leclerc, Casino, Intermarché, Aldi, Lidl, Coop.</span>
+                                </p>
+
+                                <p>
+                                    <span lng-tag="contentWhereToShop-4li-2"></span>
+                                    <span
+                                        >Décathlon, Courir, Go Sport, Sport 2000, Intersport, H&M, Zara, Sephora, Nocibe, Mango, Cos, Celio, Grand Optical,
+                                        Etam, Quicksilver, G-star, L’atelier du diamant, Swarovski, Pandora.</span
+                                    >
+                                </p>
+                                <p>
+                                    <span lng-tag="contentWhereToShop-4li-3"></span>
+                                    <span
+                                        >Fnac, Boulanger, Darty, M-electronics, Brico+ Loisirs, Cultura, Nature et Découverte, Jouet Club, La Grande Récré,
+                                        Micromania.</span
+                                    >
+                                </p>
+                                <p>
+                                    <span lng-tag="contentWhereToShop-4li-4"></span>
+                                    <span>Leroy Merlin, Castorama, Mr Bricolage, Bricorama, Habitat, Ikea, Alice Délice, Maison du Monde, Gamme Vert.</span>
+                                </p>
+
+                                <h3 lng-tag="titleOnline"></h3>
+                                <p lng-tag="contentOnline-1"></p>
+                                <p lng-tag="contentOnline-2"></p>
+                                <p>
+                                    <span lng-tag="contentOnlineStrong"></span>
+                                    <span>Amazon France, Decathlon, Zalando, Vente privée, Fly, Leroy Merlin, Grand optical, Carrefour.</span>
+                                </p>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+            </main>
+
+            <footer class="footer-common__container flex-column">
+                <div class="footer-common__container--box">
+                    <div class="title--box">
+                        <h2 class="font-italic title-1" lng-tag="download"></h2>
+                        <h2 class="title-2">Sav'In Tax Free</h2>
+                    </div>
+
+                    <section class="btn--box">
+                        <a href="https://apps.apple.com/fr/app/savin-tax-free/id1492240821" target="_blank" rel="noopener"
+                            ><img src="./public/img/common/btn-apple3.png" alt="button link to apple store" />
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.solpay.savintaxfree" target="_blank" rel="noopener"
+                            ><img src="./public/img/common/btn-google3.png" alt="button link to google store" />
+                        </a>
+                    </section>
+                </div>
+
+                <div class="footer-common__container--box">
+                    <div class="copyright--box">
+                        <span lng-tag="footer"></span>
+                        <span
+                            ><a href="https://www.facebook.com/Savin-Tax-Free-103862594687027/" target="_blank" rel="noopener">Facebook</a> –
+                            <a href="https://instagram.com/savintaxfree" target="_blank" rel="noopener">Instagram</a></span
+                        >
+                    </div>
+                </div>
+            </footer>
         </div>
+
         <script type="text/javascript" src="./js/translate.js"></script>
         <script type="text/javascript" src="./js/language.js"></script>
         <script type="text/javascript" src="./js/questions.js"></script>

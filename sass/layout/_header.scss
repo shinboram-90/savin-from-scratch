@@ -110,3 +110,54 @@
         }
     }
 }
+
+.no__background {
+    padding-top: 70px;
+    // background-image: url(../../public/img/common/home-background.png);
+    background-color: black;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // height: 695px;
+    // width: 100vw;
+
+    &--container {
+        color: $colour-light;
+        width: 85%;
+        padding: 50px 10px;
+        margin: 0 auto;
+        
+        .title {
+            h1 {
+                margin: 0.4em 0;
+                line-height: 1.2;
+                text-transform: none;
+                color: $colour-light;
+                font-size: 40px;
+           
+            }
+
+            p {
+        
+                font-size: 14px;
+                opacity: 0.6;
+            }
+        }
+
+        .ui-breadcrumb {
+            width: 100%;
+            font-size: 14px;
+            a {
+                color: $colour-light;
+                opacity: .6;
+            }
+            i {
+                opacity: 0.5;
+                font-size: 10px;
+                display: inline-block;
+                vertical-align: middle;
+                padding: 0 6px;
+            }
+        }
+    }
+}

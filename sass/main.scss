@@ -1,15 +1,26 @@
-@import 'utils/variables';
+// importing core styling file
+@import "utils/variables";
+@import "../public/fontawesome/scss/fontawesome.scss";
+
+// our project needs Solid + Brands
+@import "../public/fontawesome/scss/solid.scss";
+@import "../public/fontawesome/scss/brands.scss";
+
 // @import "utils/mixins";
 
-@import 'base/typography';
-@import 'base/base';
+@import "base/typography";
+@import "base/base";
 
-@import 'components/buttons';
+@import "components/buttons";
+@import "components/download";
+
+@import "pages/home";
+@import "pages/customs";
+@import "pages/taxrefund";
+@import "pages/articles";
 
 @import 'layout/navbar';
 @import 'layout/header';
 @import 'layout/timeline';
-@import 'layout/footer';
+@import "layout/footer";
 @import 'layout/about';
-
-@import 'pages/home';
