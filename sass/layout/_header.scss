@@ -99,16 +99,19 @@
                 color: $colour-light;
             }
         }
-        h1 {
-            line-height: 1.2;
+        .title-2fonts {
+          
             display: flex;
             flex-direction: column;
             color: $colour-light;
-            text-transform: capitalize;
-
+            
             :first-child {
-                font-size: 56px;
+                line-height: 0.8em;
+                letter-spacing: 0.2px;
+                text-transform: capitalize;
+                font-size: 45px;
                 font-weight: normal;
+            
             }
 
             :last-child {

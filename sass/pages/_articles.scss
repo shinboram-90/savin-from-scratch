@@ -2,12 +2,23 @@
     width: 90%;
     margin: 50px auto;
     background-color: $colour-light;
+
     &--box {
         padding: 10px;
         img {
             height: 150px;
             width: 100%;
             object-fit: cover;
+        }
+
+        .tag {
+            margin: 20px 8px;
+            font-size: 16px;
+            font-weight: bold;
+
+            .tag-text {
+                padding-left: 5px;
+            }
         }
     }
     h1 {
@@ -17,15 +28,42 @@
         font-weight: bold;
     }
 
-    .article-content__container{
-        padding: 10px;
+    .article-content__container {
+     
         line-height: 1.875;
 
-        h3{
-            font-size: 20px;
+        p {
+            margin: 14px 0;
+            color: $colour-p;
+        }
+        font-size: 14px;
+
+        h2 {
+            font-size: 26px;
+            line-height: 1.2;
             margin: 20px 0;
             font-weight: bold;
             color: $colour-dark;
+            letter-spacing: -0.027em;
+        }
+        ul {
+            padding-left: 40px;
+            li {
+                list-style: disc;
+                font-size: 14px;
+                color: $colour-p;
+            }
+        }
+        ol {
+            padding-left: 40px;
+            li {
+                list-style: decimal;
+                font-size: 14px;
+                color: $colour-p;
+            }
+        }
+        a {
+            color: $colour-primary;
         }
     }
 }

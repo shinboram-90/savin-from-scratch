@@ -10358,6 +10358,7 @@ address {
   font-size: 14px;
   font-style: normal;
   font-weight: bold;
+  text-align: center;
 }
 
 .flex-column {
@@ -10978,6 +10979,14 @@ hr {
   width: 100%;
   object-fit: cover;
 }
+.section-articles__container--box .tag {
+  margin: 20px 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.section-articles__container--box .tag .tag-text {
+  padding-left: 5px;
+}
 .section-articles__container h1 {
   font-size: 22px;
   line-height: 1.2;
@@ -10985,14 +10994,39 @@ hr {
   font-weight: bold;
 }
 .section-articles__container .article-content__container {
-  padding: 10px;
   line-height: 1.875;
+  font-size: 14px;
 }
-.section-articles__container .article-content__container h3 {
-  font-size: 20px;
+.section-articles__container .article-content__container p {
+  margin: 14px 0;
+  color: #6E7A84;
+}
+.section-articles__container .article-content__container h2 {
+  font-size: 26px;
+  line-height: 1.2;
   margin: 20px 0;
   font-weight: bold;
   color: #171e35;
+  letter-spacing: -0.027em;
+}
+.section-articles__container .article-content__container ul {
+  padding-left: 40px;
+}
+.section-articles__container .article-content__container ul li {
+  list-style: disc;
+  font-size: 14px;
+  color: #6E7A84;
+}
+.section-articles__container .article-content__container ol {
+  padding-left: 40px;
+}
+.section-articles__container .article-content__container ol li {
+  list-style: decimal;
+  font-size: 14px;
+  color: #6E7A84;
+}
+.section-articles__container .article-content__container a {
+  color: #f8b133;
 }
 
 .uicore-header-wrapper {
@@ -11273,18 +11307,19 @@ hr {
   font-size: 14px;
   color: #ffffff;
 }
-.common__background .common__container h1 {
-  line-height: 1.2;
+.common__background .common__container .title-2fonts {
   display: flex;
   flex-direction: column;
   color: #ffffff;
-  text-transform: capitalize;
 }
-.common__background .common__container h1 :first-child {
-  font-size: 56px;
+.common__background .common__container .title-2fonts :first-child {
+  line-height: 0.8em;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  font-size: 45px;
   font-weight: normal;
 }
-.common__background .common__container h1 :last-child {
+.common__background .common__container .title-2fonts :last-child {
   font-size: 30px;
   text-transform: uppercase;
   font-weight: 600;
