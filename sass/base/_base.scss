@@ -31,6 +31,15 @@ a {
     }
 }
 
+address {
+    color: #6E7A84;
+    font-family: "Assistant", "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    // line-height: 1.2;
+}
+
 .flex-column {
     display: flex;
     flex-direction: column;
@@ -38,10 +47,18 @@ a {
     align-items: center;
 }
 
+.mobile-hidden {
+    display: none;
+}
+
 @media (min-width: 1025px) {
     .flex-column {
      flex-direction: flex;
     flex-wrap: wrap;
+    }
+
+    .mobile-hidden {
+        display: flex;
     }
  }
 

@@ -10352,6 +10352,14 @@ a:visited, a:link, a:active {
   color: black;
 }
 
+address {
+  color: #6E7A84;
+  font-family: "Assistant", "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+}
+
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -10359,10 +10367,17 @@ a:visited, a:link, a:active {
   align-items: center;
 }
 
+.mobile-hidden {
+  display: none;
+}
+
 @media (min-width: 1025px) {
   .flex-column {
     flex-direction: flex;
     flex-wrap: wrap;
+  }
+  .mobile-hidden {
+    display: flex;
   }
 }
 .flex-between {
@@ -10451,6 +10466,45 @@ a:visited, a:link, a:active {
   margin-right: 10px;
 }
 
+.social__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social__container--item {
+  margin: 0 5px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.social__container--item > i {
+  color: #171e35;
+}
+
+@media screen and (min-width: 1025px) {
+  .large-screen {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .large-screen .logo-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .large-screen .logo-left .logo > img {
+    height: 56px;
+    width: 100%;
+  }
+  .large-screen .logo-left .backto {
+    padding-left: 20px;
+  }
+}
 hr {
   width: 50px;
   margin: 15px auto;
@@ -10819,25 +10873,6 @@ hr {
 .section-contact__container .contact-items p:not(:last-child) {
   margin-bottom: 12px;
 }
-.section-contact__container .social-box {
-  padding-top: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.section-contact__container .social-box span {
-  margin: 0 5px;
-  background-color: #ffffff;
-  border-radius: 50%;
-  height: 30px;
-  width: 30px;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-.section-contact__container .social-box span > i {
-  color: #171e35;
-}
 
 .main-taxrefund__container {
   background-color: #F8FCFC;
@@ -10933,6 +10968,7 @@ hr {
 .section-articles__container {
   width: 90%;
   margin: 50px auto;
+  background-color: #ffffff;
 }
 .section-articles__container--box {
   padding: 10px;
@@ -10947,6 +10983,16 @@ hr {
   line-height: 1.2;
   margin-bottom: 20px;
   font-weight: bold;
+}
+.section-articles__container .article-content__container {
+  padding: 10px;
+  line-height: 1.875;
+}
+.section-articles__container .article-content__container h3 {
+  font-size: 20px;
+  margin: 20px 0;
+  font-weight: bold;
+  color: #171e35;
 }
 
 .uicore-header-wrapper {
@@ -11213,6 +11259,12 @@ hr {
   min-height: 200px;
   justify-content: space-between;
   padding: 20px 0 30px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+.common__background .common__container .logo > img {
+  padding: 10px;
+  width: 25%;
 }
 .common__background .common__container p {
   margin-top: -5px;
@@ -11221,17 +11273,18 @@ hr {
   font-size: 14px;
   color: #ffffff;
 }
-.common__background .common__container h2 {
+.common__background .common__container h1 {
   line-height: 1.2;
   display: flex;
   flex-direction: column;
   color: #ffffff;
+  text-transform: capitalize;
 }
-.common__background .common__container h2 :first-child {
+.common__background .common__container h1 :first-child {
   font-size: 56px;
   font-weight: normal;
 }
-.common__background .common__container h2 :last-child {
+.common__background .common__container h1 :last-child {
   font-size: 30px;
   text-transform: uppercase;
   font-weight: 600;

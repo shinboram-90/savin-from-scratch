@@ -440,24 +440,4 @@ hr {
         }
     }
 
-    .social-box {
-        padding-top: 30px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        span {
-            margin: 0 5px;
-            background-color: $colour-light;
-            border-radius: 50%;
-            height: 30px;
-            width: 30px;
-            align-items: center;
-            display: flex;
-            justify-content: center;
-            > i {
-                color: $colour-dark;
-            }
-        }
-    }
 }

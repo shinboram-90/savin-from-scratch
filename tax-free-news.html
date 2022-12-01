@@ -21,27 +21,43 @@
     <body>
         <header role="banner" class="common__background">
             <section class="common__container flex-column">
-                <div>
-                    <a href="index.html">
-                        <img width="25%" src="./public/img/common/logo-savin.png" alt="logo Sav'in Tax Free, détaxe mobile en France" />
-                    </a>
+                <div class="large-screen">
+                    <div class="logo-left">
+                        <a href="index.html" class="logo">
+                            <img src="./public/img/common/logo-savin.png" alt="logo Sav'in Tax Free, détaxe mobile en France" />
+                        </a>
 
-                    <p>
-                        <span><a lng-tag="backToWebsite" href="index.html"></a></span>
-                    </p>
+                        <p class="backto">
+                            <a lng-tag="backToWebsite" href="index.html"></a>
+                        </p>
+                    </div>
+                    <div class="mobile-hidden">
+                        <div class="social__container">
+                            <span class="social__container--item">
+                                <a href="https://www.facebook.com/Savin-Tax-Free-103862594687027/" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </span>
+                            <span class="social__container--item">
+                                <a href="https://instagram.com/savintaxfree" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
                 </div>
 
-                <h2>
+                <h1>
                     <span class="font-italic" lng-tag="titleInFrance-2"></span>
                     <span lng-tag="titleInFrance-3"></span>
-                </h2>
+                </h1>
             </section>
         </header>
 
         <main class="main__container">
             <section class="section-taxfree__container flex-column">
                 <div class="background-image">
-                    <aside class="aside-download__container">
+                    <aside class="aside-download__container mobile-hidden">
                         <div class="foreground-content">
                             <header>
                                 <h2 class="font-italic" lng-tag="download"></h2>
@@ -77,7 +93,7 @@
                                 <h2 lng-tag="subTitleInFrance-1"></h2>
                                 <p lng-tag="contentInFrance-1"></p>
                                 <div class="read-more">
-                                    <a href="#" lng-tag="btnReadMore"></a>
+                                    <a href="detaxer-ses-achats-en-ligne.html" lng-tag="btnReadMore"></a>
                                 </div>
                             </figcaption>
                         </div>
