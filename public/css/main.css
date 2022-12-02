@@ -10423,6 +10423,9 @@ address {
   margin: 15px;
   cursor: pointer;
 }
+.btn-savin a {
+  color: #ffffff;
+}
 
 .background-image {
   width: 90%;
