@@ -2,7 +2,9 @@
     padding: 20px 10px 20px 40px;
     position: relative;
     background-color: white;
-    overflow: hidden;
+    width: 90%;
+    margin: 2em auto;
+
 
     .content-timeline-container {
         padding: 10px;
@@ -10,14 +12,21 @@
 
     .content-timeline-block {
         position: relative;
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 1rem;
+        padding-bottom: 28px;
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
 
         .timeline-content {
             position: relative;
             padding: 40px 20px 30px 50px;
-            margin-left: 70px;
+            margin-left: 60px;
             border-radius: 0.25em;
             box-shadow: -4px 0px 23px 0px rgb(0 0 0 / 17%);
             text-align: left;
@@ -32,7 +41,6 @@
                 border-left: none;
                 border-right-color: #ffffff;
                 border-width: 12px;
-                top: 24%;
             }
             p {
                 margin: 1em 0;
@@ -100,21 +108,16 @@
         }
 
         .timeline-picture {
-            background: #070707;
-            // border-color: #fff;
-            margin-top: 80px;
-            border-width: 0;
-            width: 75px;
-            height: 75px;
-            margin-left: -35px;
             position: absolute;
-
+            background: #070707;
+            top: 10%;
+            left: 0;
             border-radius: 50%;
-            text-align: center;
-            line-height: 1;
-            // border: 6px solid #f9f9f9;
-
+            height: 75px;
+            width: 75px;
             box-shadow: 0 1px 0 1px rgb(0 0 0 / 10%);
+            margin-left: -40px;
+
 
             > img {
                 display: block;
@@ -128,47 +131,37 @@
         }
 
         .timeline-picture-first {
-            width: 75px;
-            height: 75px;
-            margin-top: 20px;
-            margin-left: -35px;
-            z-index: 1;
-
             > img {
                 height: auto;
                 max-width: 100%;
                 width: 170px;
             }
         }
-    }
-    .timeline-picture-last {
-        > img {
-            position: absolute;
-            top: 50%;
-            width: 80px;
-            border-radius: 100px;
-            transform: translate(-50%, -50%);
+        .timeline-picture-last {
+            > img {
+                position: absolute;
+                top: 50%;
+                width: 80px;
+                border-radius: 100px;
+                transform: translate(-50%, -50%);
+            }
         }
     }
 }
 
+.progress-container {
+    position: absolute;
+    top: 150px;
+    left: 45px;
+    height: 75%;
+    width: 4px;
+    background: #D8D8D8;
+    overflow: hidden;
 
-// .header {
-//     position: fixed;
-//     top: 0;
-//     z-index: 1;
-//     height: 100%;
-//     background-color: #f1f1f1;
-//   }
-  
-//   .progress-container {
-//     height: 100%;
-//     width: 8px;
-//     background: #ccc;
-//   }
-  
-//   .progress-bar {
-//     width: 8px;
-//     background: #04AA6D;
-//     height: 0%;
-//   }
+    .progress-bar {
+        width: 4px;
+        background: $colour-primary;
+        height: 0%;
+    }
+}
+
