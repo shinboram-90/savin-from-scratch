@@ -8,19 +8,21 @@ const translate = (lng, attribute) => {
 };
 
 function switchToEnglish() {
+    document.documentElement.setAttribute("lang", "en");
     translate("en", "lng-tag");
     frImgs.forEach((img) => {
         img.style.display = "none";
     });
     enImgs.forEach((img) => {
-        img.style.display = "block";
+        img.style.display = "inline-block";
     });
 }
 
 function switchToFrench() {
+    document.documentElement.setAttribute("lang", "fr");
     translate("fr", "lng-tag");
     frImgs.forEach((img) => {
-        img.style.display = "block";
+        img.style.display = "inline-block";
     });
 
     enImgs.forEach((img) => {
@@ -43,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
             frLng.style.display = "none";
             switchToFrench();
         }
-
+        
         enLng.addEventListener("click", () => {
             enLng.style.display = "none";
             frLng.style.display = "flex";
@@ -62,6 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
             switchToEnglish();
         } else {
             switchToFrench();
+   
         }
     }
 });

@@ -84,34 +84,42 @@
         width: 90%;
         margin: 0 auto;
 
+        @media (max-width: 767px) {
+            .logo {
+                > img {
+                    width: 25%;
+                }
+            }
+            p {
+                margin-top: -15px;
+            }
+        }
+        
         .logo {
             > img {
                 padding: 10px;
-
-                width: 25%;
             }
         }
 
         p {
-            margin-top: -5px;
             a {
                 font-size: 14px;
                 color: $colour-light;
+                font-weight: 600;
+                line-height: 1.2em;
             }
         }
         .title-2fonts {
-          
             display: flex;
             flex-direction: column;
             color: $colour-light;
-            
+
             :first-child {
                 line-height: 0.8em;
                 letter-spacing: 0.2px;
                 text-transform: capitalize;
                 font-size: 45px;
                 font-weight: normal;
-            
             }
 
             :last-child {
@@ -124,17 +132,23 @@
     }
 }
 
+.taxrefund-header {
+    background-image: url(../../public/img/common/web_savin_detaxe.jpg);
+}
+
+.customs-header {
+    // background-image: url(../../public/img/common/web_savin_douanes.jpg);
+    background-color: black;
+}
+
 .no__background {
     padding-top: 70px;
-    // background-image: url(../../public/img/common/home-background.png);
-    background-color: black;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    // height: 695px;
-    // width: 100vw;
 
     &--container {
+        // color: $colour-dark;
         color: $colour-light;
         width: 85%;
         padding: 50px 10px;

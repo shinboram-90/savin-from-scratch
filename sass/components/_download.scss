@@ -1,5 +1,5 @@
 .background-image {
-    width: 90%;
+    width: calc(100% - 26px);
 
     .aside-download__container {
         margin: 30px 0 50px 0;
@@ -35,9 +35,8 @@
                     margin-bottom: 20px;
                 }
             }
-            .download-btn__container{
+            .download-btn__container {
                 display: flex;
-             
             }
         }
 

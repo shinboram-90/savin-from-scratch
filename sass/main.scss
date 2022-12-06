@@ -1,12 +1,12 @@
 // importing core styling file
 @import "utils/variables";
+@import "utils/mixins";
 @import "../public/fontawesome/scss/fontawesome.scss";
 
 // our project needs Solid + Brands
 @import "../public/fontawesome/scss/solid.scss";
 @import "../public/fontawesome/scss/brands.scss";
 
-// @import "utils/mixins";
 
 @import "base/typography";
 @import "base/base";

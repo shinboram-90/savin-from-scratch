@@ -27,14 +27,15 @@
 // });
 
 const progressBar = document.getElementById("myBar");
-const section = document.querySelector(".section-timeline__container");
+const section = document.getElementById("cd-timeline");
 
 const scrollProgressBar = () => {
-    let scrollDistance = -section.getBoundingClientRect().top;
+    let scrollDistance = -section.getBoundingClientRect().top + 200;
     let progressPercentage = (scrollDistance / (section.getBoundingClientRect().height - document.documentElement.clientHeight)) * 100;
 
     let val = Math.floor(progressPercentage);
     progressBar.style.height = val + "%";
+    progressBar.style.maxHeight = "100%";
 
     if (val < 0) {
         progressBar.style.height = "0%";

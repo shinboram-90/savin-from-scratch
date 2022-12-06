@@ -1,45 +1,62 @@
+.social__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    .social__container {
-        display: flex;
+    &--item {
+        margin: 0 5px;
+        background-color: $colour-light;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
         align-items: center;
+        display: flex;
         justify-content: center;
-
-        &--item {
-            margin: 0 5px;
-            background-color: $colour-light;
-            border-radius: 50%;
-            height: 30px;
-            width: 30px;
-            align-items: center;
-            display: flex;
-            justify-content: center;
-            > i {
-                color: $colour-dark;
-            }
+        > i {
+            color: $colour-dark;
         }
     }
+}
 
-    @media screen and (min-width: 1025px) {
-        .large-screen {
-            width: 100%;
+@media screen and (min-width: 768px) {
+    .large-screen {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo-left {
             display: flex;
-            justify-content: space-between;
+            justify-content: flex-start;
             align-items: center;
-    
-            .logo-left {
+
+            .logo {
                 display: flex;
-                justify-content: flex-start;
-                align-items: center;
-    
-                .logo >img{
-                    height: 56px;
-                    width: 100%;
-                    // margin: 0;
+                justify-content: space-between;
+
+                > img {
+                    max-height: 41px;
                 }
-                .backto{
+            }
+
+            .backto {
+                a {
+                    font-size: 16px;
                     padding-left: 20px;
                 }
             }
         }
     }
-   
+    .title-2fonts {
+        :first-child {
+            // line-height: 0.8em;
+            // letter-spacing: 0.2px;
+
+            font-size: 100px;
+        }
+
+        :last-child {
+            font-size: 52px;
+        }
+    }
+}

@@ -147,7 +147,6 @@
     "contentInFrance-4": "Recover 14.5% VAT refund on all eligible purchases made in France… This is one more reason to prefer France as the shopping destination of choice. Sav'In Tax Free helps you assess your eligibility for this scheme.",
     "contentInFrance-5": "Cumulative purchase, everyday consumer goods, unrivaled reimbursement rate…. Tourist tax refund applications now allow you to maximize your tax refund gain. Explanation of the procedure and advantages in this article.",
 
-
     "btnReadMore": "Read more",
     "btnAllArticles": "All our posts",
 
@@ -207,7 +206,7 @@
     "subtitleTaxRefundPossible-1": "How do I get my online purchases tax free with Sav'in Tax Free?",
     "contentTaxRefundPossible-1step-1": "Step 1: <strong>shop online on a French e-commerce site</strong> at your leisure, whenever you want and wherever you want.",
 
-    "contentTaxRefundPossible-1step-2": "Step 2: When you finalise the transaction, make sure you choose to:",
+    "contentTaxRefundPossible-1step-2": "Step 2: when you finalise the transaction, make sure you choose to:",
     "contentTaxRefundPossible-1step-2bis": "<strong> have your order delivered in France</strong>. The address can be the one of the relay point of your choice in France. Do not use the Sav'In Tax Free address as your delivery address",
     "contentTaxRefundPossible-1step-2ter": "<strong>request an invoice made out to the name and address of</strong>:",
 
@@ -215,8 +214,8 @@
     "address-2": "06110 Le Cannet, France",
     "vatNumber": "VAT no FR 595 0870 2677",
 
-    "contentTaxRefundPossible-1step-3": "Step 3: Make sure you download Sav'in Tax Free and complete your profile. Take a picture or upload your invoice using your app. <strong>You have 20 days from the date of purchase to submit your invoice</strong>.",
-    "contentTaxRefundPossible-1step-4": "Step 4: After verification, we generate your digital tax-free form.",
+    "contentTaxRefundPossible-1step-3": "Step 3: make sure you download Sav'in Tax Free and complete your profile. Take a picture or upload your invoice using your app. <strong>You have 20 days from the date of purchase to submit your invoice</strong>.",
+    "contentTaxRefundPossible-1step-4": "Step 4: after verification, we generate your digital tax-free form.",
 
     "subtitleTaxRefundPossible-2": "How do I collect my purchases online and validate my tax refund? ",
     "contentTaxRefundPossible-2": "Collect your purchases from your delivery point in France and go to the customs post on your way to validate your digital tax-free form before leaving France with your purchases. ",
@@ -231,6 +230,7 @@
     "contentTaxRefundPossible-4li-2": "<strong>Swiss or UK residents: have your goods delivered to a relay point near the border and a customs post</strong>. You can then plan your arrival on French territory to collect your goods and validate your tax exemption without difficulty.",
     "contentTaxRefundPossible-4": "Take advantage of tax-free shopping today and get 14.5% back on all eligible purchases made in shops or online in France. Download Sav'In Tax Free on ",
     "and": "and ",
+    "and-2": "and&nbspthe",
 
     "contentTaxRefund": "You live outside the European Union? Good news, you can have your purchases tax-free in France and recover your VAT! Sav'in Tax free explains what the tax-free procedure is and helps you to facilitate your steps. The conditions of eligibility, the deadlines to respect, or the types of goods that you can deduct the tax from will soon have no more secrets for you. With Sav'in Tax Free, mobile tax exemption has never been so easy.",
     "questionTaxRefund-1": "What is tax-free shopping?",
@@ -295,7 +295,7 @@
     "contentClassic-li-3": "It is unlikely that you will be able to benefit from a VAT exemption on an online purchase delivered in France. Indeed, it is rare for an e-commerce to offer a tax-free service due to the numerous administrative constraints that this implies.",
 
     "titleMethod": "The SAV ‘in’ method:",
-    "contentMethod-step-1strong": "<strong>Shopping in physical shops<\/strong>:",
+    "contentMethod-step-1strong": "<strong>Shopping in physical shops</strong>:",
     "contentMethod-step-1": "Take advantage of your stay in France to do your shopping and discover exclusive French brands. To benefit from tax-free shopping, make sure you ask for a receipt or an invoice when you shop in France. It is essential that the following information is included on the receipt: Name of the brand, Date of purchase, Amount including VAT, Amount of VAT.",
     "contentMethod-step-1bisStrong": "Online shopping;",
     "contentMethod-step-1bis": "To benefit from tax-free shopping online, you must ensure that the shop in which you make your purchases is registered in France for French VAT purposes.",
@@ -489,14 +489,14 @@
 
     "titleHowMuch": "How much do Swiss customs charges cost?",
     "contentHowMuch-1": "The bill can vary greatly. Two rates are applied:",
-    "contentHowMuch-1li-1": "<strong>Normal rate = 7.7%</strong>.",
+    "contentHowMuch-li-1": "<strong>Normal rate = 7.7%</strong>.",
     "contentHowMuch-2": "Ex: You bought a piece of furniture for CHF 400 excluding VAT, you will have to pay CHF 30.8 in Swiss VAT.",
-    "contentHowMuch-li-2s": "<strong>Reduced rate = 2.5%</strong> (e.g., foodstuffs, non-alcoholic drinks, books or medicines).",
+    "contentHowMuch-li-2": "<strong>Reduced rate = 2.5%</strong> (e.g., foodstuffs, non-alcoholic drinks, books or medicines).",
     "contentHowMuch-li-2bis": "Ex: You have bought food for CHF 400 excluding VAT, you will have to pay CHF 10 in Swiss VAT. The calculation is as follows: 400 x 0.025 = 10 CHF.",
 
     "titleDeclare": "How do I declare my goods to Swiss customs?",
     "contentDeclare-opt1": "Option 1: Download the QuickZoll application: ",
-    "contentDeclare-opt1-1": "Quickzoll is the official mobile customs clearance application of the Swiss Federal Customs Administration. Designed for private tourist traffic, QuickZoll is available on Google Play and the Apple Store.",
+    "contentDeclare-opt1-1": "Quickzoll is the official mobile customs clearance application of the Swiss Federal Customs Administration. Designed for private tourist traffic, QuickZoll is available on&nbsp",
     "contentDeclare-opt1-2": "<strong>What are the advantages?</strong>",
     "contentDeclare-opt1-2bis": "You can make your declaration and pay any fees directly on your smartphone, without having to stop at a Swiss customs office. At airports you can use the green lane.",
     "contentDeclare-opt1-2ter": "You will also find all the information you need about customs clearance on QuickZoll.",
@@ -527,22 +527,21 @@
     "backToWebsite": "Back to website",
     "footer": "Sav’in Tax Free Tax free shopping in France ©",
 
-
     "contentVocab": "Purchases, cumulative amount, form, slip, Borne PABLO, refund… VAT Tax refund has its own technical jargon. Sav’in Tax Free takes you through the different steps and essential vocabulary you should master before digging deeper and getting started on this great money saving practice. Discover how tourist VAT tax refunds work and how Sav’In Tax Free makes it easier for you to manage it.",
     "subtitleTheClassic": "A look at the “classic” tax refund process",
-    "contentTheClassic-1": "Until 2018, tax refunds were mostly carried out directly in stores following a transaction. The process still exists and has not evolved much. It is entirely managed by the retailer in partnership with a <strong>“tax refund operator”<\/strong>. This operator facilitates the administrative and transactional aspects. As a necessary intermediate, the operator is responsible for recovering the VAT amount and transferring it to the beneficiary. The average refund rate for classic VAT tax refund is around 12% of the total amount (taxes included).",
+    "contentTheClassic-1": "Until 2018, tax refunds were mostly carried out directly in stores following a transaction. The process still exists and has not evolved much. It is entirely managed by the retailer in partnership with a <strong>“tax refund operator”</strong>. This operator facilitates the administrative and transactional aspects. As a necessary intermediate, the operator is responsible for recovering the VAT amount and transferring it to the beneficiary. The average refund rate for classic VAT tax refund is around 12% of the total amount (taxes included).",
     "contentTheClassic-2": "To get your VAT tax refund the classic way, you should:",
-    "contentTheClassic-li-1": "Do your shopping as usual for a <strong>minimum amount of 100.01 €<\/strong>. Remember to bring your passport when shopping",
-    "contentTheClassic-li-2": "Make sure the retail location you’re shopping in offers a VAT tax refund. If so, the cashier will create a <strong>paper tax refund slip<\/strong> at the end of the transaction filling out the following info: item description, value, buyer’s marital status, passport number and contact information. You will be given a slip containing your VAT tax refund request along with your receipts. Keep these documents until you leave the country.",
-    "contentTheClassic-li-3": "When you leave the EU, have your slip validated by customs visiting a <strong>PABLO electronic terminal<\/strong> (available in most departure halls).",
+    "contentTheClassic-li-1": "Do your shopping as usual for a <strong>minimum amount of 100.01 €</strong>. Remember to bring your passport when shopping",
+    "contentTheClassic-li-2": "Make sure the retail location you’re shopping in offers a VAT tax refund. If so, the cashier will create a <strong>paper tax refund slip</strong> at the end of the transaction filling out the following info: item description, value, buyer’s marital status, passport number and contact information. You will be given a slip containing your VAT tax refund request along with your receipts. Keep these documents until you leave the country.",
+    "contentTheClassic-li-3": "When you leave the EU, have your slip validated by customs visiting a <strong>PABLO electronic terminal</strong> (available in most departure halls).",
     "contentTheClassic-li-4": "Once your slip has been validated, you will receive your refund within a few weeks.",
     "contentTheClassic-3": "Although widespread and still commonly used, this process is no longer the only way to recover VAT on purchases made in France. The rise of digital and mobile solutions offers new alternatives to travelers.",
     "subtitleMobile": "Mobile VAT tax refund with the Sav’In Tax Free app",
     "contentMobile-1": "Mobile apps now allow tourists to easily manage their tax refunds independently while also offering a higher refund rate. The solution also gives tourists the option to combine “small purchases” to reach the legal minimum threshold of 100.01 €.",
     "contentMobile-2": "Once the app has been downloaded and the profile duly completed (official information is required along with a picture of your passport), you are just a few clicks away from creating and validating your VAT tax refund slip:",
-    "contentMobile-li-1": "Shop for a <strong>minimum amount of € 100.01<\/strong> in any store in France, regardless of the brand. You can make several purchases to reach this legal minimum threshold. Remember to keep all your receipts. You no longer need to make sure that the tax refund service is offered in-store since you can now manage your requests independently directly from the app. See our article <i>Where to shop to take advantage of the tourist tax exemption?</i> for more information on shopping locations.",
-    "contentMobile-li-2": "Upload your <strong>proofs of purchase<\/strong> directly into the app. These can be the receipts, invoices, and sales receipts you’ve gotten showing the details of the transaction and the items purchased. Credit card tickets alone are not accepted.",
-    "contentMobile-li-3": "Once your proofs of purchase have been added and validated by Sav’In Tax Free, you can generate your <strong>digital tax refund slip<\/strong>. One of Sav’in Tax Free key feature is that you can consolidate all your slips into one.",
+    "contentMobile-li-1": "Shop for a <strong>minimum amount of € 100.01</strong> in any store in France, regardless of the brand. You can make several purchases to reach this legal minimum threshold. Remember to keep all your receipts. You no longer need to make sure that the tax refund service is offered in-store since you can now manage your requests independently directly from the app. See our article <i>Where to shop to take advantage of the tourist tax exemption?</i> for more information on shopping locations.",
+    "contentMobile-li-2": "Upload your <strong>proofs of purchase</strong> directly into the app. These can be the receipts, invoices, and sales receipts you’ve gotten showing the details of the transaction and the items purchased. Credit card tickets alone are not accepted.",
+    "contentMobile-li-3": "Once your proofs of purchase have been added and validated by Sav’In Tax Free, you can generate your <strong>digital tax refund slip</strong>. One of Sav’in Tax Free key feature is that you can consolidate all your slips into one.",
     "contentMobile-3": "You should know: your latest proof of purchase must be added to the app at least 2 hours before your departure time to allow review and validation time by a Sav’In Tax Free operator.",
     "contentMobile-li-4": "Before leaving the EU, scan your digital slip at a PABLO electronic terminal in your departure hall, before check-in. It is mandatory for you to carry the merchandise in your suitcases, preferably unused and in its original packaging, along with all proofs of purchase and your passport.",
     "contentMobile-4": "Once the slip has been validated, you can choose to get your refund immediately in cash by visiting an exchange office or directly on your credit card within 21 days after your passage through customs. You can follow your refund status in the app.",
@@ -576,11 +575,11 @@
     "subtitleWhy": "How does the Sav’In Tax Free app make it easier to manage your VAt tax refunds?",
     "contentWhy-1": "The app was designed to simplify the process, consolidate your purchases on a single digital slip, and allow you to get more tax refunds with the cumulative purchase option.",
     "contentWhy-2": "With Savin ’tax free, follow 3 easy steps to get your VAT refund:",
-    "contentWhy-li-1": "<strong>Download the app and complete your profile<\/strong>",
+    "contentWhy-li-1": "<strong>Download the app and complete your profile</strong>",
     "contentWhy-li-1bis": "Combine purchases made in all stores located in France, regardless of the amount and the brand, reach the legal minimum threshold of € 100.01. Get 14.5% back of the VAT amount.",
-    "contentWhy-li-2": "<strong>Upload pictures of your receipts directly in the app<\/strong>",
+    "contentWhy-li-2": "<strong>Upload pictures of your receipts directly in the app</strong>",
     "contentWhy-li-2bis": "All your proof of purchases are grouped together on a single digital slip!",
-    "contentWhy-li-3": "<strong>Validate your VAT tax refund request before leaving the European Union<\/strong>",
+    "contentWhy-li-3": "<strong>Validate your VAT tax refund request before leaving the European Union</strong>",
     "contentWhy-li-3bis": "Choose to be reimbursed on your credit card or in cash at an exchange office (list of exchange offices and PABLO terminals HERE).",
     "contentWhy-3": "Unlike classic VAT tax refund, the mobile tax refund is flexible and user friendly. Sav’In Tax Free randomize access to this great money saving process by allowing each eligible person to manage their tax refunds independently.",
     "subtitleDownload": "Download Sav’In Tax Free now!",
@@ -608,5 +607,4 @@
     "contentExtra-2": "If you meet the residence and age criteria and your situation does not fit into one of the special cases mentioned above, you are eligible for VAT free shopping. Download the Sav’In Tax Free app and get 14.5% of VAT paid on your purchases made in France back. Get your digital slip and your refund in three quick and easy steps and start recovering hundreds of euros of VAT.",
     "contentStores": "Sav’In Tax Free is available on",
     "regulations": "Regulations"
-
 }

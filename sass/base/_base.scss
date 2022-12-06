@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: $colour-light;
+    // background-color: red;
     color: $colour-body;
     font-family: "Assistant", "Inter";
 }
@@ -32,7 +32,7 @@ a {
 }
 
 address {
-    color: #6E7A84;
+    color: #6e7a84;
     font-family: "Assistant", "Inter";
     font-size: 14px;
     font-style: normal;
@@ -52,31 +52,43 @@ address {
     display: none;
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 768px) {
     .flex-column {
-     flex-direction: flex;
-    flex-wrap: wrap;
+        flex-direction: flex;
+        flex-wrap: wrap;
     }
 
     .mobile-hidden {
         display: flex;
     }
- }
+}
 
 .flex-between {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
 
+
 .font-italic {
     font-family: "Perfetto";
+}
+.clr-body {
+    color: $colour-body;
 }
 
 .clr-primary {
     color: $colour-primary;
+    > a {
+        color: $colour-primary;
+        &:visited,
+        &:link,
+        &:active {
+            color: $colour-primary;
+        }
+    }
 }
 
 .clr-light {
@@ -87,6 +99,6 @@ address {
     color: $colour-accent;
 }
 
-.text-strong{
+.text-strong {
     font-weight: bold;
 }
