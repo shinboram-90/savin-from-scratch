@@ -28,6 +28,10 @@
 
 const progressBar = document.getElementById("myBar");
 const section = document.getElementById("cd-timeline");
+const lastImg = document.getElementsByClassName("timeline-picture-last")
+const limit = lastImg[0].getBoundingClientRect().top
+console.log(lastImg[0])
+
 
 const scrollProgressBar = () => {
     let scrollDistance = -section.getBoundingClientRect().top + 200;

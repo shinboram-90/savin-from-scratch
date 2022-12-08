@@ -1,14 +1,9 @@
-*,
-*:after,
-*:before {
-    box-sizing: border-box;
-}
-
 .section-timeline__container {
     width: 90%;
     margin: 0 auto;
     padding-bottom: 60px;
     padding-left: 30px;
+    max-width: 1170px;
 
     &::after {
         /* clearfix */
@@ -19,6 +14,8 @@
 
     @include MQ(M) {
         padding-left: 0;
+        padding-bottom: 0;
+        margin-bottom: 250px;
     }
 }
 
@@ -26,12 +23,13 @@
     background-color: white;
     position: relative;
     padding-top: 60px;
+    // z-index: -1;
 
     .progress-container {
         position: absolute;
         top: 25px;
         left: 30px;
-        height: 80%;
+        height: 79.5%;
         width: 4px;
         background: #d8d8d8;
         overflow: hidden;
@@ -44,6 +42,7 @@
 
         @include MQ(M) {
             left: 50%;
+            height: 87%;
         }
     }
 }
@@ -55,11 +54,15 @@
     @include MQ(M) {
         padding-bottom: 4em;
         margin-bottom: 0;
+        &:last-child {
+            padding-bottom: 0;
+        }
     }
 
     p {
         margin: 1em 0;
         color: $colour-body;
+        font-weight: normal;
         font-size: 14px;
         line-height: 1.3em;
 
@@ -73,7 +76,8 @@
     }
 
     h3 {
-        font-size: 25px;
+        font-weight: 700;
+        font-size: 18px;
         color: $colour-primary;
         line-height: 1.5;
         letter-spacing: -0.027em;
@@ -81,12 +85,21 @@
         .numbertimeline {
             position: absolute;
             margin-left: -40px;
-            font-size: 24px;
+            font-size: 18px;
             font-weight: bold;
             color: white;
             background-color: #fab830;
-            padding: 0 12px;
+            padding: 0 9.5px;
             border-radius: 50%;
+        }
+
+        @include MQ(M) {
+            font-size: 25px;
+
+            .numbertimeline {
+                font-size: 25px;
+                padding: 0 12.5px;
+            }
         }
     }
 
@@ -166,7 +179,7 @@
 .timeline-content {
     position: relative;
     margin-left: 70px;
-    padding: 40px 20px 30px 60px;
+    padding: 20px 20px 15px 60px;
     border-radius: 0.25em;
     box-shadow: -4px 0px 23px 0px rgb(0 0 0 / 17%);
     text-align: left;
@@ -199,6 +212,7 @@
     @include MQ(M) {
         margin: 0 -20px;
         width: 45%;
+        padding: 40px 20px 30px 60px;
 
         &::before {
             top: 24px;

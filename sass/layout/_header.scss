@@ -3,31 +3,46 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 695px;
     width: 100vw;
 }
 
 .banner__container {
     h1 {
+        margin: 25px 20px 25px 20px;
         font-size: 36px;
         line-height: 1.2;
         font-weight: 500;
         font-family: "Assistant", Sans-serif;
+
+        @include MQ(M) {
+        margin-left: 0;
+        }
     }
     display: flex;
-    height: calc(695px - 8rem);
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-    padding: 8rem 3rem 3rem 3rem;
+    padding: 6rem 3rem 3rem 3rem;
+    max-width: 1170px;
+
+    @include MQ(M) {
+        height: 100vh;
+        justify-content: center;
+        width: 90%;
+        margin: 0 auto;
+    }
 
     &--content {
         align-items: center;
-
+        margin: 45px 0;
         color: white;
         font-size: 18px;
         font-weight: 500;
         line-height: 1.2em;
+
+        :first-child{
+            padding-bottom: 1rem;
+        }
     }
 
     .btn-homepage {
@@ -37,20 +52,20 @@
     }
 }
 
-@media screen and (min-width: 1025px) {
+@include MQ(M) {
     .header__background {
         height: 100vh;
     }
 
     .banner__container {
-        padding-left: 6rem;
-        padding-right: 6rem;
+
         h1 {
             text-align: left;
             font-size: 54px;
         }
 
         &--content {
+            text-align: left;
             align-items: flex-start;
             font-size: 28px;
             font-weight: 500;
@@ -94,7 +109,7 @@
                 margin-top: -15px;
             }
         }
-        
+
         .logo {
             > img {
                 padding: 10px;
@@ -133,12 +148,12 @@
 }
 
 .taxrefund-header {
-    background-image: url(../../public/img/common/web_savin_detaxe.jpg);
+    background-image: url(../../public/img/common/web_savin_detaxe1.jpg);
 }
 
 .customs-header {
-    // background-image: url(../../public/img/common/web_savin_douanes.jpg);
-    background-color: black;
+    background-image: url(../../public/img/common/web_savin_douanes1.jpg);
+    // background-color: black;
 }
 
 .no__background {
@@ -154,19 +169,20 @@
         padding: 50px 10px;
         margin: 0 auto;
 
-        .title {
-            h1 {
-                margin: 0.4em 0;
-                line-height: 1.2;
-                text-transform: none;
-                color: $colour-light;
-                font-size: 40px;
-            }
+        h1 {
+            margin: 0.4em 0;
+            width: 100%;
+            line-height: 1.2;
+            text-transform: none;
+            text-align: left;
+            color: $colour-light;
+            font-size: 40px;
+            text-shadow: 2px 2px 10px black;
+        }
 
-            p {
-                font-size: 14px;
-                opacity: 0.6;
-            }
+        p {
+            font-size: 14px;
+            opacity: 0.6;
         }
 
         .ui-breadcrumb {

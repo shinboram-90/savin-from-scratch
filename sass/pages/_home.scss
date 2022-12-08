@@ -11,10 +11,16 @@ hr {
     border-top: 2px solid $colour-primary;
 }
 
-.section-icons__container {
-    text-align: center;
+.BACK-ICONS-CONTAINER {
     background-color: white;
-    padding: 30px 20px;
+    width: 100%;
+}
+.section-icons__container {
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    padding: 40px 0 30px 0;
+    max-width: 1170px;
 
     h3 {
         color: $colour-primary;
@@ -32,10 +38,35 @@ hr {
     &--box {
         padding-top: 30px;
     }
+    @include MQ(M) {
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0;
+
+        margin: 100px auto;
+        &--box {
+            // max-width: 390px;
+            width: 100%;
+            padding: 0 25px;
+            h3 {
+                font-size: 18px;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.BACK-PHONE-CONTAINER {
+    width: 100%;
+    background-color: $colour-bg;
 }
 .section-phone__container {
-    padding: 30px 20px;
-    background-color: $colour-bg;
+    padding: 30px 0;
+    width: 90%;
+    margin: 0 auto;
+
     &--img {
         height: 70%;
         padding-top: 30px;
@@ -91,10 +122,16 @@ hr {
     }
 }
 
-.section-how__container {
-    padding: 30px 20px;
-    text-align: center;
+.BACK-HOW-CONTAINER {
+    width: 100%;
     background-color: white;
+}
+.section-how__container {
+    margin: 0 auto;
+    padding: 30px 0 50px 0;
+    text-align: center;
+    width: 90%;
+    max-width: 1170px;
 
     > h2 {
         font-size: 22px;
@@ -111,7 +148,7 @@ hr {
             padding-top: 20px;
 
             :first-child {
-                padding-bottom: 14px;
+                padding-bottom: 16px;
             }
         }
 
@@ -121,102 +158,169 @@ hr {
             font-weight: normal;
             line-height: 0.8em;
             letter-spacing: 0.2px;
+            color: $colour-dark;
+        }
+    }
+
+    @include MQ(M) {
+        margin-top: 100px;
+        padding: 10px 10px 60px 10px;
+
+        > h2 {
+            font-size: 38px;
+        }
+        .header__content {
+            &--p1 {
+                font-size: 16px;
+            }
+            &--p2 {
+                font-size: 52px;
+            }
         }
     }
 }
 
-.section-advantages__container {
-    .aside-download__container {
-        display: none;
-        z-index: 2;
-        margin-top: -150px;
-
-        &--box {
-            width: 600px;
-            height: 250px;
-            background-image: url(../../public/img/common/home-download.png);
-            background-position: center center;
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-        h2 {
-            text-align: left;
-        }
-
-        .foreground-content {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .download-btn__container {
-            display: flex;
-            img {
-                width: 150px;
-            }
-        }
-    }
-    padding: 30px 20px;
-    text-align: center;
+.BACK-ADVANTAGES-CONTAINER {
     background-color: $colour-dark;
+    width: 100%;
+    @media screen and (max-width: 767.8px) {
+        padding-top: 200px;
+    }
+}
+.section-advantages__container {
+    padding: 40px 0;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1170px;
 
-    > h2 {
+    .title-advantages {
         font-size: 22px;
         text-transform: uppercase;
         font-weight: 500;
         color: white;
     }
+    &--content {
+        h3 {
+            text-transform: uppercase;
+            color: $colour-primary;
+            font-family: "Assistant", Sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0 20px 0;
+        }
 
-    h3 {
-        color: $colour-primary;
-        font-family: "Assistant", Sans-serif;
-        font-size: 18px;
-        font-weight: 600;
-        margin-bottom: 20px;
+        p {
+            color: $colour-light;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .figure-content-box-1 {
+            padding-top: 20px;
+        }
+        .figure-content-box {
+            padding-top: 30px;
+        }
+
+        .circle {
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 61px;
+            height: 61px;
+            background: transparent;
+            border: 1px solid $colour-primary;
+            border-radius: 50%;
+
+            > img {
+                width: 35px;
+                height: 35px;
+            }
+        }
     }
 
-    p {
-        line-height: 1.2em;
-        color: $colour-light;
-        font-size: 12px;
-        font-weight: 500;
-    }
+    @include MQ(M) {
+        padding-bottom: 150px;
+        &--content {
+            flex-direction: row;
+            align-items: flex-start;
+        }
 
-    &--box {
-        padding-top: 20px;
-    }
+        .figure-content-box-1,
+        .figure-content-box {
+            padding: 30px 25px 0 25px;
+            width: 100%;
+        }
 
-    .circle {
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 61px;
-        height: 61px;
-        background: transparent;
-        border: 1px solid $colour-primary;
-        border-radius: 50%;
-
-        > img {
-            width: 35px;
-            height: 35px;
+        .title-advantages {
+            font-size: 38px;
+            padding-top: 1rem;
+        }
+        p {
+            font-size: 16px;
         }
     }
 }
-
+.BACK-FAQ-CONTAINER {
+    width: 100%;
+    background-image: url(../../public/img/common/faq-background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 .section-faq__container {
-    padding: 30px 20px;
-    background-color: $colour-light;
-
-    img {
-        height: auto;
-        max-width: 100%;
-    }
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 90%;
 
     h2 {
         color: $colour-dark;
         font-size: 22px;
         font-weight: 500;
         text-transform: uppercase;
+    }
+
+    &--box {
+        padding-top: 20px;
+    }
+    @include MQ(M) {
+        margin: 100px auto;
+        &--box {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .all-questions-box {
+                width: 90%;
+            }
+        }
+
+        h2 {
+            font-size: 38px;
+        }
+    }
+
+    .first-questions {
+        padding: 0 10px;
+        width: 100%;
+    }
+    .img-box {
+        @include MQ(M) {
+            padding-left: 20px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            max-width: 540px;
+        }
+    }
+
+    .flex-column {
+        button {
+            margin-top: 40px;
+        }
     }
 
     .btn-see-less {
@@ -226,6 +330,7 @@ hr {
     &--question-box {
         border-left: solid 2px $colour-primary;
         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.26);
+        cursor: pointer;
 
         .question {
             padding: 10px 15px;
@@ -238,6 +343,9 @@ hr {
                 color: $colour-primary;
                 font-weight: 600;
                 line-height: 1;
+                @include MQ(M) {
+                    font-size: 18px;
+                }
             }
 
             img {
@@ -246,13 +354,18 @@ hr {
                 margin-left: 10px;
             }
         }
+        // &:last-child {
+        //     height: 15px;
+        //     background: linear-gradient(white, rgba(255, 255, 255, 0));
+        //     // box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.26);
+        // }
     }
 
     .all-questions {
         opacity: 0;
         height: 0;
         width: 100%;
-        padding: 10px;
+        padding: 0 10px 10px 10px;
         transform-origin: top;
     }
 
@@ -388,7 +501,7 @@ hr {
     }
 }
 
-@media screen and (min-width: 768px) {
+@include MQ(M) {
     .section-taxfree__container {
         &--box {
             flex-direction: row;
@@ -399,7 +512,8 @@ hr {
         }
     }
 }
-@media screen and (min-width: 1025px) {
+
+@include MQ(L) {
     .section-taxfree__container {
         &--box {
             // flex-direction: row;
