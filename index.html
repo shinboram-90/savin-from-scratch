@@ -16,8 +16,8 @@
 
     <body>
         <!----------------------------------- NAVBAR CONTAINER START ----------------------------------->
-        <div id="wrapper-navbar">
-            <nav class="nav__container" role="navigation">
+        <nav id="wrapper-navbar" role="navigation">
+            <div class="nav__container">
                 <div class="test">
                     <div class="uicore-branding">
                         <a href="index.html" rel="home">
@@ -107,626 +107,625 @@
                         </ul>
                     </div>
                 </div>
+            </div>
 
-                <!----------------------------------- NAVBAR CONTENT END ----------------------------------->
-            </nav>
+            <!----------------------------------- NAVBAR CONTENT END ----------------------------------->
+        </nav>
 
-            <!----------------------------------- NAVBAR CONTAINER END ----------------------------------->
+        <!----------------------------------- NAVBAR CONTAINER END ----------------------------------->
 
-            <!----------------------------------- HEADER START ----------------------------------->
+        <!----------------------------------- HEADER START ----------------------------------->
 
-            <header role="banner" class="header__background">
-                <div class="banner__container">
-                    <h1 class="elementor-heading-title elementor-size-default" lng-tag="mainTitle"></h1>
+        <header role="banner" class="header__background">
+            <div class="banner__container">
+                <h1 class="elementor-heading-title elementor-size-default" lng-tag="mainTitle"></h1>
 
-                    <p class="flex-column banner__container--content">
-                        <span lng-tag="subtitle-1"></span>
-                        <span lng-tag="subtitle-2"></span>
-                        <span lng-tag="subtitle-2bis"></span>
-                    </p>
+                <p class="flex-column banner__container--content">
+                    <span lng-tag="subtitle-1"></span>
+                    <span lng-tag="subtitle-2"></span>
+                    <span lng-tag="subtitle-2bis"></span>
+                </p>
 
-                    <!-- BOUTONS -->
-                    <section class="btn-homepage__container">
-                        <div class="elementor-widget-container">
-                            <a href="https://apps.apple.com/fr/app/savin-tax-free/id1492240821" target="_blank">
-                                <img
-                                    src="public/img/common/btn-apple.png"
-                                    class="btn-homepage"
-                                    alt="bouton de téléchargement pour application mobile de détaxe disponible sur l'app store d'apple"
-                                />
-                            </a>
+                <!-- BOUTONS -->
+                <section class="btn-homepage__container">
+                    <div class="elementor-widget-container">
+                        <a href="https://apps.apple.com/fr/app/savin-tax-free/id1492240821" target="_blank">
+                            <img
+                                src="public/img/common/btn-apple.png"
+                                class="btn-homepage"
+                                alt="bouton de téléchargement pour application mobile de détaxe disponible sur l'app store d'apple"
+                            />
+                        </a>
+                    </div>
+
+                    <div class="elementor-widget-container">
+                        <a href="https://play.google.com/store/apps/details?id=com.solpay.savintaxfree" target="_blank">
+                            <img
+                                src="public/img/common/btn-google.png"
+                                class="btn-homepage"
+                                alt="bouton de téléchargement pour application mobile de détaxe disponible sur Google play"
+                            />
+                        </a>
+                    </div>
+
+                    <div class="elementor-widget-container">
+                        <a href="https://app.savintaxfree.com" target="_blank">
+                            <img src="public/img/common/btn-site.png" alt="button directing to Savin App" class="btn-homepage" />
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </header>
+
+        <!----------------------------------- HEADER END ----------------------------------->
+
+        <!----------------------------------- ICONS START ----------------------------------->
+        <main class="main__container">
+            <section class="BACK-ICONS-CONTAINER">
+                <div class="section-icons__container flex-column">
+                    <div class="section-icons__container--box">
+                        <div class="icon-box">
+                            <img height="70px" src="./public/img/common/home-icon1.png" />
+                        </div>
+                        <h3 lng-tag="simple"></h3>
+                        <p lng-tag="contentSimple"></p>
+                    </div>
+
+                    <div class="section-icons__container--box">
+                        <div class="icon-box">
+                            <img height="70px" src="./public/img/common/home-icon2.png" />
                         </div>
 
-                        <div class="elementor-widget-container">
-                            <a href="https://play.google.com/store/apps/details?id=com.solpay.savintaxfree" target="_blank">
-                                <img
-                                    src="public/img/common/btn-google.png"
-                                    class="btn-homepage"
-                                    alt="bouton de téléchargement pour application mobile de détaxe disponible sur Google play"
-                                />
-                            </a>
+                        <h3 lng-tag="handy"></h3>
+                        <p lng-tag="contentHandy"></p>
+                    </div>
+
+                    <div class="section-icons__container--box">
+                        <div class="icon-box">
+                            <img height="70px" src="./public/img/common/home-icon3.png" />
                         </div>
 
-                        <div class="elementor-widget-container">
-                            <a href="https://app.savintaxfree.com" target="_blank">
-                                <img src="public/img/common/btn-site.png" alt="button directing to Savin App" class="btn-homepage" />
-                            </a>
-                        </div>
-                    </section>
+                        <h3 lng-tag="efficient"></h3>
+                        <p lng-tag="contentEfficient"></p>
+                    </div>
                 </div>
-            </header>
+            </section>
 
-            <!----------------------------------- HEADER END ----------------------------------->
+            <!----------------------------------- ICONS END ----------------------------------->
 
-            <!----------------------------------- ICONS START ----------------------------------->
-            <main class="main__container">
-                <section class="BACK-ICONS-CONTAINER">
-                    <div class="section-icons__container flex-column">
-                        <div class="section-icons__container--box">
-                            <div class="icon-box">
-                                <img height="70px" src="./public/img/common/home-icon1.png" />
+            <!----------------------------------- PHONE START ----------------------------------->
+
+            <section class="BACK-PHONE-CONTAINER">
+                <div class="section-phone__container flex-column">
+                    <div class="section-phone__container--img">
+                        <img
+                            src="./public/img/common/home-phone.png"
+                            class="img-phone"
+                            alt="Ecran de téléphone application mobile de détaxe remboursement de la TVA"
+                        />
+                    </div>
+
+                    <div class="section-phone__container--content">
+                        <h2>
+                            <span class="clr-primary" lng-tag="titleGetRefund"></span>
+                            <span lng-tag="titleGetRefundbis"></span>
+                        </h2>
+
+                        <p lng-tag="contentGetRefund"></p>
+
+                        <section class="btn-phone__container">
+                            <a href="https://apps.apple.com/fr/app/savin-tax-free/id1492240821" target="_blank" rel="noopener"
+                                ><img src="./public/img/common/btn-apple2.png" alt="button link to apple store" />
+                            </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.solpay.savintaxfree" target="_blank" rel="noopener"
+                                ><img src="./public/img/common/btn-google2.png" alt="button link to google store" />
+                            </a>
+                        </section>
+                    </div>
+                </div>
+            </section>
+
+            <!----------------------------------- PHONE END ----------------------------------->
+
+            <!----------------------------------- HOW IT WORKS START ----------------------------------->
+
+            <section class="BACK-HOW-CONTAINER">
+                <header class="section-how__container">
+                    <h2 lng-tag="titleHow"></h2>
+                    <hr />
+                    <div class="header__content">
+                        <div class="header__content--p1">
+                            <p lng-tag="contentHow-1"></p>
+                            <p>
+                                <span lng-tag="contentHow-2"></span>
+                                <span lng-tag="contentHow-2bis" class="clr-primary"></span>
+                            </p>
+                        </div>
+
+                        <p class="font-italic header__content--p2">
+                            <span class="clr-primary" lng-tag="subtitleHow"></span>
+                            <span lng-tag="subtitleHowbis"></span>
+                        </p>
+                    </div>
+                </header>
+            </section>
+
+            <!----------------------------------- HOW IT WORKS END ----------------------------------->
+
+            <!----------------------------------- TIMELINE START ----------------------------------->
+
+            <section class="section-timeline__container" id="cd-timeline">
+                <div class="progress-container">
+                    <div class="progress-bar" id="myBar"></div>
+                </div>
+                <div class="content-timeline-block">
+                    <div class="timeline-img timeline-picture-first">
+                        <img src="./public/img/common/timeline-1.png" alt="Ecran création de profile application mobile de détaxe" />
+                    </div>
+
+                    <div class="timeline-content">
+                        <h3 class="timeline-title"><span class="numbertimeline">1</span><span lng-tag="titleTimeline-1"></span></h3>
+                        <p lng-tag="contentTimeline-1"></p>
+                    </div>
+                </div>
+
+                <div class="content-timeline-block">
+                    <div class="timeline-img">
+                        <img src="./public/img/common/timeline-2.png" alt="Pictogramme vitrine de magasin et de shopping en ligne France" />
+                    </div>
+
+                    <div class="timeline-content">
+                        <h3 class="timeline-title"><span class="numbertimeline">2</span><span lng-tag="titleTimeline-2"></span></h3>
+                        <p>
+                            <span class="text-strong" lng-tag="subTitleTimeline-2-shop"></span>
+                            <br />
+                            <span lng-tag="contentTimeline-2-shop"></span>
+                        </p>
+
+                        <p>
+                            <a class="btntimeline" lng-tag="btnknowMore" href="where-to-shop.html"></a>
+                        </p>
+
+                        <p>
+                            <span class="text-strong" lng-tag="subTitleTimeline-2-online"></span>
+                            <br />
+                            <span lng-tag="contentTimeline-2-online"></span>
+                            <span class="clr-primary" lng-tag="savinTaxFree"></span>
+                            <span lng-tag="contentTimeline-2-onlineBis"></span>
+                            <span lng-tag="contentTimeline-2-onlineTer"></span>
+                        </p>
+
+                        <p>
+                            <a class="btntimeline" lng-tag="btnknowMore" href="detaxer-ses-achats-en-ligne.html"></a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-timeline-block">
+                    <div class="timeline-img">
+                        <img
+                            src="./public/img/common/timeline-3.png"
+                            alt="Pictogramme de prise de photo des tickets de caisse dans application mobile de détaxe"
+                        />
+                    </div>
+
+                    <div class="timeline-content">
+                        <h3 class="timeline-title"><span class="numbertimeline">3</span><span lng-tag="titleTimeline-3"></span></h3>
+                        <p>
+                            <span lng-tag="contentTimeline-3-ticket"></span>
+                            <span class="clr-primary" lng-tag="contentTimeline-3-ticketBis"></span>
+                            <span lng-tag="contentTimeline-3-ticketTer"></span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-timeline-block">
+                    <div class="timeline-img cd-location">
+                        <img src="./public/img/common/timeline-4.png" alt="Pictogramme bordereau de détaxe Sav'in Tax Free" />
+                    </div>
+
+                    <div class="timeline-content">
+                        <h3 class="timeline-title"><span class="numbertimeline">4</span><span lng-tag="titleTimeline-4"></span></h3>
+                        <p>
+                            <span lng-tag="contentTimeline-4-bve"></span>
+                            <span class="clr-primary" lng-tag="contentTimeline-4-bveBis"></span>
+                            <span lng-tag="contentTimeline-4-bveTer"></span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-timeline-block">
+                    <div class="timeline-img">
+                        <img
+                            src="./public/img/common/timeline-5.png"
+                            alt="Picto validation de bordereau de détaxe par un douanier portant un uniforme officiel bleu à la frontière française"
+                        />
+                    </div>
+
+                    <div class="timeline-content">
+                        <h3 class="timeline-title"><span class="numbertimeline">5</span><span lng-tag="titleTimeline-5"></span></h3>
+                        <p>
+                            <span lng-tag="contentTimeline-5-validation"></span>
+                            <a href="bornes-pablo-bureaux-change-bureaux-impression.html" target="_blank" rel="noopener"
+                                ><span lng-tag="contentTimeline-5-validationBis" class="clr-primary"></span
+                            ></a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-timeline-block">
+                    <div class="timeline-img timeline-picture-last">
+                        <img src="./public/img/common/timeline-6.png" alt="Femme faisant une détaxe sur son téléphone après avoir fait du shopping en France" />
+                    </div>
+
+                    <div class="timeline-content">
+                        <h3 class="timeline-title timeline-title-italic font-italic">
+                            <span class="font-italic" lng-tag="titleTimeline-6"></span><span lng-tag="titleTimeline-6bis"></span>
+                        </h3>
+                        <p>
+                            <span lng-tag="contentTimeline-6-final"></span>
+                            <span class="clr-primary" lng-tag="contentTimeline-6-finalBis"></span>
+                            <span lng-tag="contentTimeline-6-finalTer"></span>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!----------------------------------- TIMELINE END ----------------------------------->
+            <!----------------------------------- ADVANTAGES START ----------------------------------->
+            <section class="BACK-ADVANTAGES-CONTAINER">
+                <div class="section-advantages__container flex-column">
+                    <div class="background-image-download">
+                        <aside class="aside-download__container mobile-hidden">
+                            <div class="foreground-content">
+                                <header>
+                                    <h2 class="font-italic" lng-tag="download"></h2>
+                                    <h2>Sav'in Tax Free</h2>
+                                </header>
+                                <div class="download-btn__container">
+                                    <a href="https://apps.apple.com/fr/app/savin-tax-free/id1492240821" target="_blank">
+                                        <img
+                                            src="public/img/common/btn-apple.png"
+                                            class="btn-stores"
+                                            alt="bouton de téléchargement pour application mobile de détaxe disponible sur l'app store d'apple"
+                                        />
+                                    </a>
+
+                                    <a href="https://play.google.com/store/apps/details?id=com.solpay.savintaxfree" target="_blank">
+                                        <img
+                                            src="public/img/common/btn-google.png"
+                                            class="btn-stores"
+                                            alt="bouton de téléchargement pour application mobile de détaxe disponible sur Google play"
+                                        />
+                                    </a>
+                                </div>
                             </div>
-                            <h3 lng-tag="simple"></h3>
-                            <p lng-tag="contentSimple"></p>
-                        </div>
-
-                        <div class="section-icons__container--box">
-                            <div class="icon-box">
-                                <img height="70px" src="./public/img/common/home-icon2.png" />
+                        </aside>
+                    </div>
+                    <h2 class="title-advantages" lng-tag="titleAdvantages"></h2>
+                    <hr />
+                    <div class="section-advantages__container--content flex-column">
+                        <figure class="figure-content-box-1">
+                            <div class="circle">
+                                <img height="70px" src="./public/img/common/home-icon4.svg" />
                             </div>
 
-                            <h3 lng-tag="handy"></h3>
-                            <p lng-tag="contentHandy"></p>
-                        </div>
+                            <figcaption>
+                                <h3 lng-tag="subTitleAdvantages-1"></h3>
+                                <p lng-tag="contentAdvantages-1"></p>
+                            </figcaption>
+                        </figure>
 
-                        <div class="section-icons__container--box">
-                            <div class="icon-box">
-                                <img height="70px" src="./public/img/common/home-icon3.png" />
+                        <figure class="figure-content-box">
+                            <div class="circle">
+                                <img height="70px" src="./public/img/common/home-icon5.svg" />
                             </div>
 
-                            <h3 lng-tag="efficient"></h3>
-                            <p lng-tag="contentEfficient"></p>
-                        </div>
-                    </div>
-                </section>
+                            <figcaption>
+                                <h3 lng-tag="subTitleAdvantages-2"></h3>
+                                <p lng-tag="contentAdvantages-2"></p>
+                                <p lng-tag="contentAdvantages-2bis"></p>
+                            </figcaption>
+                        </figure>
 
-                <!----------------------------------- ICONS END ----------------------------------->
-
-                <!----------------------------------- PHONE START ----------------------------------->
-
-                <section class="BACK-PHONE-CONTAINER">
-                    <div class="section-phone__container flex-column">
-                        <div class="section-phone__container--img">
-                            <img
-                                src="./public/img/common/home-phone.png"
-                                class="img-phone"
-                                alt="Ecran de téléphone application mobile de détaxe remboursement de la TVA"
-                            />
-                        </div>
-
-                        <div class="section-phone__container--content">
-                            <h2>
-                                <span class="clr-primary" lng-tag="titleGetRefund"></span>
-                                <span lng-tag="titleGetRefundbis"></span>
-                            </h2>
-
-                            <p lng-tag="contentGetRefund"></p>
-
-                            <section class="btn-phone__container">
-                                <a href="https://apps.apple.com/fr/app/savin-tax-free/id1492240821" target="_blank" rel="noopener"
-                                    ><img src="./public/img/common/btn-apple2.png" alt="button link to apple store" />
-                                </a>
-                                <a href="https://play.google.com/store/apps/details?id=com.solpay.savintaxfree" target="_blank" rel="noopener"
-                                    ><img src="./public/img/common/btn-google2.png" alt="button link to google store" />
-                                </a>
-                            </section>
-                        </div>
-                    </div>
-                </section>
-
-                <!----------------------------------- PHONE END ----------------------------------->
-
-                <!----------------------------------- HOW IT WORKS START ----------------------------------->
-
-                <section class="BACK-HOW-CONTAINER">
-                    <header class="section-how__container">
-                        <h2 lng-tag="titleHow"></h2>
-                        <hr />
-                        <div class="header__content">
-                            <div class="header__content--p1">
-                                <p lng-tag="contentHow-1"></p>
-                                <p>
-                                    <span lng-tag="contentHow-2"></span>
-                                    <span lng-tag="contentHow-2bis" class="clr-primary"></span>
-                                </p>
+                        <figure class="figure-content-box">
+                            <div class="circle">
+                                <img height="70px" src="./public/img/common/home-icon6.svg" />
                             </div>
 
-                            <p class="font-italic header__content--p2">
-                                <span class="clr-primary" lng-tag="subtitleHow"></span>
-                                <span lng-tag="subtitleHowbis"></span>
-                            </p>
-                        </div>
-                    </header>
-                </section>
-
-                <!----------------------------------- HOW IT WORKS END ----------------------------------->
-
-                <!----------------------------------- TIMELINE START ----------------------------------->
-
-                <section class="section-timeline__container" id="cd-timeline">
-                    <div class="progress-container">
-                        <div class="progress-bar" id="myBar"></div>
+                            <figcaption>
+                                <h3 lng-tag="subTitleAdvantages-3"></h3>
+                                <p lng-tag="contentAdvantages-3"></p>
+                            </figcaption>
+                        </figure>
                     </div>
-                    <div class="content-timeline-block">
-                        <div class="timeline-img timeline-picture-first">
-                            <img src="./public/img/common/timeline-1.png" alt="Ecran création de profile application mobile de détaxe" />
-                        </div>
+                </div>
+            </section>
 
-                        <div class="timeline-content">
-                            <h3 class="timeline-title"><span class="numbertimeline">1</span><span lng-tag="titleTimeline-1"></span></h3>
-                            <p lng-tag="contentTimeline-1"></p>
-                        </div>
-                    </div>
-
-                    <div class="content-timeline-block">
-                        <div class="timeline-img">
-                            <img src="./public/img/common/timeline-2.png" alt="Pictogramme vitrine de magasin et de shopping en ligne France" />
-                        </div>
-
-                        <div class="timeline-content">
-                            <h3 class="timeline-title"><span class="numbertimeline">2</span><span lng-tag="titleTimeline-2"></span></h3>
-                            <p>
-                                <span class="text-strong" lng-tag="subTitleTimeline-2-shop"></span>
-                                <br />
-                                <span lng-tag="contentTimeline-2-shop"></span>
-                            </p>
-
-                            <p>
-                                <a class="btntimeline" lng-tag="btnknowMore" href="where-to-shop.html"></a>
-                            </p>
-
-                            <p>
-                                <span class="text-strong" lng-tag="subTitleTimeline-2-online"></span>
-                                <br />
-                                <span lng-tag="contentTimeline-2-online"></span>
-                                <span class="clr-primary" lng-tag="savinTaxFree"></span>
-                                <span lng-tag="contentTimeline-2-onlineBis"></span>
-                                <span lng-tag="contentTimeline-2-onlineTer"></span>
-                            </p>
-
-                            <p>
-                                <a class="btntimeline" lng-tag="btnknowMore" href="detaxer-ses-achats-en-ligne.html"></a>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="content-timeline-block">
-                        <div class="timeline-img">
-                            <img
-                                src="./public/img/common/timeline-3.png"
-                                alt="Pictogramme de prise de photo des tickets de caisse dans application mobile de détaxe"
-                            />
-                        </div>
-
-                        <div class="timeline-content">
-                            <h3 class="timeline-title"><span class="numbertimeline">3</span><span lng-tag="titleTimeline-3"></span></h3>
-                            <p>
-                                <span lng-tag="contentTimeline-3-ticket"></span>
-                                <span class="clr-primary" lng-tag="contentTimeline-3-ticketBis"></span>
-                                <span lng-tag="contentTimeline-3-ticketTer"></span>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="content-timeline-block">
-                        <div class="timeline-img cd-location">
-                            <img src="./public/img/common/timeline-4.png" alt="Pictogramme bordereau de détaxe Sav'in Tax Free" />
-                        </div>
-
-                        <div class="timeline-content">
-                            <h3 class="timeline-title"><span class="numbertimeline">4</span><span lng-tag="titleTimeline-4"></span></h3>
-                            <p>
-                                <span lng-tag="contentTimeline-4-bve"></span>
-                                <span class="clr-primary" lng-tag="contentTimeline-4-bveBis"></span>
-                                <span lng-tag="contentTimeline-4-bveTer"></span>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="content-timeline-block">
-                        <div class="timeline-img">
-                            <img
-                                src="./public/img/common/timeline-5.png"
-                                alt="Picto validation de bordereau de détaxe par un douanier portant un uniforme officiel bleu à la frontière française"
-                            />
-                        </div>
-
-                        <div class="timeline-content">
-                            <h3 class="timeline-title"><span class="numbertimeline">5</span><span lng-tag="titleTimeline-5"></span></h3>
-                            <p>
-                                <span lng-tag="contentTimeline-5-validation"></span>
-                                <a href="bornes-pablo-bureaux-change-bureaux-impression.html" target="_blank" rel="noopener"
-                                    ><span lng-tag="contentTimeline-5-validationBis" class="clr-primary"></span
-                                ></a>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="content-timeline-block">
-                        <div class="timeline-img timeline-picture-last">
-                            <img
-                                src="./public/img/common/timeline-6.png"
-                                alt="Femme faisant une détaxe sur son téléphone après avoir fait du shopping en France"
-                            />
-                        </div>
-
-                        <div class="timeline-content">
-                            <h3 class="timeline-title timeline-title-italic font-italic">
-                                <span class="font-italic" lng-tag="titleTimeline-6"></span><span lng-tag="titleTimeline-6bis"></span>
-                            </h3>
-                            <p>
-                                <span lng-tag="contentTimeline-6-final"></span>
-                                <span class="clr-primary" lng-tag="contentTimeline-6-finalBis"></span>
-                                <span lng-tag="contentTimeline-6-finalTer"></span>
-                            </p>
-                        </div>
-                    </div>
-                </section>
-                <!----------------------------------- TIMELINE END ----------------------------------->
-                <!----------------------------------- ADVANTAGES START ----------------------------------->
-                <section class="BACK-ADVANTAGES-CONTAINER">
-                    <div class="section-advantages__container flex-column">
-                        <div class="background-image-download">
-                            <aside class="aside-download__container mobile-hidden">
-                                <div class="foreground-content">
-                                    <header>
-                                        <h2 class="font-italic" lng-tag="download"></h2>
-                                        <h2>Sav'in Tax Free</h2>
-                                    </header>
-                                    <div class="download-btn__container">
-                                        <a href="https://apps.apple.com/fr/app/savin-tax-free/id1492240821" target="_blank">
-                                            <img
-                                                src="public/img/common/btn-apple.png"
-                                                class="btn-stores"
-                                                alt="bouton de téléchargement pour application mobile de détaxe disponible sur l'app store d'apple"
-                                            />
-                                        </a>
-
-                                        <a href="https://play.google.com/store/apps/details?id=com.solpay.savintaxfree" target="_blank">
-                                            <img
-                                                src="public/img/common/btn-google.png"
-                                                class="btn-stores"
-                                                alt="bouton de téléchargement pour application mobile de détaxe disponible sur Google play"
-                                            />
-                                        </a>
+            <!----------------------------------- ADVANTAGES END ----------------------------------->
+            <section class="BACK-FAQ-CONTAINER">
+                <div class="section-faq__container flex-column">
+                    <h2 lng-tag="faq"></h2>
+                    <hr />
+                    <div class="section-faq__container--box">
+                        <div class="all-questions-box">
+                            <div class="first-questions">
+                                <div class="section-faq__container--question-box questions-toggle">
+                                    <div class="flex-between question">
+                                        <h3 lng-tag="question-1"></h3>
+                                        <span class="show-content">
+                                            <img src="./public/img/common/plus.svg" />
+                                        </span>
+                                        <span class="hide-content">
+                                            <img src="./public/img/common/minus.svg" />
+                                        </span>
+                                    </div>
+                                    <div class="content">
+                                        <ul>
+                                            <li lng-tag="contentQuestion-1li-1"></li>
+                                            <li lng-tag="contentQuestion-1li-2"></li>
+                                            <li lng-tag="contentQuestion-1li-3"></li>
+                                            <li lng-tag="contentQuestion-1li-4"></li>
+                                            <li lng-tag="contentQuestion-1li-5"></li>
+                                            <li lng-tag="contentQuestion-1li-6"></li>
+                                            <li lng-tag="contentQuestion-1li-7"></li>
+                                        </ul>
                                     </div>
                                 </div>
-                            </aside>
-                        </div>
-                        <h2 class="title-advantages" lng-tag="titleAdvantages"></h2>
-                        <hr />
-                        <div class="section-advantages__container--content flex-column">
-                            <figure class="figure-content-box-1">
-                                <div class="circle">
-                                    <img height="70px" src="./public/img/common/home-icon4.svg" />
+                                <div class="section-faq__container--question-box questions-toggle">
+                                    <div class="flex-between question">
+                                        <h3 lng-tag="question-2"></h3>
+                                        <div class="symbol-box">
+                                            <span class="show-content">
+                                                <img src="./public/img/common/plus.svg" />
+                                            </span>
+                                            <span class="hide-content">
+                                                <img src="./public/img/common/minus.svg" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <p lng-tag="contentQuestion-2"></p>
+                                        <ul>
+                                            <li lng-tag="contentQuestion-2li-1"></li>
+                                            <li lng-tag="contentQuestion-2li-2"></li>
+                                            <li lng-tag="contentQuestion-2li-3"></li>
+                                            <li lng-tag="contentQuestion-2li-4"></li>
+                                        </ul>
+                                        <p lng-tag="contentQuestion-2bis"></p>
+                                    </div>
                                 </div>
-
-                                <figcaption>
-                                    <h3 lng-tag="subTitleAdvantages-1"></h3>
-                                    <p lng-tag="contentAdvantages-1"></p>
-                                </figcaption>
-                            </figure>
-
-                            <figure class="figure-content-box">
-                                <div class="circle">
-                                    <img height="70px" src="./public/img/common/home-icon5.svg" />
+                                <div class="section-faq__container--question-box questions-toggle">
+                                    <div class="flex-between question">
+                                        <h3 lng-tag="question-3"></h3>
+                                        <div class="symbol-box">
+                                            <span class="show-content">
+                                                <img src="./public/img/common/plus.svg" />
+                                            </span>
+                                            <span class="hide-content">
+                                                <img src="./public/img/common/minus.svg" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <p lng-tag="contentQuestion-3"></p>
+                                        <ul>
+                                            <li lng-tag="contentQuestion-3li-1"></li>
+                                            <li lng-tag="contentQuestion-3li-2"></li>
+                                            <li lng-tag="contentQuestion-3li-3"></li>
+                                        </ul>
+                                        <address>
+                                            SAV’IN TAX FREE<br />11 chemin de l’industrie<br />06110 Le Cannet, France<br />
+                                            <span lng-tag="vatNumber"></span>
+                                        </address>
+                                    </div>
                                 </div>
-
-                                <figcaption>
-                                    <h3 lng-tag="subTitleAdvantages-2"></h3>
-                                    <p lng-tag="contentAdvantages-2"></p>
-                                    <p lng-tag="contentAdvantages-2bis"></p>
-                                </figcaption>
-                            </figure>
-
-                            <figure class="figure-content-box">
-                                <div class="circle">
-                                    <img height="70px" src="./public/img/common/home-icon6.svg" />
+                                <div class="section-faq__container--question-box questions-toggle">
+                                    <div class="flex-between question">
+                                        <h3 lng-tag="question-4"></h3>
+                                        <span class="show-content">
+                                            <img src="./public/img/common/plus.svg" />
+                                        </span>
+                                        <span class="hide-content">
+                                            <img src="./public/img/common/minus.svg" />
+                                        </span>
+                                    </div>
+                                    <div class="content">
+                                        <p lng-tag="contentQuestion-4"></p>
+                                    </div>
                                 </div>
-
-                                <figcaption>
-                                    <h3 lng-tag="subTitleAdvantages-3"></h3>
-                                    <p lng-tag="contentAdvantages-3"></p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                </section>
-
-                <!----------------------------------- ADVANTAGES END ----------------------------------->
-                <section class="BACK-FAQ-CONTAINER">
-                    <div class="section-faq__container flex-column">
-                        <h2 lng-tag="faq"></h2>
-                        <hr />
-                        <div class="section-faq__container--box">
-                            <div class="all-questions-box">
-                                <div class="first-questions">
-                                    <div class="section-faq__container--question-box questions-toggle">
-                                        <div class="flex-between question">
-                                            <h3 lng-tag="question-1"></h3>
-                                            <span class="show-content">
-                                                <img src="./public/img/common/plus.svg" />
-                                            </span>
-                                            <span class="hide-content">
-                                                <img src="./public/img/common/minus.svg" />
-                                            </span>
-                                        </div>
-                                        <div class="content">
-                                            <ul>
-                                                <li lng-tag="contentQuestion-1li-1"></li>
-                                                <li lng-tag="contentQuestion-1li-2"></li>
-                                                <li lng-tag="contentQuestion-1li-3"></li>
-                                                <li lng-tag="contentQuestion-1li-4"></li>
-                                                <li lng-tag="contentQuestion-1li-5"></li>
-                                                <li lng-tag="contentQuestion-1li-6"></li>
-                                                <li lng-tag="contentQuestion-1li-7"></li>
-                                            </ul>
-                                        </div>
+                                <div class="section-faq__container--question-box questions-toggle">
+                                    <div class="flex-between question">
+                                        <h3 lng-tag="question-5"></h3>
+                                        <span class="show-content">
+                                            <img src="./public/img/common/plus.svg" />
+                                        </span>
+                                        <span class="hide-content">
+                                            <img src="./public/img/common/minus.svg" />
+                                        </span>
                                     </div>
-                                    <div class="section-faq__container--question-box questions-toggle">
-                                        <div class="flex-between question">
-                                            <h3 lng-tag="question-2"></h3>
-                                            <div class="symbol-box">
-                                                <span class="show-content">
-                                                    <img src="./public/img/common/plus.svg" />
-                                                </span>
-                                                <span class="hide-content">
-                                                    <img src="./public/img/common/minus.svg" />
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="content">
-                                            <p lng-tag="contentQuestion-2"></p>
-                                            <ul>
-                                                <li lng-tag="contentQuestion-2li-1"></li>
-                                                <li lng-tag="contentQuestion-2li-2"></li>
-                                                <li lng-tag="contentQuestion-2li-3"></li>
-                                                <li lng-tag="contentQuestion-2li-4"></li>
-                                            </ul>
-                                            <p lng-tag="contentQuestion-2bis"></p>
-                                        </div>
+                                    <div class="content">
+                                        <p lng-tag="contentQuestion-5"></p>
+                                        <ul>
+                                            <li lng-tag="contentQuestion-5li-1"></li>
+                                            <li lng-tag="contentQuestion-5li-2"></li>
+                                            <li lng-tag="contentQuestion-5li-3"></li>
+                                            <li lng-tag="contentQuestion-5li-4"></li>
+                                            <li lng-tag="contentQuestion-5li-5"></li>
+                                            <li lng-tag="contentQuestion-5li-6"></li>
+                                        </ul>
                                     </div>
-                                    <div class="section-faq__container--question-box questions-toggle">
-                                        <div class="flex-between question">
-                                            <h3 lng-tag="question-3"></h3>
-                                            <div class="symbol-box">
-                                                <span class="show-content">
-                                                    <img src="./public/img/common/plus.svg" />
-                                                </span>
-                                                <span class="hide-content">
-                                                    <img src="./public/img/common/minus.svg" />
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="content">
-                                            <p lng-tag="contentQuestion-3"></p>
-                                            <ul>
-                                                <li lng-tag="contentQuestion-3li-1"></li>
-                                                <li lng-tag="contentQuestion-3li-2"></li>
-                                                <li lng-tag="contentQuestion-3li-3"></li>
-                                            </ul>
-                                            <address>
-                                                SAV’IN TAX FREE<br />11 chemin de l’industrie<br />06110 Le Cannet, France<br />
-                                                <span lng-tag="vatNumber"></span>
-                                            </address>
-                                        </div>
+                                </div>
+                                <div class="section-faq__container--question-box questions-toggle">
+                                    <div class="flex-between question">
+                                        <h3 lng-tag="question-6"></h3>
+                                        <span class="show-content">
+                                            <img src="./public/img/common/plus.svg" />
+                                        </span>
+                                        <span class="hide-content">
+                                            <img src="./public/img/common/minus.svg" />
+                                        </span>
                                     </div>
-                                    <div class="section-faq__container--question-box questions-toggle">
-                                        <div class="flex-between question">
-                                            <h3 lng-tag="question-4"></h3>
-                                            <span class="show-content">
-                                                <img src="./public/img/common/plus.svg" />
-                                            </span>
-                                            <span class="hide-content">
-                                                <img src="./public/img/common/minus.svg" />
-                                            </span>
-                                        </div>
-                                        <div class="content">
-                                            <p lng-tag="contentQuestion-4"></p>
-                                        </div>
+                                    <div class="content">
+                                        <p lng-tag="contentQuestion-6"></p>
                                     </div>
-                                    <div class="section-faq__container--question-box questions-toggle">
-                                        <div class="flex-between question">
-                                            <h3 lng-tag="question-5"></h3>
-                                            <span class="show-content">
-                                                <img src="./public/img/common/plus.svg" />
-                                            </span>
-                                            <span class="hide-content">
-                                                <img src="./public/img/common/minus.svg" />
-                                            </span>
-                                        </div>
-                                        <div class="content">
-                                            <p lng-tag="contentQuestion-5"></p>
-                                            <ul>
-                                                <li lng-tag="contentQuestion-5li-1"></li>
-                                                <li lng-tag="contentQuestion-5li-2"></li>
-                                                <li lng-tag="contentQuestion-5li-3"></li>
-                                                <li lng-tag="contentQuestion-5li-4"></li>
-                                                <li lng-tag="contentQuestion-5li-5"></li>
-                                                <li lng-tag="contentQuestion-5li-6"></li>
-                                            </ul>
-                                        </div>
+                                </div>
+                                <div class="section-faq__container--question-box questions-toggle">
+                                    <div class="flex-between question">
+                                        <h3 lng-tag="question-7"></h3>
+                                        <span class="show-content">
+                                            <img src="./public/img/common/plus.svg" />
+                                        </span>
+                                        <span class="hide-content">
+                                            <img src="./public/img/common/minus.svg" />
+                                        </span>
                                     </div>
-                                    <div class="section-faq__container--question-box questions-toggle">
-                                        <div class="flex-between question">
-                                            <h3 lng-tag="question-6"></h3>
-                                            <span class="show-content">
-                                                <img src="./public/img/common/plus.svg" />
-                                            </span>
-                                            <span class="hide-content">
-                                                <img src="./public/img/common/minus.svg" />
-                                            </span>
-                                        </div>
-                                        <div class="content">
-                                            <p lng-tag="contentQuestion-6"></p>
-                                        </div>
+                                    <div class="content">
+                                        <p lng-tag="contentQuestion-7"></p>
                                     </div>
-                                    <div class="section-faq__container--question-box questions-toggle">
-                                        <div class="flex-between question">
-                                            <h3 lng-tag="question-7"></h3>
-                                            <span class="show-content">
-                                                <img src="./public/img/common/plus.svg" />
-                                            </span>
-                                            <span class="hide-content">
-                                                <img src="./public/img/common/minus.svg" />
-                                            </span>
-                                        </div>
-                                        <div class="content">
-                                            <p lng-tag="contentQuestion-7"></p>
-                                        </div>
+                                </div>
+                                <div class="section-faq__container--question-box questions-toggle">
+                                    <div class="flex-between question">
+                                        <h3 lng-tag="question-8"></h3>
+                                        <span class="show-content">
+                                            <img src="./public/img/common/plus.svg" />
+                                        </span>
+                                        <span class="hide-content">
+                                            <img src="./public/img/common/minus.svg" />
+                                        </span>
                                     </div>
-                                    <div class="section-faq__container--question-box questions-toggle">
-                                        <div class="flex-between question">
-                                            <h3 lng-tag="question-8"></h3>
-                                            <span class="show-content">
-                                                <img src="./public/img/common/plus.svg" />
-                                            </span>
-                                            <span class="hide-content">
-                                                <img src="./public/img/common/minus.svg" />
-                                            </span>
-                                        </div>
-                                        <div class="content">
-                                            <p lng-tag="contentQuestion-8"></p>
-                                        </div>
+                                    <div class="content">
+                                        <p lng-tag="contentQuestion-8"></p>
                                     </div>
-                                    <!-- <div class="section-faq__container--question-box questions-toggle questions-fake"></div> -->
+                                </div>
+                                <!-- <div class="section-faq__container--question-box questions-toggle questions-fake"></div> -->
+                            </div>
+                            <div class="flex-column">
+                                <button class="btn-see-more btn-savin" lng-tag="btnSeeMore" type="button"></button>
+                            </div>
+                            <div class="all-questions">
+                                <div class="section-faq__container--question-box questions-toggle">
+                                    <div class="flex-between question">
+                                        <h3 lng-tag="question-9"></h3>
+                                        <span class="show-content">
+                                            <img src="./public/img/common/plus.svg" />
+                                        </span>
+                                        <span class="hide-content">
+                                            <img src="./public/img/common/minus.svg" />
+                                        </span>
+                                    </div>
+                                    <div class="content">
+                                        <p lng-tag="contentQuestion-9"></p>
+                                    </div>
+                                </div>
+                                <div class="section-faq__container--question-box questions-toggle">
+                                    <div class="flex-between question">
+                                        <h3 lng-tag="question-10"></h3>
+                                        <span class="show-content">
+                                            <img src="./public/img/common/plus.svg" />
+                                        </span>
+                                        <span class="hide-content">
+                                            <img src="./public/img/common/minus.svg" />
+                                        </span>
+                                    </div>
+                                    <div class="content">
+                                        <p lng-tag="contentQuestion-10"></p>
+                                    </div>
+                                </div>
+                                <div class="section-faq__container--question-box questions-toggle">
+                                    <div class="flex-between question">
+                                        <h3 lng-tag="question-11"></h3>
+                                        <span class="show-content">
+                                            <img src="./public/img/common/plus.svg" />
+                                        </span>
+                                        <span class="hide-content">
+                                            <img src="./public/img/common/minus.svg" />
+                                        </span>
+                                    </div>
+                                    <div class="content">
+                                        <p lng-tag="contentQuestion-11"></p>
+                                    </div>
+                                </div>
+                                <div class="section-faq__container--question-box questions-toggle">
+                                    <div class="flex-between question">
+                                        <h3 lng-tag="question-12"></h3>
+                                        <span class="show-content">
+                                            <img src="./public/img/common/plus.svg" />
+                                        </span>
+                                        <span class="hide-content">
+                                            <img src="./public/img/common/minus.svg" />
+                                        </span>
+                                    </div>
+                                    <div class="content">
+                                        <p lng-tag="contentQuestion-12"></p>
+                                        <p lng-tag="contentQuestion-12bis"></p>
+                                        <p lng-tag="contentQuestion-12ter"></p>
+                                    </div>
+                                </div>
+                                <div class="section-faq__container--question-box questions-toggle">
+                                    <div class="flex-between question">
+                                        <h3 lng-tag="question-13"></h3>
+                                        <span class="show-content">
+                                            <img src="./public/img/common/plus.svg" />
+                                        </span>
+                                        <span class="hide-content">
+                                            <img src="./public/img/common/minus.svg" />
+                                        </span>
+                                    </div>
+                                    <div class="content">
+                                        <p lng-tag="contentQuestion-13"></p>
+                                        <p lng-tag="contentQuestion-13bis"></p>
+                                    </div>
+                                </div>
+                                <div class="section-faq__container--question-box questions-toggle">
+                                    <div class="flex-between question">
+                                        <h3 lng-tag="question-14"></h3>
+                                        <span class="show-content">
+                                            <img src="./public/img/common/plus.svg" />
+                                        </span>
+                                        <span class="hide-content">
+                                            <img src="./public/img/common/minus.svg" />
+                                        </span>
+                                    </div>
+                                    <div class="content">
+                                        <ul>
+                                            <li lng-tag="contentQuestion-14li-1"></li>
+                                            <li lng-tag="contentQuestion-14li-2"></li>
+                                            <li lng-tag="contentQuestion-14li-3"></li>
+                                            <li lng-tag="contentQuestion-14li-4"></li>
+                                            <li lng-tag="contentQuestion-14li-5"></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="section-faq__container--question-box questions-toggle">
+                                    <div class="flex-between question">
+                                        <h3 lng-tag="question-15"></h3>
+                                        <span class="show-content">
+                                            <img src="./public/img/common/plus.svg" />
+                                        </span>
+                                        <span class="hide-content">
+                                            <img src="./public/img/common/minus.svg" />
+                                        </span>
+                                    </div>
+                                    <div class="content">
+                                        <p lng-tag="contentQuestion-15"></p>
+                                    </div>
                                 </div>
                                 <div class="flex-column">
-                                    <button class="btn-see-more btn-savin" lng-tag="btnSeeMore" type="button"></button>
+                                    <button class="btn-see-less btn-savin" type="button" lng-tag="btnSeeLess"></button>
                                 </div>
-                                <div class="all-questions">
-                                    <div class="section-faq__container--question-box questions-toggle">
-                                        <div class="flex-between question">
-                                            <h3 lng-tag="question-9"></h3>
-                                            <span class="show-content">
-                                                <img src="./public/img/common/plus.svg" />
-                                            </span>
-                                            <span class="hide-content">
-                                                <img src="./public/img/common/minus.svg" />
-                                            </span>
-                                        </div>
-                                        <div class="content">
-                                            <p lng-tag="contentQuestion-9"></p>
-                                        </div>
-                                    </div>
-                                    <div class="section-faq__container--question-box questions-toggle">
-                                        <div class="flex-between question">
-                                            <h3 lng-tag="question-10"></h3>
-                                            <span class="show-content">
-                                                <img src="./public/img/common/plus.svg" />
-                                            </span>
-                                            <span class="hide-content">
-                                                <img src="./public/img/common/minus.svg" />
-                                            </span>
-                                        </div>
-                                        <div class="content">
-                                            <p lng-tag="contentQuestion-10"></p>
-                                        </div>
-                                    </div>
-                                    <div class="section-faq__container--question-box questions-toggle">
-                                        <div class="flex-between question">
-                                            <h3 lng-tag="question-11"></h3>
-                                            <span class="show-content">
-                                                <img src="./public/img/common/plus.svg" />
-                                            </span>
-                                            <span class="hide-content">
-                                                <img src="./public/img/common/minus.svg" />
-                                            </span>
-                                        </div>
-                                        <div class="content">
-                                            <p lng-tag="contentQuestion-11"></p>
-                                        </div>
-                                    </div>
-                                    <div class="section-faq__container--question-box questions-toggle">
-                                        <div class="flex-between question">
-                                            <h3 lng-tag="question-12"></h3>
-                                            <span class="show-content">
-                                                <img src="./public/img/common/plus.svg" />
-                                            </span>
-                                            <span class="hide-content">
-                                                <img src="./public/img/common/minus.svg" />
-                                            </span>
-                                        </div>
-                                        <div class="content">
-                                            <p lng-tag="contentQuestion-12"></p>
-                                            <p lng-tag="contentQuestion-12bis"></p>
-                                            <p lng-tag="contentQuestion-12ter"></p>
-                                        </div>
-                                    </div>
-                                    <div class="section-faq__container--question-box questions-toggle">
-                                        <div class="flex-between question">
-                                            <h3 lng-tag="question-13"></h3>
-                                            <span class="show-content">
-                                                <img src="./public/img/common/plus.svg" />
-                                            </span>
-                                            <span class="hide-content">
-                                                <img src="./public/img/common/minus.svg" />
-                                            </span>
-                                        </div>
-                                        <div class="content">
-                                            <p lng-tag="contentQuestion-13"></p>
-                                            <p lng-tag="contentQuestion-13bis"></p>
-                                        </div>
-                                    </div>
-                                    <div class="section-faq__container--question-box questions-toggle">
-                                        <div class="flex-between question">
-                                            <h3 lng-tag="question-14"></h3>
-                                            <span class="show-content">
-                                                <img src="./public/img/common/plus.svg" />
-                                            </span>
-                                            <span class="hide-content">
-                                                <img src="./public/img/common/minus.svg" />
-                                            </span>
-                                        </div>
-                                        <div class="content">
-                                            <ul>
-                                                <li lng-tag="contentQuestion-14li-1"></li>
-                                                <li lng-tag="contentQuestion-14li-2"></li>
-                                                <li lng-tag="contentQuestion-14li-3"></li>
-                                                <li lng-tag="contentQuestion-14li-4"></li>
-                                                <li lng-tag="contentQuestion-14li-5"></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="section-faq__container--question-box questions-toggle">
-                                        <div class="flex-between question">
-                                            <h3 lng-tag="question-15"></h3>
-                                            <span class="show-content">
-                                                <img src="./public/img/common/plus.svg" />
-                                            </span>
-                                            <span class="hide-content">
-                                                <img src="./public/img/common/minus.svg" />
-                                            </span>
-                                        </div>
-                                        <div class="content">
-                                            <p lng-tag="contentQuestion-15"></p>
-                                        </div>
-                                    </div>
-                                    <div class="flex-column">
-                                        <button class="btn-see-less btn-savin" type="button" lng-tag="btnSeeLess"></button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="img-box">
-                                <img class="french" src="./public/img/FR/faq.png" />
-                                <img class="english" src="./public/img/EN/faq.png" />
                             </div>
                         </div>
+                        <div class="img-box">
+                            <img class="french" src="./public/img/FR/faq.png" />
+                            <img class="english" src="./public/img/EN/faq.png" />
+                        </div>
                     </div>
-                </section>
+                </div>
+            </section>
 
-                <!----------------------------------- FAQ END ----------------------------------->
-                <section class="section-taxfree__container flex-column">
+            <!----------------------------------- FAQ END ----------------------------------->
+            <section class="BACK-TAXFREE-CONTAINER">
+                <div class="section-taxfree__container flex-column">
                     <h2 lng-tag="titleInFrance"></h2>
                     <hr />
                     <div class="section-taxfree__container--box">
@@ -777,21 +776,28 @@
                         </figure>
                     </div>
                     <a href="tax-free-news.html"><button lng-tag="btnAllArticles" class="btn-savin"></button></a>
-                </section>
+                </div>
+            </section>
 
-                <section class="section-contact__container flex-column">
-                    <div>
-                        <img style="display: none" src="./public/img/common/home-contact.png" />
+            <!----------------------------------- CONTACT START  ----------------------------------->
+            <section class="BACK-CONTACT-CONTAINER">
+                <div class="section-contact__container">
+                    <div class="img-box">
+                        <img src="./public/img/common/home-contact.png" />
                     </div>
-                    <div>
+                    <div class="section-contact__container--content flex-column">
                         <h3 lng-tag="contact"></h3>
 
-                        <div class="contact-items">
-                            <img src="./public/img/common/contact-1.svg" />
-                            <p class="text-strong" lng-tag="subTitleContact"></p>
-                            <p lng-tag="contentContact-1"></p>
-                            <p lng-tag="contentContact-2"></p>
-                            <p lng-tag="contentContact-3"></p>
+                        <div class="flex-column">
+                            <div class="contact-items">
+                                <img src="./public/img/common/contact-1.svg" />
+                                <p class="text-strong" lng-tag="subTitleContact"></p>
+                            </div>
+                            <div class="contact-p">
+                                <p lng-tag="contentContact-1"></p>
+                                <p lng-tag="contentContact-2"></p>
+                                <p class="margin-top" lng-tag="contentContact-3"></p>
+                            </div>
                         </div>
                         <div class="contact-items">
                             <img src="./public/img/common/contact-2.svg" />
@@ -814,10 +820,12 @@
                             </span>
                         </div>
                     </div>
-                </section>
-            </main>
+                </div>
+            </section>
+        </main>
 
-            <footer class="footer-home__container flex-column">
+        <footer class="BACK-FOOTER-HOME-CONTAINER">
+            <div class="footer-home__container flex-column">
                 <div class="footer-home__container--box">
                     <p class="content-title" lng-tag="about"></p>
                     <ul>
@@ -860,14 +868,11 @@
                             <a class="link" href="#"><span lng-tag="titleInFrance"></span></a>
                         </li>
                         <li>
-                            <a class="link" href="#"><span lng-tag="conditions"></span></a>
-                        </li>
-                        <li>
                             <a class="link" href="#"><span lng-tag="contact"></span></a>
                         </li>
                     </ul>
                 </div>
-                <div class="footer-home__container--box customs-img">
+                <div class="customs-img">
                     <img src="./public/img/common/logo-customs.svg" />
                 </div>
 
@@ -875,13 +880,13 @@
                     <span lng-tag="titleFirstApp"></span>
                     <span class="clr-light" lng-tag="titleFirstAppBis"></span>
                 </h2>
+            </div>
+            <div class="copyright-box clr-light">
+                <span lng-tag="copyright"></span>
+                <span lng-tag="copyrightBis"></span>
+            </div>
+        </footer>
 
-                <div class="footer-home__container--box copyright clr-light">
-                    <span lng-tag="copyright"></span>
-                    <span lng-tag="copyrightBis"></span>
-                </div>
-            </footer>
-        </div>
         <script type="text/javascript" src="./js/translate.js"></script>
         <script type="text/javascript" src="./js/language.js"></script>
         <script type="text/javascript" src="./js/questions.js"></script>

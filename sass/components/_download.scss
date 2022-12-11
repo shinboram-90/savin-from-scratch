@@ -54,7 +54,7 @@
     width: 80%;
 
     .aside-download__container {
-        height: 400px;
+        height: 300px;
 
         .foreground-content {
             justify-content: center;
@@ -62,6 +62,9 @@
 
         .btn-stores {
             width: 150px;
+        }
+        @include MQ(L) {
+            height: 400px;
         }
     }
 }
