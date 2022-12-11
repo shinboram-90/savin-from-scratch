@@ -51,14 +51,6 @@
     position: relative;
     margin-bottom: 28px;
 
-    @include MQ(M) {
-        padding-bottom: 4em;
-        margin-bottom: 0;
-        &:last-child {
-            padding-bottom: 0;
-        }
-    }
-
     p {
         margin: 1em 0;
         color: $colour-body;
@@ -74,6 +66,18 @@
             font-weight: 500;
         }
     }
+
+    @include MQ(M) {
+        padding-bottom: 4em;
+        margin-bottom: 0;
+        &:last-child {
+            padding-bottom: 0;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+
 
     h3 {
         font-weight: 700;

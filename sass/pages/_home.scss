@@ -23,6 +23,7 @@ hr {
     max-width: 1170px;
 
     h3 {
+        margin: 10px 0 20px 0;
         color: $colour-primary;
         font-size: 18px;
         font-weight: bold;
@@ -66,9 +67,9 @@ hr {
     padding: 30px 0;
     width: 90%;
     margin: 0 auto;
+    max-width: 1170px;
 
     &--img {
-        height: 70%;
         padding-top: 30px;
         text-align: center;
         .img-phone {
@@ -98,12 +99,43 @@ hr {
 
         .btn-phone__container {
             display: flex;
-            justify-content: space-around;
+            justify-content: space-evenly;
             align-items: center;
             width: 100%;
+
+            > :first-child {
+                padding-right: 20px;
+            }
+            img {
+                width: 150px;
+            }
         }
-        img {
-            width: 150px;
+    }
+
+    @include MQ(M) {
+        flex-direction: row-reverse;
+        padding: 0 15px;
+
+        &--content {
+            width: 60%;
+            > h2 {
+                font-size: 51px;
+            }
+            > p {
+                font-size: 18px;
+                margin-bottom: 2em;
+            }
+            padding-bottom: 30px;
+
+            .btn-phone__container {
+                justify-content: flex-start;
+            }
+        }
+        &--img {
+            .img-phone {
+                width: 100%;
+                max-width: 674px;
+            }
         }
     }
 }
@@ -274,6 +306,7 @@ hr {
     padding-top: 30px;
     margin: 0 auto;
     width: 90%;
+    max-width: 1170px;
 
     h2 {
         color: $colour-dark;
@@ -343,7 +376,11 @@ hr {
                 color: $colour-primary;
                 font-weight: 600;
                 line-height: 1;
-                @include MQ(M) {
+            }
+            @include MQ(M) {
+                padding: 15px 20px;
+
+                h3 {
                     font-size: 18px;
                 }
             }
@@ -381,10 +418,20 @@ hr {
         }
         li,
         p {
+            line-height: 1.875;
+            color: $colour-body;
             font-size: 12px;
         }
         address {
             text-align: center;
+        }
+
+        @include MQ(M) {
+            li,
+            p {
+                font-size: 14px;
+            }
+            padding: 15px 20px;
         }
     }
 
@@ -428,7 +475,7 @@ hr {
         }
         .content {
             display: block;
-            animation: showContent 1s ease-in-out both;
+            animation: showContent 0.4s ease-in-out both;
         }
         .show-content {
             display: none;
@@ -451,9 +498,15 @@ hr {
     }
 }
 
-.section-taxfree__container {
-    padding: 30px 20px;
+.BACK-TAXFREE-CONTAINER {
     background-color: $colour-bg;
+    width: 100%;
+}
+.section-taxfree__container {
+    padding: 30px 10px;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1170px;
 
     h2 {
         color: $colour-dark;
@@ -468,7 +521,7 @@ hr {
         flex-direction: column;
 
         &-item {
-            padding: 13px 10px 0px 13px;
+            padding: 18px 10px 0px 13px;
         }
     }
 
@@ -477,11 +530,20 @@ hr {
             height: 150px;
             width: 100%;
             object-fit: cover;
+            cursor: pointer;
+            // transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1);
+            //     &:hover,
+            //     :focus {
+
+            //         transform: scale(1.2);
+
+            //     }
         }
 
         figcaption {
-            margin: 15px 20px 10px 20px;
+            margin: 15px 10px 10px 10px;
             h2 {
+                font-weight: 700;
                 text-transform: uppercase;
                 font-size: 18px;
                 color: $colour-primary;
@@ -489,14 +551,26 @@ hr {
             }
             p {
                 font-weight: 500;
-                color: $colour-dark;
+                color: $colour-body;
                 margin-top: 15px;
                 line-height: 1.5em;
+                font-size: 14px;
             }
             .read-more {
+                font-size: 14px;
+                > a {
+                    color: $colour-body;
+                }
                 padding-top: 30px;
                 font-weight: bold;
             }
+        }
+    }
+    @include MQ(M) {
+        padding: 100px 10px;
+
+        h2 {
+            font-size: 38px;
         }
     }
 }
@@ -525,31 +599,105 @@ hr {
     }
 }
 
+.BACK-CONTACT-CONTAINER {
+    width: 100%;
+    background-color: $colour-bg;
+}
+
 .section-contact__container {
-    padding: 30px 20px;
-    background-color: $colour-dark;
-    h3 {
-        color: $colour-light;
-        text-transform: uppercase;
-        font-size: 22px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    max-width: 1170px;
+
+    .img-box {
+        display: none;
     }
 
-    .contact-items {
-        padding-top: 20px;
+    &--content {
+        align-items: flex-start;
+        width: 100%;
+        padding: 30px 20px;
+        background-color: $colour-dark;
+        h3 {
+            color: $colour-light;
+            text-transform: uppercase;
+            font-size: 22px;
+        }
 
-        img {
-            width: 30px;
-            height: 30px;
+        .contact-items {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            // &:not(:first-child) {
+            //     display: flex;
+            // }
+            padding-top: 20px;
+
+            img {
+                width: 30px;
+                height: 30px;
+                margin-right: 5px;
+            }
         }
 
         p {
+            padding-top: 12px;
+            font-weight: normal;
             color: $colour-light;
-            font-size: 12px;
+            font-size: 14px;
             line-height: 1.2em;
+        }
 
-            &:not(:last-child) {
-                margin-bottom: 12px;
+        .social__container {
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+    }
+
+    @include MQ(M) {
+        width: 90%;
+        padding: 0 25px;
+        &--content {
+            padding: 100px 60px 100px 40px;
+
+            .contact-items {
+                flex-direction: row;
+                align-items: center;
+            }
+            .contact-p {
+                :first-child {
+                    margin-bottom: 12px;
+                }
+
+                padding-left: 35px;
+                padding-top: 5px;
+                .margin-top {
+                    margin-top: 12px;
+                }
+            }
+            .social__container {
+                padding-left: 20px;
+            }
+
+            p {
+                padding-top: 0;
             }
         }
+        .img-box {
+            display: block;
+            height: auto;
+
+            > img {
+                object-fit: cover;
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+    @include MQ(L) {
+        padding: 0;
     }
 }

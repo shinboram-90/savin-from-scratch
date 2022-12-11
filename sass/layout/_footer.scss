@@ -1,39 +1,75 @@
-.footer-home__container {
-    padding: 30px 20px;
+.BACK-FOOTER-HOME-CONTAINER {
     background-color: $colour-primary;
-    text-align: center;
 
-    .content-title {
-        font-size: 18px;
-        text-transform: uppercase;
-        color: $colour-dark;
-        font-weight: bold;
-        line-height: 1.2em;
-    }
+    .footer-home__container {
+        max-width: 1170px;
+        padding: 30px 0;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
 
-    h2 {
-        font-size: 30px;
-        font-weight: normal;
-        line-height: 0.8em;
-        letter-spacing: 0.2px;
-        margin-bottom: 30px;
-    }
+        .content-title {
+            font-size: 18px;
+            text-transform: uppercase;
+            color: $colour-dark;
+            font-weight: bold;
+            line-height: 1.2em;
+            padding-bottom: 16px;
+        }
 
-    .customs-img {
-        // margin: 0 auto;
-        width: 20%;
+        h2 {
+            font-size: 30px;
+            font-weight: normal;
+            line-height: 0.8em;
+            letter-spacing: 0.2px;
+        }
+
+        .customs-img {
+            padding: 16px;
+            width: 20%;
+        }
+        li span {
+            color: $colour-light;
+            line-height: 1.5em;
+            font-size: 14px;
+        }
+        &--box {
+            padding: 10px;
+        }
+
+        @include MQ(M) {
+            text-align: left;
+            flex-direction: row;
+            padding: 100px 0 50px 0;
+
+            &--box {
+                padding: 0;
+                width: 35%;
+
+                > ul {
+                    padding-right: 10px;
+                }
+            }
+
+            h2 {
+                width: 80%;
+                font-size: 52px;
+                padding-left: 10px;
+            }
+            .customs-img {
+                padding-left: 6px;
+            }
+        }
     }
-    li span {
-        color: $colour-light;
-        line-height: 1.5em;
+    .copyright-box {
         font-size: 14px;
-    }
-    &--box {
-        padding: 10px;
-    }
+        text-align: center;
+        width: 100%;
+        padding-bottom: 30px;
 
-    .copyright {
-        font-size: 14px;
+        @include MQ(M) {
+            padding-bottom: 50px;
+        }
     }
 }
 

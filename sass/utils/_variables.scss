@@ -1,21 +1,19 @@
-$fa-font-path: "../../public/fontawesome/webfonts";
+$fa-font-path: "./../../public/fontawesome/webfonts";
 $colour-primary: #f8b133;
-$colour-dark: #171e35;
-$colour-light: #ffffff;
-$colour-accent: #006aea;
+$colour-dark:#171E35;;
+$colour-body: #4D5462;
 $colour-bg: #FEF8EA;
-$colour-body: #4d5462;
-$colour-p: #6E7A84;
-$colour-headline: #070707;
-$colour-toggle: #F8FCFC;
 
+// $colour-accent: #d1345b;
+$colour-headline: #070707;
+$colour-light: #FFFFFF;
+$colour-p: #6E7A84;
+$colour-toggle: #F8FCFC;
 
 @font-face {
     font-family: "Perfetto";
-    src:url(../../public/webfont/Perfetto-Regular.eot);
+    src:url(../../public/webfont/Perfetto-Regular.eot)
 }
 
 $font-italic: "Perfetto", Sans-serif;
-
-
 

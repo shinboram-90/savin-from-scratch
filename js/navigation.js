@@ -2,6 +2,7 @@ const state = {
     count: 0,
 };
 
+const navWrapper = document.querySelector("#wrapper-navbar");
 const navbar = document.getElementsByClassName("nav__container");
 const toggle = document.getElementsByClassName("show-nav");
 
@@ -15,32 +16,40 @@ function incrementCounter() {
     let newCount = state.count + 1;
     state.count = newCount;
 }
+function decrementCounter() {
+    let newCount = 0;
+    state.count = newCount;
+}
 
 function toggleMenu() {
-    if (window.pageYOffset > 100) {
-        navbar[0].style.backgroundColor = "white";
-    }
+    // if (window.pageYOffset > 100) {
+    //     navWrapper.style.backgroundColor = "white";
+
+    // }
 
     if (burger[0]) {
         burger[0].addEventListener("click", () => {
             incrementCounter();
-            navbar[0].classList.toggle("show-nav");
+            navWrapper.classList.toggle("show-nav");
 
-            if (state.count % 2 == 0) {
-                document.body.style.overflow = "auto";
-            } else {
+            if (state.count % 2 !== 0) {
                 document.body.style.overflow = "hidden";
+            } else {
+                document.body.style.overflow = "auto";
             }
         });
     }
 
     const resize = () => {
         if (window.innerWidth >= 1025) {
+            navWrapper.classList.remove("show-nav");
+
+            // reset counter to zero to avoid scroll when changing screen size whilst nav is open
+            decrementCounter();
             document.body.style.overflow = "auto";
         } else if (toggle[0]) {
             document.body.style.overflow = "hidden";
         }
-        // console.log('width: ', window.innerWidth, 'px');
     };
 
     window.onresize = resize;
@@ -55,11 +64,10 @@ function toggleMenu() {
 function scroll() {
     window.onscroll = () => {
         if (navbar[0]) {
-            if (window.scrollY > 100) {
-                navbar[0].style.backgroundColor = "white";
-                navbar[0].style.top = 0;
+            if (window.scrollY > 50) {
+                navWrapper.style.backgroundColor = "white";
             } else {
-                navbar[0].style.backgroundColor = "transparent";
+                navWrapper.style.backgroundColor = "transparent";
             }
         }
     };

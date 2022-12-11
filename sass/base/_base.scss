@@ -3,15 +3,13 @@
 *::before {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 body {
     background-color: $colour-light;
-    color: $colour-body;
     font-family: "Assistant", "Inter";
 }
-
 
 li {
     list-style: none;
@@ -28,13 +26,13 @@ a {
 }
 
 address {
-    color: #6E7A84;
+    color: #6e7a84;
     font-family: "Assistant", "Inter";
     font-size: 14px;
     font-style: normal;
     font-weight: bold;
     text-align: center;
-    // line-height: 1.2;
+    line-height: 1.5;
 }
 
 .flex-column {
@@ -57,15 +55,14 @@ address {
     .mobile-hidden {
         display: flex;
     }
- }
+}
 
 .flex-between {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-
 
 .font-italic {
     font-family: "Perfetto";
@@ -79,10 +76,6 @@ address {
     color: $colour-light;
 }
 
-.clr-accent {
-    color: $colour-accent;
-}
-
-.text-strong{
+.text-strong {
     font-weight: bold;
 }
