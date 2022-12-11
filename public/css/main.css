@@ -11281,10 +11281,6 @@ hr {
   color: #f8b133;
 }
 
-.uicore-header-wrapper {
-  height: 100%;
-}
-
 #wrapper-navbar {
   width: 100%;
   z-index: 99;
@@ -11327,6 +11323,10 @@ hr {
 .uicore-nav-menu {
   display: none;
   padding-top: 60px;
+}
+.uicore-nav-menu .ui-menu-item-wrapper:hover {
+  color: #f8b133;
+  transition: all 0.2s cubic-bezier(0.68, 0.01, 0.58, 0.75);
 }
 
 .sub-menu {
@@ -11462,9 +11462,6 @@ hr {
   .menu-item-has-children {
     position: relative;
   }
-  .menu-item-has-children:hover > a {
-    color: #f8b133;
-  }
   .menu-item-has-children:hover .sub-menu {
     padding: 18px 15px;
     background-color: black;
@@ -11481,7 +11478,7 @@ hr {
   }
   .sub-menu {
     position: absolute;
-    top: 90px;
+    top: 79.6px;
     left: -20px;
   }
 }

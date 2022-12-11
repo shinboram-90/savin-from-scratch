@@ -34,7 +34,7 @@ console.log(lastImg[0])
 
 
 const scrollProgressBar = () => {
-    let scrollDistance = -section.getBoundingClientRect().top + 200;
+    let scrollDistance = -section.getBoundingClientRect().top;
     let progressPercentage = (scrollDistance / (section.getBoundingClientRect().height - document.documentElement.clientHeight)) * 100;
 
     let val = Math.floor(progressPercentage);
