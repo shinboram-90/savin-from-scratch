@@ -317,6 +317,7 @@ hr {
 
     &--box {
         padding-top: 20px;
+        width: 100%;
     }
     @include MQ(M) {
         margin: 100px auto;

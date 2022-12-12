@@ -10,6 +10,7 @@ const burger = document.getElementsByClassName("burger");
 const navbarLinks = document.querySelectorAll(".nav__container a");
 
 const menuHasChidren = document.querySelectorAll(".menu-item-has-children");
+const menuItems = document.querySelectorAll(".ui-menu-item-wrapper");
 const subMenu = document.getElementsByClassName("sub-menu");
 
 function incrementCounter() {
@@ -42,13 +43,23 @@ function toggleMenu() {
 
     const resize = () => {
         if (window.innerWidth >= 1025) {
+            if (window.scrollY <= 50) {
+                menuItems.forEach((item) => {
+                    item.style.color = "white";
+                });
+            }
             navWrapper.classList.remove("show-nav");
 
             // reset counter to zero to avoid scroll when changing screen size whilst nav is open
             decrementCounter();
             document.body.style.overflow = "auto";
-        } else if (toggle[0]) {
-            document.body.style.overflow = "hidden";
+        } else {
+            if (toggle[0]) {
+                document.body.style.overflow = "hidden";
+            }
+            menuItems.forEach((item) => {
+                item.style.color = "#070707";
+            });
         }
     };
 
@@ -66,8 +77,16 @@ function scroll() {
         if (navbar[0]) {
             if (window.scrollY > 50) {
                 navWrapper.style.backgroundColor = "white";
+                menuItems.forEach((item) => {
+                    item.style.color = "#070707";
+                });
             } else {
                 navWrapper.style.backgroundColor = "transparent";
+                if (window.innerWidth >= 1025) {
+                    menuItems.forEach((item) => {
+                        item.style.color = "white";
+                    });
+                }
             }
         }
     };

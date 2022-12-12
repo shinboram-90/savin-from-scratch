@@ -18,11 +18,7 @@ li {
 a {
     text-decoration: none;
     cursor: pointer;
-    &:visited,
-    &:link,
-    &:active {
-        color: black;
-    }
+
 }
 
 address {
