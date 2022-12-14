@@ -107,7 +107,7 @@ hr {
                 padding-right: 20px;
             }
             img {
-                width: 150px;
+                width: 120px;
             }
         }
     }
@@ -129,6 +129,10 @@ hr {
 
             .btn-phone__container {
                 justify-content: flex-start;
+
+                img {
+                    width: 150px;
+                }
             }
         }
         &--img {
@@ -140,19 +144,6 @@ hr {
     }
 }
 
-@media screen and (max-width: 363px) {
-    .btn-phone__container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-
-        img {
-            width: 120px;
-        }
-    }
-}
 
 .BACK-HOW-CONTAINER {
     width: 100%;
@@ -632,6 +623,7 @@ hr {
             display: flex;
             flex-direction: column;
             width: 100%;
+            color: $colour-light;
             // &:not(:first-child) {
             //     display: flex;
             // }

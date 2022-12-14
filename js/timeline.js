@@ -33,11 +33,15 @@ const limit = lastImg[0].getBoundingClientRect().top
 console.log(lastImg[0])
 
 
-const scrollProgressBar = () => {
-    let scrollDistance = -section.getBoundingClientRect().top;
+const scrollProgressBar = (e) => {
+    var touchEvent = (e.changedTouches);
+       console.log(touchEvent)
+    let scrollDistance = -section.getBoundingClientRect().top+100;
+   
     let progressPercentage = (scrollDistance / (section.getBoundingClientRect().height - document.documentElement.clientHeight)) * 100;
 
     let val = Math.floor(progressPercentage);
+
     progressBar.style.height = val + "%";
     progressBar.style.maxHeight = "100%";
 
