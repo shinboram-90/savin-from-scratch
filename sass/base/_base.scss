@@ -16,13 +16,10 @@ li {
 }
 
 a {
+    all: unset;
     text-decoration: none;
     cursor: pointer;
-    &:visited,
-    &:link,
-    &:active {
-        color: #070707;
-    }
+
 }
 
 address {
@@ -32,7 +29,10 @@ address {
     font-style: normal;
     font-weight: bold;
     text-align: center;
-    line-height: 1.5;
+    line-height: 1.875;
+    @include MQ(M) {
+       font-size: 16px;
+    }
 }
 
 .flex-column {
@@ -47,11 +47,6 @@ address {
 }
 
 @include MQ(M) {
-    // .flex-column {
-    //  flex-direction: row;
-    // flex-wrap: wrap;
-    // }
-
     .mobile-hidden {
         display: flex;
     }

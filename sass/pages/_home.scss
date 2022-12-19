@@ -144,7 +144,6 @@ hr {
     }
 }
 
-
 .BACK-HOW-CONTAINER {
     width: 100%;
     background-color: white;
@@ -186,8 +185,7 @@ hr {
     }
 
     @include MQ(M) {
-        margin-top: 100px;
-        padding: 10px 10px 60px 10px;
+        padding: 110px 10px 60px 10px;
 
         > h2 {
             font-size: 38px;
@@ -311,7 +309,8 @@ hr {
         width: 100%;
     }
     @include MQ(M) {
-        margin: 100px auto;
+        padding-top: 125px;
+
         &--box {
             display: flex;
             flex-direction: row;
@@ -330,6 +329,9 @@ hr {
     .first-questions {
         padding: 0 10px;
         width: 100%;
+        .question {
+            cursor: pointer;
+        }
     }
     .img-box {
         @include MQ(M) {
@@ -339,6 +341,7 @@ hr {
             width: 100%;
             height: auto;
             max-width: 540px;
+            margin: 0 auto;
         }
     }
 
@@ -355,7 +358,6 @@ hr {
     &--question-box {
         border-left: solid 2px $colour-primary;
         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.26);
-        cursor: pointer;
 
         .question {
             padding: 10px 15px;
@@ -480,6 +482,9 @@ hr {
     .all-questions {
         height: 100%;
         animation: fade_in_show 0.4s ease-in-out both;
+        .question {
+            cursor: pointer;
+        }
     }
 
     .btn-see-more {
@@ -552,6 +557,10 @@ hr {
                 font-size: 14px;
                 > a {
                     color: $colour-body;
+                    &:active,
+                    &:visited {
+                        color: $colour-body;
+                    }
                 }
                 padding-top: 30px;
                 font-weight: bold;
@@ -582,8 +591,6 @@ hr {
 @include MQ(L) {
     .section-taxfree__container {
         &--box {
-            // flex-direction: row;
-            // flex-wrap: wrap;
             figure {
                 width: 33.33%;
             }
@@ -624,9 +631,6 @@ hr {
             flex-direction: column;
             width: 100%;
             color: $colour-light;
-            // &:not(:first-child) {
-            //     display: flex;
-            // }
             padding-top: 20px;
 
             img {

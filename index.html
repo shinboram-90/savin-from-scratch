@@ -33,10 +33,10 @@
                 <!----------------------------------- NAVBAR START ----------------------------------->
                 <div class="uicore-nav-menu">
                     <ul class="navbar__links">
-                        <li class="navbar__link first">
-                            <a href="index.html" aria-current="page"><span lng-tag="theApp" class="ui-menu-item-wrapper active"></span></a>
+                        <li class="navbar__link">
+                            <a href="index.html"><span lng-tag="theApp" class="ui-menu-item-wrapper active"></span></a>
                         </li>
-                        <li class="navbar__link second menu-item-has-children">
+                        <li class="navbar__link menu-item-has-children">
                             <div class="chevron-box">
                                 <a href="ladetaxe.html"><span lng-tag="taxRefund" class="ui-menu-item-wrapper"></span></a>
                                 <i class="fa-solid fa-chevron-right"></i>
@@ -56,14 +56,14 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="navbar__link third menu-item-has-children">
+                        <li class="navbar__link menu-item-has-children">
                             <div class="chevron-box">
                                 <a href="customs-validation.html"><span lng-tag="customs" class="ui-menu-item-wrapper"></span></a>
                                 <i class="fa-solid fa-chevron-right"></i>
                             </div>
                             <ul class="sub-menu">
                                 <li class="menu-item">
-                                    <a href="customs-validation.html"><span lng-tag="questionCustoms-1" class="ui-submenu-item"></span></a>
+                                    <a href="#how-to-validate"><span lng-tag="questionCustoms-1" class="ui-submenu-item"></span></a>
                                 </li>
                                 <li class="menu-item">
                                     <a href="customs-validation.html"><span lng-tag="questionCustoms-2" class="ui-submenu-item"></span></a>
@@ -77,27 +77,23 @@
                             </ul>
                         </li>
 
-                        <li class="navbar__link four">
+                        <li class="navbar__link">
                             <a href="tax-free-news.html"><span class="ui-menu-item-wrapper">Blog</span></a>
                         </li>
-                        <li class="navbar__link fifth menu-item">
-                            <a href="#faqs"><span lng-tag="faq" class="ui-menu-item-wrapper active"></span></a>
+                        <li class="navbar__link menu-item">
+                            <a href="#faq"><span lng-tag="faq" class="ui-menu-item-wrapper active"></span></a>
                         </li>
-                        <li class="navbar__link seventh menu-item">
-                            <a href="#contact-us"><span lng-tag="contact" class="ui-menu-item-wrapper active"></span></a>
+                        <li class="navbar__link menu-item">
+                            <a href="#contact"><span lng-tag="contact" class="ui-menu-item-wrapper active"></span></a>
                         </li>
 
                         <!----------------------------------- LANGUAGE CHOICE ----------------------------------->
                         <li class="navbar__link language-box">
                             <div id="enTranslator" class="menu-item">
-                                <!-- <span class="ui-menu-item-wrapper"> -->
-                                    <img src="./public//img/FR/english-flag.png" alt="Anglais" />
-                                <!-- </span> -->
+                                <img src="./public//img/FR/english-flag.png" alt="Anglais" />
                             </div>
                             <div id="frTranslator" class="menu-item">
-                                <!-- <span class="ui-menu-item-wrapper"> -->
-                                    <img src="./public//img/EN/french-flag.png" alt="Français" />
-                                <!-- </span> -->
+                                <img src="./public//img/EN/french-flag.png" alt="Français" />
                             </div>
                         </li>
                     </ul>
@@ -224,7 +220,7 @@
 
             <!----------------------------------- HOW IT WORKS START ----------------------------------->
 
-            <section class="BACK-HOW-CONTAINER">
+            <section class="BACK-HOW-CONTAINER" id="how-it-works">
                 <header class="section-how__container">
                     <h2 lng-tag="titleHow"></h2>
                     <hr />
@@ -341,9 +337,9 @@
                         <h3 class="timeline-title"><span class="numbertimeline">5</span><span lng-tag="titleTimeline-5"></span></h3>
                         <p>
                             <span lng-tag="contentTimeline-5-validation"></span>
-                            <a href="bornes-pablo-bureaux-change-bureaux-impression.html" target="_blank" rel="noopener"
-                                ><span lng-tag="contentTimeline-5-validationBis" class="clr-primary"></span
-                            ></a>
+                            <!-- <a href="bornes-pablo-bureaux-change-bureaux-impression.html"> -->
+                                <span lng-tag="contentTimeline-5-validationBis" class="clr-primary"></span>
+                            <!-- </a> -->
                         </p>
                     </div>
                 </div>
@@ -367,7 +363,7 @@
             </section>
             <!----------------------------------- TIMELINE END ----------------------------------->
             <!----------------------------------- ADVANTAGES START ----------------------------------->
-            <section class="BACK-ADVANTAGES-CONTAINER">
+            <section class="BACK-ADVANTAGES-CONTAINER" id="advantages">
                 <div class="section-advantages__container flex-column">
                     <div class="background-image-download">
                         <aside class="aside-download__container mobile-hidden">
@@ -437,7 +433,7 @@
             </section>
 
             <!----------------------------------- ADVANTAGES END ----------------------------------->
-            <section class="BACK-FAQ-CONTAINER">
+            <section class="BACK-FAQ-CONTAINER" id="faq">
                 <div class="section-faq__container flex-column">
                     <h2 lng-tag="faq"></h2>
                     <hr />
@@ -719,7 +715,7 @@
             </section>
 
             <!----------------------------------- FAQ END ----------------------------------->
-            <section class="BACK-TAXFREE-CONTAINER">
+            <section class="BACK-TAXFREE-CONTAINER" id="infrance">
                 <div class="section-taxfree__container flex-column">
                     <h2 lng-tag="titleInFrance"></h2>
                     <hr />
@@ -775,7 +771,7 @@
             </section>
 
             <!----------------------------------- CONTACT START  ----------------------------------->
-            <section class="BACK-CONTACT-CONTAINER">
+            <section class="BACK-CONTACT-CONTAINER" id="contact">
                 <div class="section-contact__container">
                     <div class="img-box">
                         <img src="./public/img/common/home-contact.png" />
@@ -830,18 +826,18 @@
                             </a>
                         </li>
                         <li>
-                            <a class="footer__content--grid link" href="#">
+                            <a class="footer__content--grid link" href="#faq">
                                 <span lng-tag="faq"> </span>
                             </a>
                         </li>
                         <li>
-                            <a class="link" href="#"><span lng-tag="advantages"></span></a>
+                            <a class="link" href="#advantages"><span lng-tag="advantages"></span></a>
                         </li>
                         <li>
-                            <a class="link" href="#"><span lng-tag="conditions"></span></a>
+                            <a class="link" href="general-conditions.html"><span lng-tag="conditions"></span></a>
                         </li>
                         <li>
-                            <a class="link" href="#"><span lng-tag="policy"></span></a>
+                            <a class="link" href="privacy-policy.html"><span lng-tag="policy"></span></a>
                         </li>
                     </ul>
                 </div>
@@ -855,15 +851,15 @@
                             </a>
                         </li>
                         <li>
-                            <a class="footer__content--grid link" href="#">
+                            <a class="footer__content--grid link" href="#how-it-works">
                                 <span lng-tag="titleHow"> </span>
                             </a>
                         </li>
                         <li>
-                            <a class="link" href="#"><span lng-tag="titleInFrance"></span></a>
+                            <a class="link" href="#infrance"><span lng-tag="titleInFrance"></span></a>
                         </li>
                         <li>
-                            <a class="link" href="#"><span lng-tag="contact"></span></a>
+                            <a class="link" href="#contact"><span lng-tag="contact"></span></a>
                         </li>
                     </ul>
                 </div>

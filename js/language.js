@@ -14,7 +14,7 @@ function switchToEnglish() {
         img.style.display = "none";
     });
     enImgs.forEach((img) => {
-        img.style.display = "inline-block";
+        img.style.display = "block";
     });
 }
 
@@ -22,7 +22,7 @@ function switchToFrench() {
     document.documentElement.setAttribute("lang", "fr");
     translate("fr", "lng-tag");
     frImgs.forEach((img) => {
-        img.style.display = "inline-block";
+        img.style.display = "block";
     });
 
     enImgs.forEach((img) => {

@@ -33,9 +33,8 @@ const limit = lastImg[0].getBoundingClientRect().top
 console.log(lastImg[0])
 
 
-const scrollProgressBar = (e) => {
-    var touchEvent = (e.changedTouches);
-       console.log(touchEvent)
+const scrollProgressBar = () => {
+
     let scrollDistance = -section.getBoundingClientRect().top+100;
    
     let progressPercentage = (scrollDistance / (section.getBoundingClientRect().height - document.documentElement.clientHeight)) * 100;

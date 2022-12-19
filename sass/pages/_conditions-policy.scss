@@ -1,0 +1,87 @@
+.main-conditions-policy__container {
+    background-color: $colour-light;
+
+    .section-articles__container--box-item {
+        line-height: 1.875;
+        font-size: 14px;
+
+        p {
+            margin: 14px 0;
+            color: $colour-p;
+        }
+
+        .mg-b14 {
+            margin-bottom: 14px;
+        }
+
+        h2 {
+            font-size: 20px;
+            line-height: 1.2;
+            margin: 20px 0;
+            font-weight: bold;
+            color: $colour-dark;
+            letter-spacing: -0.027em;
+        }
+        ul {
+            padding-left: 40px;
+            li {
+                list-style: disc;
+                font-size: 14px;
+                color: $colour-p;
+            }
+        }
+
+        .bullet {
+            li {
+                list-style: disc;
+            }
+        }
+
+        .hyphen {
+            li {
+                list-style-type: "- ";
+            }
+        }
+        ol {
+            padding-left: 40px;
+            li {
+                list-style: decimal;
+                font-size: 14px;
+                color: $colour-p;
+            }
+        }
+        a {
+            color: $colour-primary;
+            &:active,
+            &:visited {
+                color: $colour-primary;
+            }
+        }
+    }
+}
+
+table {
+    text-align: left;
+    position: relative;
+    border-collapse: collapse;
+    background-color: #f8fcfc;
+}
+td,
+th {
+    border: 1px solid $colour-dark;
+    padding: 10px;
+}
+td {
+    color: $colour-p;
+    p {
+        margin: 0 !important;
+    }
+}
+th {
+    background: #f8fcfc;
+    color: $colour-dark;
+    border-radius: 0;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+}

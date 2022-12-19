@@ -2,11 +2,8 @@
 @import "utils/variables";
 @import "utils/mixins";
 @import "../public/fontawesome/scss/fontawesome.scss";
-
-// our project needs Solid + Brands
 @import "../public/fontawesome/scss/solid.scss";
 @import "../public/fontawesome/scss/brands.scss";
-
 
 @import "base/typography";
 @import "base/base";
@@ -16,12 +13,13 @@
 @import "components/social";
 
 @import "pages/home";
-@import "pages/customs";
-@import "pages/taxrefund";
+@import "pages/taxrefund-customs";
+@import "pages/blog";
 @import "pages/articles";
+@import "pages/conditions-policy";
 
-@import 'layout/navbar';
-@import 'layout/header';
-@import 'layout/timeline';
+@import "layout/navbar";
+@import "layout/header";
+@import "layout/faq";
+@import "layout/timeline";
 @import "layout/footer";
-@import 'layout/about';

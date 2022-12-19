@@ -1,0 +1,190 @@
+// .BACK-FAQ-CONTAINER {
+//     width: 100%;
+//     background-image: url(../../public/img/common/faq-background.png);
+//     background-position: top center;
+//     background-repeat: no-repeat;
+//     background-size: contain;
+// }
+// .section-faq__container {
+//     padding-top: 30px;
+//     margin: 0 auto;
+//     width: 90%;
+//     max-width: 1170px;
+
+//     h2 {
+//         color: $colour-dark;
+//         font-size: 22px;
+//         font-weight: 500;
+//         text-transform: uppercase;
+//     }
+
+//     &--box {
+//         padding-top: 20px;
+//         width: 100%;
+//     }
+//     @include MQ(M) {
+//         padding-top: 125px;
+
+//         &--box {
+//             display: flex;
+//             flex-direction: row;
+//             align-items: center;
+
+//             .all-questions-box {
+//                 width: 90%;
+//             }
+//         }
+
+//         h2 {
+//             font-size: 38px;
+//         }
+//     }
+
+//     .first-questions {
+//         padding: 0 10px;
+//         width: 100%;
+//     }
+//     .img-box {
+//         @include MQ(M) {
+//             padding-left: 20px;
+//         }
+//         img {
+//             width: 100%;
+//             height: auto;
+//             max-width: 540px;
+//             margin: 0 auto;
+//         }
+//     }
+
+//     .flex-column {
+//         button {
+//             margin-top: 40px;
+//         }
+//     }
+
+//     .btn-see-less {
+//         display: none;
+//     }
+
+//     &--question-box {
+//         border-left: solid 2px $colour-primary;
+//         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.26);
+//         cursor: pointer;
+
+//         .question {
+//             padding: 10px 15px;
+//             box-shadow: 0px 0px 10px 0px #e5e5e5;
+//             margin-top: 12px;
+//             min-height: 27px;
+
+//             h3 {
+//                 font-size: 14px;
+//                 color: $colour-primary;
+//                 font-weight: 600;
+//                 line-height: 1;
+//             }
+//             @include MQ(M) {
+//                 padding: 15px 20px;
+
+//                 h3 {
+//                     font-size: 18px;
+//                 }
+//             }
+
+//             img {
+//                 width: 14px;
+//                 height: 14px;
+//                 margin-left: 10px;
+//             }
+//         }
+//         // &:last-child {
+//         //     height: 15px;
+//         //     background: linear-gradient(white, rgba(255, 255, 255, 0));
+//         //     // box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.26);
+//         // }
+//     }
+
+//     .all-questions {
+//         opacity: 0;
+//         height: 0;
+//         width: 100%;
+//         padding: 0 10px 10px 10px;
+//         transform-origin: top;
+//     }
+
+//     .content {
+//         display: none;
+//         padding: 7px 15px;
+
+//         ul {
+//             padding-left: 40px;
+//             li {
+//                 list-style-type: disc;
+//             }
+//         }
+//         li,
+//         p {
+//             line-height: 1.875;
+//             color: $colour-body;
+//             font-size: 12px;
+//         }
+//         address {
+//             text-align: center;
+//         }
+
+//         @include MQ(M) {
+//             li,
+//             p {
+//                 font-size: 14px;
+//             }
+//             padding: 15px 20px;
+//         }
+//     }
+
+//     .hide-content {
+//         display: none;
+//     }
+
+//     @keyframes showContent {
+//         from {
+//             opacity: 0;
+//         }
+//         to {
+//             opacity: 1;
+//         }
+//     }
+//     // @keyframes showQuestions {
+//     //     from {
+//     //         opacity: 0;
+//     //         height: 0;
+//     //     }
+//     //     to {
+//     //         height: 100%;
+//     //         opacity: 1;
+//     //     }
+//     // }
+//     @keyframes fade_in_show {
+//         0% {
+//             opacity: 0;
+//             transform: scale(0);
+//         }
+
+//         100% {
+//             opacity: 1;
+//             transform: scale(1);
+//         }
+//     }
+
+//     .reveal-content {
+//         .hide-content {
+//             display: flex;
+//         }
+//         .content {
+//             display: block;
+//             animation: showContent 0.4s ease-in-out both;
+//         }
+//         .show-content {
+//             display: none;
+//         }
+//     }
+// }

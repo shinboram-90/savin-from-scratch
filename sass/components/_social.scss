@@ -12,18 +12,21 @@
         align-items: center;
         display: flex;
         justify-content: center;
-        > i {
-            color: $colour-dark;
+        a{
+            color: $colour-dark; 
+        
         }
+   
     }
 }
 
-@media screen and (min-width: 768px) {
+@include MQ(M) {
     .large-screen {
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 10px;
 
         .logo-left {
             display: flex;
@@ -35,7 +38,7 @@
                 justify-content: space-between;
 
                 > img {
-                    max-height: 41px;
+                    height: 40px;
                 }
             }
 
@@ -45,18 +48,6 @@
                     padding-left: 20px;
                 }
             }
-        }
-    }
-    .title-2fonts {
-        :first-child {
-            // line-height: 0.8em;
-            // letter-spacing: 0.2px;
-
-            font-size: 100px;
-        }
-
-        :last-child {
-            font-size: 52px;
         }
     }
 }

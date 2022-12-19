@@ -10319,11 +10319,9 @@ li {
 }
 
 a {
+  all: unset;
   text-decoration: none;
   cursor: pointer;
-}
-a:visited, a:link, a:active {
-  color: #070707;
 }
 
 address {
@@ -10333,7 +10331,12 @@ address {
   font-style: normal;
   font-weight: bold;
   text-align: center;
-  line-height: 1.5;
+  line-height: 1.875;
+}
+@media only screen and (min-width: 768px) {
+  address {
+    font-size: 16px;
+  }
 }
 
 .flex-column {
@@ -10391,6 +10394,9 @@ address {
   cursor: pointer;
 }
 .btn-savin a {
+  color: #FFFFFF;
+}
+.btn-savin a:active, .btn-savin a:visited {
   color: #FFFFFF;
 }
 @media only screen and (min-width: 768px) {
@@ -10480,16 +10486,17 @@ address {
   display: flex;
   justify-content: center;
 }
-.social__container--item > i {
+.social__container--item a {
   color: #171E35;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .large-screen {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
   }
   .large-screen .logo-left {
     display: flex;
@@ -10501,17 +10508,11 @@ address {
     justify-content: space-between;
   }
   .large-screen .logo-left .logo > img {
-    max-height: 41px;
+    height: 40px;
   }
   .large-screen .logo-left .backto a {
     font-size: 16px;
     padding-left: 20px;
-  }
-  .title-2fonts :first-child {
-    font-size: 100px;
-  }
-  .title-2fonts :last-child {
-    font-size: 52px;
   }
 }
 hr {
@@ -10683,8 +10684,7 @@ hr {
 }
 @media only screen and (min-width: 768px) {
   .section-how__container {
-    margin-top: 100px;
-    padding: 10px 10px 60px 10px;
+    padding: 110px 10px 60px 10px;
   }
   .section-how__container > h2 {
     font-size: 38px;
@@ -10802,7 +10802,7 @@ hr {
 }
 @media only screen and (min-width: 768px) {
   .section-faq__container {
-    margin: 100px auto;
+    padding-top: 125px;
   }
   .section-faq__container--box {
     display: flex;
@@ -10820,6 +10820,9 @@ hr {
   padding: 0 10px;
   width: 100%;
 }
+.section-faq__container .first-questions .question {
+  cursor: pointer;
+}
 @media only screen and (min-width: 768px) {
   .section-faq__container .img-box {
     padding-left: 20px;
@@ -10829,6 +10832,7 @@ hr {
   width: 100%;
   height: auto;
   max-width: 540px;
+  margin: 0 auto;
 }
 .section-faq__container .flex-column button {
   margin-top: 40px;
@@ -10839,7 +10843,6 @@ hr {
 .section-faq__container--question-box {
   border-left: solid 2px #f8b133;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.26);
-  cursor: pointer;
 }
 .section-faq__container--question-box .question {
   padding: 10px 15px;
@@ -10938,6 +10941,10 @@ hr {
   height: 100%;
   animation: fade_in_show 0.4s ease-in-out both;
 }
+.section-how__container .all-questions .question,
+.show-questions .all-questions .question {
+  cursor: pointer;
+}
 .section-how__container .btn-see-more,
 .show-questions .btn-see-more {
   display: none;
@@ -11001,6 +11008,9 @@ hr {
   font-weight: bold;
 }
 .section-taxfree__container figure figcaption .read-more > a {
+  color: #4D5462;
+}
+.section-taxfree__container figure figcaption .read-more > a:active, .section-taxfree__container figure figcaption .read-more > a:visited {
   color: #4D5462;
 }
 @media only screen and (min-width: 768px) {
@@ -11123,6 +11133,9 @@ hr {
 .main-taxrefund__container {
   background-color: #F8FCFC;
 }
+.main-taxrefund__container p {
+  font-size: 14px;
+}
 .main-taxrefund__container .content {
   display: none;
   padding: 7px 15px;
@@ -11161,7 +11174,7 @@ hr {
   display: block;
 }
 .main-taxrefund__container .reveal-content .content p {
-  margin-bottom: 25px;
+  margin: 14px 0;
 }
 .main-taxrefund__container .reveal-content .content h2,
 .main-taxrefund__container .reveal-content .content h3,
@@ -11171,7 +11184,7 @@ hr {
   margin-bottom: 25px;
 }
 .main-taxrefund__container .reveal-content .content h3 {
-  font-weight: 20px;
+  font-size: 20px;
   font-weight: bold;
 }
 .main-taxrefund__container .reveal-content .show-content {
@@ -11189,6 +11202,7 @@ hr {
   font-size: 26px;
   color: #070707;
   line-height: 1.2;
+  margin: 20px 0;
 }
 .main-taxrefund__container .section-taxrefund__container .all-questions {
   margin-top: 50px;
@@ -11210,11 +11224,89 @@ hr {
   color: #070707;
   font-weight: bold;
 }
+@media only screen and (min-width: 768px) {
+  .main-taxrefund__container .section-taxrefund__container h2 {
+    font-size: 34px;
+  }
+  .main-taxrefund__container .section-taxrefund__container p, .main-taxrefund__container .section-taxrefund__container li {
+    font-size: 16px;
+  }
+  .main-taxrefund__container .section-taxrefund__container .content h3 {
+    font-size: 22px;
+    margin: 22px 0;
+  }
+}
+
+.main-taxfree-news__container {
+  background-color: #f4f8fb;
+}
+.main-taxfree-news__container .taxfree-news__container {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  max-width: 1170px;
+}
+.main-taxfree-news__container .taxfree-news__container h2 {
+  color: #171E35;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.main-taxfree-news__container .taxfree-news__container--box {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.main-taxfree-news__container .taxfree-news__container--box-item {
+  padding: 13px 10px 0px 13px;
+}
+.main-taxfree-news__container .taxfree-news__container figure img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+.main-taxfree-news__container .taxfree-news__container figure figcaption {
+  margin: 15px 20px 10px 20px;
+}
+.main-taxfree-news__container .taxfree-news__container figure figcaption h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #f8b133;
+  line-height: 1.175;
+  font-weight: 700;
+}
+.main-taxfree-news__container .taxfree-news__container figure figcaption p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #171E35;
+  margin-top: 15px;
+  line-height: 1.5em;
+}
+.main-taxfree-news__container .taxfree-news__container figure figcaption .read-more {
+  padding-top: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  font-weight: bold;
+}
+.main-taxfree-news__container .taxfree-news__container figure figcaption .read-more > a {
+  color: #4D5462;
+}
+.main-taxfree-news__container .taxfree-news__container figure figcaption .read-more > a:active, .main-taxfree-news__container .taxfree-news__container figure figcaption .read-more > a:visited {
+  color: #4D5462;
+}
+
+.main-taxfree-news__container {
+  background-color: #FFFFFF;
+}
 
 .section-articles__container {
   width: 90%;
   margin: 50px auto;
-  background-color: #FFFFFF;
+  max-width: 1170px;
+}
+.section-articles__container .img-example {
+  max-width: 100%;
 }
 .section-articles__container--box {
   padding: 10px;
@@ -11228,11 +11320,12 @@ hr {
   margin: 20px 8px;
   font-size: 16px;
   font-weight: bold;
+  color: #171E35;
 }
 .section-articles__container--box .tag .tag-text {
   padding-left: 5px;
 }
-.section-articles__container h1 {
+.section-articles__container--box h1 {
   font-size: 22px;
   line-height: 1.2;
   margin-bottom: 20px;
@@ -11247,7 +11340,7 @@ hr {
   color: #6E7A84;
 }
 .section-articles__container .article-content__container h2 {
-  font-size: 26px;
+  font-size: 20px;
   line-height: 1.2;
   margin: 20px 0;
   font-weight: bold;
@@ -11272,6 +11365,110 @@ hr {
 }
 .section-articles__container .article-content__container a {
   color: #f8b133;
+}
+.section-articles__container .article-content__container a:active, .section-articles__container .article-content__container a:visited {
+  color: #f8b133;
+}
+@media only screen and (min-width: 768px) {
+  .section-articles__container--box img {
+    height: 255px;
+  }
+  .section-articles__container h1 {
+    font-size: 44px;
+  }
+  .section-articles__container .article-content__container {
+    font-size: 16px;
+  }
+  .section-articles__container .article-content__container h2 {
+    font-size: 22px;
+    margin: 22px 0;
+  }
+  .section-articles__container .article-content__container ul li {
+    font-size: 16px;
+  }
+  .section-articles__container .article-content__container ol li {
+    font-size: 16px;
+  }
+}
+
+.main-conditions-policy__container {
+  background-color: #FFFFFF;
+}
+.main-conditions-policy__container .section-articles__container--box-item {
+  line-height: 1.875;
+  font-size: 14px;
+}
+.main-conditions-policy__container .section-articles__container--box-item p {
+  margin: 14px 0;
+  color: #6E7A84;
+}
+.main-conditions-policy__container .section-articles__container--box-item .mg-b14 {
+  margin-bottom: 14px;
+}
+.main-conditions-policy__container .section-articles__container--box-item h2 {
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 20px 0;
+  font-weight: bold;
+  color: #171E35;
+  letter-spacing: -0.027em;
+}
+.main-conditions-policy__container .section-articles__container--box-item ul {
+  padding-left: 40px;
+}
+.main-conditions-policy__container .section-articles__container--box-item ul li {
+  list-style: disc;
+  font-size: 14px;
+  color: #6E7A84;
+}
+.main-conditions-policy__container .section-articles__container--box-item .bullet li {
+  list-style: disc;
+}
+.main-conditions-policy__container .section-articles__container--box-item .hyphen li {
+  list-style-type: "- ";
+}
+.main-conditions-policy__container .section-articles__container--box-item ol {
+  padding-left: 40px;
+}
+.main-conditions-policy__container .section-articles__container--box-item ol li {
+  list-style: decimal;
+  font-size: 14px;
+  color: #6E7A84;
+}
+.main-conditions-policy__container .section-articles__container--box-item a {
+  color: #f8b133;
+}
+.main-conditions-policy__container .section-articles__container--box-item a:active, .main-conditions-policy__container .section-articles__container--box-item a:visited {
+  color: #f8b133;
+}
+
+table {
+  text-align: left;
+  position: relative;
+  border-collapse: collapse;
+  background-color: #f8fcfc;
+}
+
+td,
+th {
+  border: 1px solid #171E35;
+  padding: 10px;
+}
+
+td {
+  color: #6E7A84;
+}
+td p {
+  margin: 0 !important;
+}
+
+th {
+  background: #f8fcfc;
+  color: #171E35;
+  border-radius: 0;
+  position: sticky;
+  top: 0;
+  padding: 10px;
 }
 
 #wrapper-navbar {
@@ -11346,9 +11543,6 @@ hr {
   justify-content: space-between;
   align-items: center;
 }
-.uicore-nav-menu .navbar__link .active {
-  color: #f8b133 !important;
-}
 .uicore-nav-menu .navbar__link:hover .ui-menu-item-wrapper,
 .uicore-nav-menu .navbar__link:hover i {
   color: #f8b133 !important;
@@ -11422,8 +11616,8 @@ hr {
 .burger {
   display: block;
   position: relative;
-  height: 25px;
-  width: 25px;
+  height: 20px;
+  width: 20px;
   border: none;
   background: transparent;
   cursor: pointer;
@@ -11431,44 +11625,46 @@ hr {
 
 .bar {
   display: block;
-  width: 20px;
-  height: 3px;
+  width: 16px;
+  height: 2px;
   border-radius: 3px;
-  background: red;
+  background: white;
   transition: all 0.5s ease-in-out;
 }
 
 .bar::before,
 .bar::after {
   content: "";
-  width: 25px;
-  height: 3px;
+  width: 20px;
+  height: 2px;
   position: absolute;
   left: 0;
-  background: black;
+  background: var(--barBackColor, white);
   border-radius: 3px;
   transition: all 0.5s ease-in-out;
 }
 
 .bar::before {
-  transform: translateY(-8px);
+  transform: translateY(-7px);
 }
 
 .bar::after {
-  transform: translateY(8px);
+  transform: translateY(7px);
 }
 
 /* Toggle menu */
 .show-nav .bar {
-  background: transparent;
+  background: transparent !important;
 }
 
 .show-nav .bar::before {
   transform: rotate(45deg);
+  background-color: black;
 }
 
 .show-nav .bar::after {
   transform: rotate(-45deg);
+  background-color: black;
 }
 
 @media only screen and (min-width: 1025px) {
@@ -11486,16 +11682,16 @@ hr {
   }
   .menu-item-has-children .chevron-box > i {
     font-size: 12px;
-    transform: rotate(0deg);
+    transform: rotate(90deg);
     color: white;
   }
   .menu-item-has-children:hover .chevron-box > i {
-    transform: rotate(90deg);
     color: #f8b133;
   }
   .menu-item-has-children:hover .sub-menu {
     padding: 18px 15px;
-    background-color: black;
+    background-color: #171E35;
+    border-radius: 4px;
     width: 30vw;
     display: flex;
     flex-direction: column;
@@ -11632,23 +11828,22 @@ hr {
 .common__background .common__container {
   min-height: 200px;
   justify-content: space-between;
-  padding: 20px 0 30px 0;
+  padding: 10px 0 30px 0;
   width: 90%;
   margin: 0 auto;
-}
-@media (max-width: 767px) {
-  .common__background .common__container .logo > img {
-    width: 25%;
-  }
+  max-width: 1170px;
 }
 .common__background .common__container .logo > img {
-  padding: 10px;
+  width: 25%;
 }
 .common__background .common__container p a {
   font-size: 14px;
   color: #FFFFFF;
   font-weight: 600;
   line-height: 1.2em;
+}
+.common__background .common__container p a:active, .common__background .common__container p a:visited {
+  color: #FFFFFF;
 }
 .common__background .common__container .title-2fonts {
   margin-top: 50px;
@@ -11668,6 +11863,25 @@ hr {
   text-transform: uppercase;
   font-weight: 600;
   font-family: "Assistant", Sans-serif;
+}
+@media only screen and (min-width: 768px) {
+  .common__background .common__container .logo > img {
+    width: auto;
+  }
+  .common__background .common__container .title-2fonts {
+    width: 100%;
+    align-items: flex-start;
+    padding: 10px 10px 40px 10px;
+  }
+  .common__background .common__container .title-2fonts :first-child {
+    font-size: 100px;
+    width: 50%;
+    letter-spacing: -0.027em;
+  }
+  .common__background .common__container .title-2fonts :last-child {
+    font-size: 52px;
+    width: 50%;
+  }
 }
 
 .taxrefund-header {
@@ -11691,7 +11905,7 @@ hr {
   margin: 0 auto;
 }
 .no__background--container h1 {
-  margin: 0.4em 0;
+  margin: 16px 0;
   width: 100%;
   line-height: 1.2;
   text-transform: none;
@@ -11699,6 +11913,15 @@ hr {
   color: #FFFFFF;
   font-size: 40px;
   text-shadow: 2px 2px 10px black;
+}
+@media only screen and (min-width: 768px) {
+  .no__background--container {
+    padding: 100px 10px;
+  }
+  .no__background--container h1 {
+    margin: 0;
+    font-size: 52px;
+  }
 }
 .no__background--container p {
   font-size: 14px;
@@ -11711,6 +11934,9 @@ hr {
 .no__background--container .ui-breadcrumb a {
   color: #FFFFFF;
   opacity: 0.6;
+}
+.no__background--container .ui-breadcrumb a:active, .no__background--container .ui-breadcrumb a:visited {
+  color: #FFFFFF;
 }
 .no__background--container .ui-breadcrumb i {
   opacity: 0.5;
@@ -12016,12 +12242,19 @@ hr {
   }
 }
 
-.footer-common__container {
+.BACK-FOOTER-COMMON-CONTAINER {
   background-color: #171E35;
+}
+
+.footer-common__container {
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
   color: #FFFFFF;
 }
 .footer-common__container--box {
   padding: 30px 0;
+  width: 100%;
 }
 .footer-common__container--box .title--box {
   text-align: center;
@@ -12045,6 +12278,7 @@ hr {
 .footer-common__container--box .btn--box {
   padding: 10px;
   display: flex;
+  justify-content: center;
 }
 .footer-common__container--box .btn--box a {
   padding: 0 5px;
@@ -12067,50 +12301,33 @@ hr {
 .footer-common__container--box .copyright--box span a {
   color: #FFFFFF;
 }
-
-.main-taxfree-news__container {
-  background-color: #f4f8fb;
+.footer-common__container--box .copyright--box span a:active, .footer-common__container--box .copyright--box span a:visited {
+  color: #FFFFFF;
 }
-.main-taxfree-news__container .taxfree-news__container {
-  width: 90%;
-  margin: 0 auto;
-  padding-top: 10px;
+@media only screen and (min-width: 768px) {
+  .footer-common__container--box .copyright--box {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
 }
-.main-taxfree-news__container .taxfree-news__container h2 {
-  color: #171E35;
-  font-size: 22px;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-.main-taxfree-news__container .taxfree-news__container--box {
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-}
-.main-taxfree-news__container .taxfree-news__container--box-item {
-  padding: 13px 10px 0px 13px;
-}
-.main-taxfree-news__container .taxfree-news__container figure img {
-  height: 150px;
-  width: 100%;
-  object-fit: cover;
-}
-.main-taxfree-news__container .taxfree-news__container figure figcaption {
-  margin: 15px 20px 10px 20px;
-}
-.main-taxfree-news__container .taxfree-news__container figure figcaption h2 {
-  text-transform: uppercase;
-  font-size: 18px;
-  color: #f8b133;
-  line-height: 1.175;
-}
-.main-taxfree-news__container .taxfree-news__container figure figcaption p {
-  font-weight: 500;
-  color: #171E35;
-  margin-top: 15px;
-  line-height: 1.5em;
-}
-.main-taxfree-news__container .taxfree-news__container figure figcaption .read-more {
-  padding-top: 30px;
-  font-weight: bold;
+@media only screen and (min-width: 768px) {
+  .footer-common__container--box {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-common__container--box .title--box {
+    text-align: left;
+  }
+  .footer-common__container--box .title--box :last-child {
+    font-size: 52px;
+  }
+  .footer-common__container--box .btn--box {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+  .footer-common__container--box .btn--box a img {
+    width: 180px;
+  }
 }/*# sourceMappingURL=main.css.map */
